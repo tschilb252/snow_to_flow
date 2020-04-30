@@ -88,7 +88,7 @@ def get_folders(rootdir):
         subdir = dict.fromkeys(files)
         parent = reduce(dict.get, folders[:-1], dir_dict)
         parent[folders[-1]] = subdir
-    return dir_dict
+    return dir_dict[list(dir_dict.keys())[0]]
 
 def get_button(button_label, dropdown_str):
     nl = '\n'
@@ -116,43 +116,47 @@ def get_menu_entry(label, href):
 
 def create_nav(data_dir, nav_filename='nav.html'):
     nl = '\n'
-
-    basepath = os.path.basename(os.path.normpath(data_dir))
-    walk_dict = get_folders(data_dir)[basepath]
-    to_remove = ['.git', 'assets']
-    walk_dict = remove_items(to_remove, walk_dict)
-    button_str_list = []
-    for button_label, dd_items in walk_dict.items():
-        if dd_items:
-            button_path = Path('.', button_label)
-            site_menu_list = []
-            site_name_dict = {
-                str(k).replace('.html',''): str(k) for k, v in dd_items.items()
-            }
-            for label, filename in site_name_dict.items():
-                menu_path = Path(button_path, filename)
-                site_menu_list.append(get_menu_entry(label, menu_path))
-            
-            sites_dd_str = '\n'.join(site_menu_list)
-            folder_button = get_button(
-                button_label.replace('_', ' '),
-                sites_dd_str
-            )
-            button_str_list.append(folder_button)
-
-    buttons_str = '\n'.join([i for i in button_str_list if i])
-
-    nl = '\n'
-    nav_html_str = (
-        f'{HEADER_STR}{nl}{get_updt_str()}{nl}{buttons_str}{nl}{FOOTER_STR}'
-    )
-    write_nav_dict = {
-        Path(data_dir, nav_filename): nav_html_str,
-        Path(data_dir, 'index.html'): nav_html_str
-    }
-    write_file(write_nav_dict)
-
-    return f'\n  Navigation files created.'
+    try:
+        basepath = os.path.basename(os.path.normpath(data_dir))
+        walk_dict = get_folders(data_dir)
+        to_remove = ['.git', 'assets']
+        walk_dict = remove_items(to_remove, walk_dict)
+        button_str_list = []
+        for button_label, dd_items in walk_dict.items():
+            if dd_items:
+                button_path = Path('.', button_label)
+                site_menu_list = []
+                site_name_dict = {
+                    str(k).replace('.html',''): str(k) for k, v in dd_items.items()
+                }
+                for label, filename in site_name_dict.items():
+                    menu_path = Path(button_path, filename)
+                    site_menu_list.append(get_menu_entry(label, menu_path))
+                
+                sites_dd_str = '\n'.join(site_menu_list)
+                folder_button = get_button(
+                    button_label.replace('_', ' '),
+                    sites_dd_str
+                )
+                button_str_list.append(folder_button)
+    
+        buttons_str = '\n'.join([i for i in button_str_list if i])
+    
+        nl = '\n'
+        nav_html_str = (
+            f'{HEADER_STR}{nl}{get_updt_str()}{nl}{buttons_str}{nl}{FOOTER_STR}'
+        )
+        write_nav_dict = {
+            Path(data_dir, nav_filename): nav_html_str,
+            Path(data_dir, 'index.html'): nav_html_str
+        }
+        write_file(write_nav_dict)
+    
+        return f'\nNavigation file(s) created for files in {data_dir}\n'
+    
+    except Exception as err:
+        
+        return f'\nFailed to created navigation file(s) in {data_dir} - {err}'
 
 if __name__ == '__main__':
 

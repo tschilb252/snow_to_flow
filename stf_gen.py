@@ -6,38 +6,50 @@ Created on Fri Feb 16 07:40:44 2018
 """
 
 import time
-from os import path, makedirs
-from zeep import Client
-from zeep.transports import Transport
-from zeep.cache import InMemoryCache
-from zeep import helpers
-from requests import get as r_get
+import random
+import logging
 import datetime
-import plotly.graph_objs as go
-import plotly.offline as py
+from datetime import datetime as dt
+from datetime import date as date
+import warnings
+from os import path, makedirs
+from itertools import chain
+from logging.handlers import TimedRotatingFileHandler
 import numpy as np
 import pandas as pd
-from itertools import chain
-import random
-import warnings
-from sft_utils import padMissingData, get_plot_config, get_bor_seal
-from sft_utils import get_favicon, get_plotly_js, getSWEsites, getUpstreamUSGS
+import plotly.graph_objs as go
+import plotly.offline as py
+from requests import get as r_get
+from zeep.helpers import serialize_object as serialize
+from stf_utils import padMissingData, get_plot_config, get_bor_seal, create_awdb
+from stf_utils import get_favicon, get_plotly_js, getSWEsites, getUpstreamUSGS
 from stf_nav import create_nav
 
-this_dir = path.dirname(path.abspath(__file__))
+NRCS_DATA_URL = r'https://www.nrcs.usda.gov/Internet/WCIS/sitedata'
 
-nrcs_data_url = r'https://www.nrcs.usda.gov/Internet/WCIS/sitedata/DAILY'
-wsdl = r"https://wcc.sc.egov.usda.gov/awdbWebService/services?WSDL"
-transport = Transport(timeout=300,cache=InMemoryCache())
-awdb = Client(wsdl=wsdl,transport=transport).service
-serialize =  helpers.serialize_object
-dt = datetime.datetime
-date = datetime.date
-today = dt.utcnow() - datetime.timedelta(hours=8)
-wsdl = r'https://wcc.sc.egov.usda.gov/awdbWebService/services?WSDL'
+def create_log(path='stf_charts.log'):
+    logger = logging.getLogger('stf_charts rotating log')
+    logger.setLevel(logging.INFO)
 
-def updtChart(forecast_triplet, siteName, swe_meta):
-    print('Snow-Runoff Chart for ' + siteName)
+    handler = TimedRotatingFileHandler(
+        path,
+        when="W6",
+        backupCount=1
+    )
+
+    logger.addHandler(handler)
+
+    return logger
+
+def print_and_log(log_str, logger=None):
+    print(log_str)
+    if logger:
+        logger.info(log_str)
+
+def updtChart(forecast_triplet, siteName, swe_meta, awdb=create_awdb(), 
+              logger=None):
+    print_and_log('  Creating SWE to Q Chart for ' + siteName, logger)
+    today = dt.utcnow() - datetime.timedelta(hours=8)
     sDate = date(1900, 10, 1).strftime("%Y-%m-%d")
     eDate = today.date().strftime("%Y-%m-%d 00:00:00")
     equation = serialize(awdb.getForecastEquations(forecast_triplet))
@@ -63,7 +75,8 @@ def updtChart(forecast_triplet, siteName, swe_meta):
     site_anno[:] = ['<br>' + x if i % 8 == 0 else x for i,x in enumerate(site_anno)]
     sweData = []
     for swe_trip in swe_trips:
-        swe_url = f'{nrcs_data_url}/WTEQ/{swe_trip.replace(":", "_")}.json'
+        swe_trip_url = swe_trip.replace(":", "_")
+        swe_url = f'{NRCS_DATA_URL}/DAILY/WTEQ/{swe_trip_url}.json'
         swe_results = r_get(swe_url)
         if swe_results.status_code == 200:
             sweData.append(swe_results.json())
@@ -78,10 +91,9 @@ def updtChart(forecast_triplet, siteName, swe_meta):
     
     beginDateDict = {}
     for siteMeta in meta:
-        beginDateDict.update(
-                {str(siteMeta['stationTriplet']) : 
-                    dt.strptime(str(siteMeta['beginDate']),
-                                "%Y-%m-%d %H:%M:%S")}) 
+        if siteMeta['beginDate']:
+            beginDate = dt.strptime(str(siteMeta['beginDate']),"%Y-%m-%d %H:%M:%S")
+            beginDateDict.update({str(siteMeta['stationTriplet']): beginDate}) 
     
     basinBeginDate = min(beginDateDict.values())
 
@@ -154,7 +166,7 @@ def updtChart(forecast_triplet, siteName, swe_meta):
     maxData = dfSWE.max(axis=0)
     maxData.drop(dropCols,inplace=True)
     maxData.sort_values(inplace=True)
-    flow_url = f'{nrcs_data_url}/SRDOO/{forecast_triplet.replace(":", "_")}.json'
+    flow_url = f'{NRCS_DATA_URL}/SRDOO/{forecast_triplet.replace(":", "_")}.json'
     flow_results = r_get(flow_url)
     if flow_results.status_code == 200:
         flowData = flow_results.json()
@@ -516,63 +528,128 @@ def updtChart(forecast_triplet, siteName, swe_meta):
     
 if __name__ == '__main__':
     
-    # import sys
+    import sys
+    import json
     import argparse
     
     cli_desc = 'Creates snow to flow charts'
     parser = argparse.ArgumentParser(description=cli_desc)
     parser.add_argument("-V", "--version", help="show program version", action="store_true")
-    parser.add_argument("-n", "--nav", help="path to create nav.html for")
+    parser.add_argument("-n", "--nav", help="Create nav.html after creating charts", action="store_true")
+    parser.add_argument("-e", "--export", help="Export path for charts")
+    parser.add_argument("-c", "--config", help="Provide path or name of config file in config folder. Defaults to all_hucs.json")
     args = parser.parse_args()
     
     if args.version:
         print('stf_nav.py v1.0')
         
-    huc_dict = {
-        1405: 'yampa', 1408: 'san_juan', 1404: 'upper_green', 1402: 'gunnison', 
-        14070006: 'powell', 1602: 'wasatch_front'
-    }
+    this_dir = path.dirname(path.abspath(__file__))
+    if args.export:
+        if path.isdir(args.export):
+            export_path = args.export
+        else:
+            print(f'\nInvalid export path - {args.export}')
+            sys.exit(0)
+    else:
+        export_path = path.join(this_dir, 'charts')
+        
+    if args.config:
+        if path.exists(args.config) and args.config.lower().endswith('.json'):
+            config_path = args.config
+        elif path.exists(path.join(this_dir, 'config', args.config)):
+            config_path = path.join(this_dir, 'config', args.config)
+        else:
+            print('Invalid config path/file - {args.config}')
+            sys.exit(0)
+    else:
+        config_path = path.join(this_dir, 'config', 'all_hucs.json')
+    
+    logger = create_log(path.join(this_dir, 'stf_charts.log'))
+    
+    s_time = dt.now()
+    s_time_str = s_time.strftime('%x %X')
+    print_and_log(
+        f'Starting Snow to Flow Chart generation at {s_time_str}\n '
+        f'  Using configuration located: {config_path}\n'
+        f'  Exporting charts to: {export_path}\n',
+        logger
+    )
+    with open(config_path, 'r') as config:
+        huc_dict = json.load(config)
 
     hucs = huc_dict.keys()
-    swe_meta = r_get(r'https://www.nrcs.usda.gov/Internet/WCIS/sitedata/metadata/WTEQ/metadata.json').json()
+    swe_meta = r_get(f'{NRCS_DATA_URL}/metadata/WTEQ/metadata.json').json()
+    awdb = create_awdb()
     for huc in hucs: 
+        print_and_log(
+            f'Working on forecasts in {huc_dict[huc]} - HUC {huc}',
+            logger
+        )
         forecasts = serialize(
             awdb.getForecastPoints('*', '*', '*', '*', f'{huc}*', '*', True)
         )  
         forecast_triplets = [x['stationTriplet'] for x in forecasts]
-        for forecast in forecasts:       
+        if not forecast_triplets:
+            continue
+        for forecast in forecasts:
             bt = time.time()
-            siteName = forecast['name']
-            dirPath = path.join(this_dir, 'charts', huc_dict[huc])
-            plotName = path.join(dirPath, siteName + r'.html')
-            imgName = f'{siteName}_swe_Q.png'
-            makedirs(dirPath, exist_ok=True)
+            site_name = forecast['name']
+            huc_folder_dir = path.join(export_path, huc_dict[huc])
+            makedirs(huc_folder_dir, exist_ok=True)
+            plot_name = path.join(huc_folder_dir, site_name + r'.html')
+            img_name = f'{site_name}_swe_Q.png'
+            
             try:
+                chartData = updtChart(
+                    forecast_triplet=forecast['stationTriplet'], 
+                    siteName=site_name, 
+                    swe_meta=swe_meta,
+                    awdb=awdb,
+                    logger=logger
+                )
 
-                chartData = updtChart(forecast['stationTriplet'], siteName, swe_meta)
                 if chartData:
                     fig = go.Figure(chartData)
                     py.plot(
                         fig, 
-                        filename=plotName, 
+                        filename=plot_name, 
                         auto_open=False,
                         include_plotlyjs=get_plotly_js(),
-                        config=get_plot_config(imgName)
+                        config=get_plot_config(img_name)
                     )
                     flavicon = (
                         f'<link rel="shortcut icon" '
                         f'href="{get_favicon()}"></head>'
                     )
-                    with open(plotName, 'r') as html_file:
+                    with open(plot_name, 'r') as html_file:
                         chart_file_str = html_file.read()
             
-                    with open(plotName, 'w') as html_file:
-                        html_file.write(chart_file_str.replace(r'</head>', flavicon))
+                    with open(plot_name, 'w') as html_file:
+                        html_file.write(
+                            chart_file_str.replace(r'</head>', flavicon)
+                        )
                 else:
-                    print('  No Snotel sites used in forecast. No chart created!')
+                    print_and_log(
+                        '    No Snotel sites used in forecast. No chart created!',
+                        logger
+                    )
             except Exception as err:
-                print(f'  Something went wrong, no chart created - {err}')
-            print(f'  in {round(time.time()-bt,2)} seconds')
+                print_and_log(
+                    f'    Something went wrong, no chart created - {err}',
+                    logger
+                )
+            print_and_log(f'    in {round(time.time()-bt,2)} seconds', logger)
     
     if args.nav:
-        create_nav(path.join(this_dir, 'charts'), nav_filename='nav.html')
+        nav_out = create_nav(export_path, nav_filename='nav.html')
+        print_and_log(nav_out, logger)
+        
+    e_time = dt.now()
+    e_time_str = e_time.strftime('%X %x')
+    d_time = ':'.join(str(e_time-s_time).split(':')[:2])
+    print_and_log(
+        f'\nFinished Snow to Flow Chart generation at {e_time_str}\n'
+        f'Elapsed time: {d_time}',
+        logger
+    )
+    

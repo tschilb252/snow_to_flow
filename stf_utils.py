@@ -4,26 +4,34 @@ Created on Fri Nov 17 14:00:27 2017
 
 @author: Beau.Uriona
 """
-import datetime
-import math
-import pandas as pd
-import calendar as cal
-import numpy as np
-import csv
-import warnings
-import json
+
 import os
+import csv
+import json
+import math
+import datetime
+import calendar as cal
+from datetime import datetime as dt
+from datetime import date as date
+import pandas as pd
+import numpy as np
+from zeep import Client
+from zeep.transports import Transport
+from zeep.cache import InMemoryCache
 
 STATIC_URL = f'https://www.usbr.gov/uc/water/hydrodata/assets'
 
 this_dir = os.path.dirname(os.path.abspath(__file__))
 static_dir = os.path.join(os.path.dirname(this_dir), r'static')
 
-dt = datetime.datetime
-date = datetime.date
-today = dt.utcnow() - datetime.timedelta(hours=8)
+def create_awdb():
+    wsdl = r'https://wcc.sc.egov.usda.gov/awdbWebService/services?WSDL'
+    transport = Transport(timeout=300, cache=InMemoryCache())
+    awdb = Client(wsdl=wsdl, transport=transport).service
+    return awdb
 
 def isActive(x):
+    today = dt.utcnow() - datetime.timedelta(hours=8)
     if dt.strptime(x.endDate, "%Y-%m-%d %H:%M:%S").date() > today.date():
         return True
     
@@ -36,6 +44,7 @@ def isBelow(x,elev):
         return True
     
 def isYearsOld(x,yrs):
+    today = dt.utcnow() - datetime.timedelta(hours=8)
     s = str(x.beginDate)
     c = dt.today().year - yrs
     if int(s[:4]) < c:
