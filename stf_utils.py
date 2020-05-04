@@ -31,21 +31,20 @@ def create_awdb():
     return awdb
 
 def isActive(x):
-    today = dt.utcnow() - datetime.timedelta(hours=8)
-    if dt.strptime(x.endDate, "%Y-%m-%d %H:%M:%S").date() > today.date():
+    endDate = dt.strptime(x['endDate'], "%Y-%m-%d %H:%M:%S").date()
+    if endDate > dt.today().date():
         return True
     
 def isAbove(x,elev):
-    if x.elevation >= elev:
+    if x['elevation'] >= elev:
         return True
     
 def isBelow(x,elev):
-    if x.elevation <= elev:
+    if x['elevation'] <= elev:
         return True
     
 def isYearsOld(x,yrs):
-    today = dt.utcnow() - datetime.timedelta(hours=8)
-    s = str(x.beginDate)
+    s = str(x['beginDate'])
     c = dt.today().year - yrs
     if int(s[:4]) < c:
         return True
@@ -86,7 +85,9 @@ def nonLeapDaysBetween(_sDateLeap,_eDateLeap):
     return nonLeapDays
 
 def padMissingData(x,_sDate,_eDate):
-#    if not hasattr(x, r'values'): return x                                        
+    if not x['endDate']:
+        print(x)
+        return None                            
     eDateChkSite = dt.strptime(x['endDate'],"%Y-%m-%d %H:%M:%S").date()
     eDateChkBasin = dt.strptime(_eDate,"%Y-%m-%d").date()
     if eDateChkBasin > eDateChkSite:
@@ -220,6 +221,55 @@ def get_plot_config(img_filename):
             'height': 700
         }
     }
+
+def get_log_scale_dd():
+    log_scale_dd = [
+        {
+            'active': 0,
+            'showactive': True,
+            'x': 1.1,
+            'y': -0.025,
+            'xanchor': 'left',
+            'yanchor': 'top',
+            'bgcolor': 'rgba(0,0,0,0)',
+            'type': 'buttons',
+            'direction': 'down',
+            'font': {
+                'size': 10
+            },
+            'buttons': [
+                {
+                    'label': 'Linear Scale',
+                    'method': 'relayout',
+                    'args': [
+                        'yaxis2', 
+                            {
+                                'type': 'linear', 'rangemode': 'nonnegative',
+                                'overlaying': 'y', 'side':'right', 
+                                'anchor':'free', 'position': 1,
+                                'title': 'Q (cfs)','tickformat': "f", 
+                                'tick0': 0
+                            }
+                    ]
+                },
+                {
+                    'label': 'Log Scale',
+                    'method': 'relayout',
+                    'args': [
+                        'yaxis2',
+                            {
+                                'type': 'log', 'rangemode': 'nonnegative',
+                                'overlaying': 'y', 'side':'right', 
+                                'anchor':'free', 'position': 1,
+                                'title': 'Q (cfs)','tickformat': "f", 
+                                'tick0': 1, 'dtick': 'D2'
+                            }
+                    ]
+                },
+            ]
+        }
+    ]
+    return log_scale_dd
 if __name__ == '__main__':
     import os
     print('why are you running this?')

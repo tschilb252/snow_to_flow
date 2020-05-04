@@ -109,3 +109,6 @@ dmypy.json
 
 # charts
 *.html
+
+# frcst files
+*.frcst

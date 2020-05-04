@@ -1,1068 +1,1125 @@
-Starting Snow to Flow Chart generation at 11:26:21 04/30/20using configuration located: C:\Users\buriona\Documents\pyHDB\snow_to_flow\config\huc_15.json
+Starting Snow to Flow Chart generation at 05/04/20 12:38:22
+   Using configuration located: C:\Users\buriona\Documents\pyHDB\snow_to_flow\config\test.json
+  Exporting charts to: C:\Users\buriona\Documents\pyHDB\snow_to_flow\charts
 
-Working on forecasts in Lower Colorado-Lake Mead - HUC 1501
-Starting Snow to Flow Chart generation at 11:31:43 04/30/20using configuration located: C:\Users\buriona\Documents\pyHDB\snow_to_flow\config\huc_15.json
+Working on forecasts in powell - HUC 14070006
+  Creating SWE to Q Chart for Colorado R at Glen Canyon Dam
+    chart created in 51.83 seconds
 
-Starting Snow to Flow Chart generation at 11:31:43 04/30/20using configuration located: C:\Users\buriona\Documents\pyHDB\snow_to_flow\config\huc_15.json
+Navigation file(s) created for files in C:\Users\buriona\Documents\pyHDB\snow_to_flow\charts
 
-Working on forecasts in Lower Colorado-Lake Mead - HUC 1501
-Working on forecasts in Lower Colorado-Lake Mead - HUC 1501
-  Creating SWE to Q Chart for Virgin R at Littlefield
-  Creating SWE to Q Chart for Virgin R at Littlefield
-    Something went wrong, no chart created - name 'datetime' is not defined
-    Something went wrong, no chart created - name 'datetime' is not defined
-    in 0.01 seconds
-    in 0.01 seconds
-  Creating SWE to Q Chart for Santa Clara R nr Pine Valley
-  Creating SWE to Q Chart for Santa Clara R nr Pine Valley
-    Something went wrong, no chart created - name 'datetime' is not defined
-    Something went wrong, no chart created - name 'datetime' is not defined
-    in 0.0 seconds
-    in 0.0 seconds
-  Creating SWE to Q Chart for Virgin R at Virgin
-  Creating SWE to Q Chart for Virgin R at Virgin
-    Something went wrong, no chart created - name 'datetime' is not defined
-    Something went wrong, no chart created - name 'datetime' is not defined
-    in 0.0 seconds
-    in 0.0 seconds
-  Creating SWE to Q Chart for Virgin R nr Hurricane
-  Creating SWE to Q Chart for Virgin R nr Hurricane
-    Something went wrong, no chart created - name 'datetime' is not defined
-    Something went wrong, no chart created - name 'datetime' is not defined
-    in 0.0 seconds
-    in 0.0 seconds
-Working on forecasts in Little Colorado - HUC 1502
-Working on forecasts in Little Colorado - HUC 1502
-  Creating SWE to Q Chart for Blue Ridge Reservoir Inflow
-  Creating SWE to Q Chart for Blue Ridge Reservoir Inflow
-    Something went wrong, no chart created - name 'datetime' is not defined
-    Something went wrong, no chart created - name 'datetime' is not defined
-    in 0.0 seconds
-    in 0.0 seconds
-  Creating SWE to Q Chart for Lake Mary Reservoir Inflow
-  Creating SWE to Q Chart for Lake Mary Reservoir Inflow
-    Something went wrong, no chart created - name 'datetime' is not defined
-    Something went wrong, no chart created - name 'datetime' is not defined
-    in 0.0 seconds
-    in 0.0 seconds
-  Creating SWE to Q Chart for Little Colorado R ab Lyman Lake
-  Creating SWE to Q Chart for Little Colorado R ab Lyman Lake
-    Something went wrong, no chart created - name 'datetime' is not defined
-    Something went wrong, no chart created - name 'datetime' is not defined
-    in 0.0 seconds
-    in 0.0 seconds
-  Creating SWE to Q Chart for Bowl Canyon Ck ab Asaayi Lake
-  Creating SWE to Q Chart for Bowl Canyon Ck ab Asaayi Lake
-    Something went wrong, no chart created - name 'datetime' is not defined
-    Something went wrong, no chart created - name 'datetime' is not defined
-    in 0.0 seconds
-    in 0.0 seconds
-  Creating SWE to Q Chart for Rio Nutria nr Ramah
-  Creating SWE to Q Chart for Rio Nutria nr Ramah
-    Something went wrong, no chart created - name 'datetime' is not defined
-    Something went wrong, no chart created - name 'datetime' is not defined
-    in 0.0 seconds
-    in 0.0 seconds
-  Creating SWE to Q Chart for Zuni R ab Black Rock Reservoir
-  Creating SWE to Q Chart for Zuni R ab Black Rock Reservoir
-    Something went wrong, no chart created - name 'datetime' is not defined
-    Something went wrong, no chart created - name 'datetime' is not defined
-    in 0.0 seconds
-    in 0.0 seconds
-Working on forecasts in Lower Colorado - HUC 1503
-Working on forecasts in Lower Colorado - HUC 1503
-Working on forecasts in Upper Gila - HUC 1504
-Working on forecasts in Upper Gila - HUC 1504
-  Creating SWE to Q Chart for Gila R nr Solomon
-  Creating SWE to Q Chart for Gila R nr Solomon
-    Something went wrong, no chart created - name 'datetime' is not defined
-    Something went wrong, no chart created - name 'datetime' is not defined
-    in 0.0 seconds
-    in 0.0 seconds
-  Creating SWE to Q Chart for San Francisco R at Clifton
-  Creating SWE to Q Chart for San Francisco R at Clifton
-    Something went wrong, no chart created - name 'datetime' is not defined
-    Something went wrong, no chart created - name 'datetime' is not defined
-    in 0.0 seconds
-    in 0.0 seconds
-  Creating SWE to Q Chart for Gila R at Gila
-  Creating SWE to Q Chart for Gila R at Gila
-    Something went wrong, no chart created - name 'datetime' is not defined
-    Something went wrong, no chart created - name 'datetime' is not defined
-    in 0.0 seconds
-    in 0.0 seconds
-  Creating SWE to Q Chart for Gila R bl Blue Ck nr Virden
-  Creating SWE to Q Chart for Gila R bl Blue Ck nr Virden
-    Something went wrong, no chart created - name 'datetime' is not defined
-    Something went wrong, no chart created - name 'datetime' is not defined
-    in 0.0 seconds
-    in 0.0 seconds
-  Creating SWE to Q Chart for San Francisco R at Glenwood
-  Creating SWE to Q Chart for San Francisco R at Glenwood
-    Something went wrong, no chart created - name 'datetime' is not defined
-    Something went wrong, no chart created - name 'datetime' is not defined
-    in 0.0 seconds
-    in 0.0 seconds
-Working on forecasts in Middle Gila - HUC 1505
-Working on forecasts in Middle Gila - HUC 1505
-  Creating SWE to Q Chart for San Carlos Reservoir Inflow
-  Creating SWE to Q Chart for San Carlos Reservoir Inflow
-    Something went wrong, no chart created - name 'datetime' is not defined
-    Something went wrong, no chart created - name 'datetime' is not defined
-    in 0.01 seconds
-    in 0.01 seconds
-Working on forecasts in Salt - HUC 1506
-Working on forecasts in Salt - HUC 1506
-  Creating SWE to Q Chart for Salt R nr Roosevelt
-  Creating SWE to Q Chart for Salt R nr Roosevelt
-    Something went wrong, no chart created - name 'datetime' is not defined
-    Something went wrong, no chart created - name 'datetime' is not defined
-    in 0.0 seconds
-    in 0.0 seconds
-  Creating SWE to Q Chart for Tonto Ck ab Gun Ck nr Roosevelt
-  Creating SWE to Q Chart for Tonto Ck ab Gun Ck nr Roosevelt
-    Something went wrong, no chart created - name 'datetime' is not defined
-    Something went wrong, no chart created - name 'datetime' is not defined
-    in 0.0 seconds
-    in 0.0 seconds
-  Creating SWE to Q Chart for Verde R bl Tangle Ck ab Horseshoe Dam
-  Creating SWE to Q Chart for Verde R bl Tangle Ck ab Horseshoe Dam
-    Something went wrong, no chart created - name 'datetime' is not defined
-    Something went wrong, no chart created - name 'datetime' is not defined
-    in 0.0 seconds
-    in 0.0 seconds
-Working on forecasts in Lower Gila - HUC 1507
-Working on forecasts in Lower Gila - HUC 1507
-Working on forecasts in Sonora - HUC 1508
-Working on forecasts in Sonora - HUC 1508
-
-Finished Snow to Flow Chart generation at 11:31:55 04/30/20 - total time: 0:00
-
-Finished Snow to Flow Chart generation at 11:31:55 04/30/20 - total time: 0:00
-Starting Snow to Flow Chart generation at 04/30/20 11:33:29 using configuration located: C:\Users\buriona\Documents\pyHDB\snow_to_flow\config\huc_15.json
-
-Starting Snow to Flow Chart generation at 04/30/20 11:33:29 using configuration located: C:\Users\buriona\Documents\pyHDB\snow_to_flow\config\huc_15.json
-
-Starting Snow to Flow Chart generation at 04/30/20 11:33:29 using configuration located: C:\Users\buriona\Documents\pyHDB\snow_to_flow\config\huc_15.json
-
-Working on forecasts in Lower Colorado-Lake Mead - HUC 1501
-Working on forecasts in Lower Colorado-Lake Mead - HUC 1501
-Working on forecasts in Lower Colorado-Lake Mead - HUC 1501
-  Creating SWE to Q Chart for Virgin R at Littlefield
-  Creating SWE to Q Chart for Virgin R at Littlefield
-  Creating SWE to Q Chart for Virgin R at Littlefield
-    Something went wrong, no chart created - name 'plotName' is not defined
-    Something went wrong, no chart created - name 'plotName' is not defined
-    Something went wrong, no chart created - name 'plotName' is not defined
-    in 16.01 seconds
-    in 16.01 seconds
-    in 16.01 seconds
-  Creating SWE to Q Chart for Santa Clara R nr Pine Valley
-  Creating SWE to Q Chart for Santa Clara R nr Pine Valley
-  Creating SWE to Q Chart for Santa Clara R nr Pine Valley
-    Something went wrong, no chart created - name 'plotName' is not defined
-    Something went wrong, no chart created - name 'plotName' is not defined
-    Something went wrong, no chart created - name 'plotName' is not defined
-    in 15.41 seconds
-    in 15.41 seconds
-    in 15.41 seconds
-  Creating SWE to Q Chart for Virgin R at Virgin
-  Creating SWE to Q Chart for Virgin R at Virgin
-  Creating SWE to Q Chart for Virgin R at Virgin
-    Something went wrong, no chart created - name 'plotName' is not defined
-    Something went wrong, no chart created - name 'plotName' is not defined
-    Something went wrong, no chart created - name 'plotName' is not defined
-    in 15.55 seconds
-    in 15.55 seconds
-    in 15.55 seconds
-  Creating SWE to Q Chart for Virgin R nr Hurricane
-  Creating SWE to Q Chart for Virgin R nr Hurricane
-  Creating SWE to Q Chart for Virgin R nr Hurricane
-    Something went wrong, no chart created - name 'plotName' is not defined
-    Something went wrong, no chart created - name 'plotName' is not defined
-    Something went wrong, no chart created - name 'plotName' is not defined
-    in 17.73 seconds
-    in 17.73 seconds
-    in 17.73 seconds
-Working on forecasts in Little Colorado - HUC 1502
-Working on forecasts in Little Colorado - HUC 1502
-Working on forecasts in Little Colorado - HUC 1502
-  Creating SWE to Q Chart for Blue Ridge Reservoir Inflow
-  Creating SWE to Q Chart for Blue Ridge Reservoir Inflow
-  Creating SWE to Q Chart for Blue Ridge Reservoir Inflow
-Starting Snow to Flow Chart generation at 04/30/20 11:35:17 using configuration located: C:\Users\buriona\Documents\pyHDB\snow_to_flow\config\huc_15.json
-
-Starting Snow to Flow Chart generation at 04/30/20 11:35:17 using configuration located: C:\Users\buriona\Documents\pyHDB\snow_to_flow\config\huc_15.json
-
-Starting Snow to Flow Chart generation at 04/30/20 11:35:17 using configuration located: C:\Users\buriona\Documents\pyHDB\snow_to_flow\config\huc_15.json
-
-Starting Snow to Flow Chart generation at 04/30/20 11:35:17 using configuration located: C:\Users\buriona\Documents\pyHDB\snow_to_flow\config\huc_15.json
-
-Working on forecasts in Lower Colorado-Lake Mead - HUC 1501
-Working on forecasts in Lower Colorado-Lake Mead - HUC 1501
-Working on forecasts in Lower Colorado-Lake Mead - HUC 1501
-Working on forecasts in Lower Colorado-Lake Mead - HUC 1501
-  Creating SWE to Q Chart for Virgin R at Littlefield
-  Creating SWE to Q Chart for Virgin R at Littlefield
-  Creating SWE to Q Chart for Virgin R at Littlefield
-  Creating SWE to Q Chart for Virgin R at Littlefield
-    in 16.66 seconds
-    in 16.66 seconds
-    in 16.66 seconds
-    in 16.66 seconds
-  Creating SWE to Q Chart for Santa Clara R nr Pine Valley
-  Creating SWE to Q Chart for Santa Clara R nr Pine Valley
-  Creating SWE to Q Chart for Santa Clara R nr Pine Valley
-  Creating SWE to Q Chart for Santa Clara R nr Pine Valley
-    in 15.16 seconds
-    in 15.16 seconds
-    in 15.16 seconds
-    in 15.16 seconds
-  Creating SWE to Q Chart for Virgin R at Virgin
-  Creating SWE to Q Chart for Virgin R at Virgin
-  Creating SWE to Q Chart for Virgin R at Virgin
-  Creating SWE to Q Chart for Virgin R at Virgin
-    in 16.59 seconds
-    in 16.59 seconds
-    in 16.59 seconds
-    in 16.59 seconds
-  Creating SWE to Q Chart for Virgin R nr Hurricane
-  Creating SWE to Q Chart for Virgin R nr Hurricane
-  Creating SWE to Q Chart for Virgin R nr Hurricane
-  Creating SWE to Q Chart for Virgin R nr Hurricane
-    in 21.05 seconds
-    in 21.05 seconds
-    in 21.05 seconds
-    in 21.05 seconds
-Working on forecasts in Little Colorado - HUC 1502
-Working on forecasts in Little Colorado - HUC 1502
-Working on forecasts in Little Colorado - HUC 1502
-Working on forecasts in Little Colorado - HUC 1502
-  Creating SWE to Q Chart for Blue Ridge Reservoir Inflow
-  Creating SWE to Q Chart for Blue Ridge Reservoir Inflow
-  Creating SWE to Q Chart for Blue Ridge Reservoir Inflow
-  Creating SWE to Q Chart for Blue Ridge Reservoir Inflow
-    in 13.73 seconds
-    in 13.73 seconds
-    in 13.73 seconds
-    in 13.73 seconds
-  Creating SWE to Q Chart for Lake Mary Reservoir Inflow
-  Creating SWE to Q Chart for Lake Mary Reservoir Inflow
-  Creating SWE to Q Chart for Lake Mary Reservoir Inflow
-  Creating SWE to Q Chart for Lake Mary Reservoir Inflow
-    Something went wrong, no chart created - strptime() argument 1 must be str, not None
-    Something went wrong, no chart created - strptime() argument 1 must be str, not None
-    Something went wrong, no chart created - strptime() argument 1 must be str, not None
-    Something went wrong, no chart created - strptime() argument 1 must be str, not None
-    in 7.26 seconds
-    in 7.26 seconds
-    in 7.26 seconds
-    in 7.26 seconds
-  Creating SWE to Q Chart for Little Colorado R ab Lyman Lake
-  Creating SWE to Q Chart for Little Colorado R ab Lyman Lake
-  Creating SWE to Q Chart for Little Colorado R ab Lyman Lake
-  Creating SWE to Q Chart for Little Colorado R ab Lyman Lake
-    in 18.32 seconds
-    in 18.32 seconds
-    in 18.32 seconds
-    in 18.32 seconds
-  Creating SWE to Q Chart for Bowl Canyon Ck ab Asaayi Lake
-  Creating SWE to Q Chart for Bowl Canyon Ck ab Asaayi Lake
-  Creating SWE to Q Chart for Bowl Canyon Ck ab Asaayi Lake
-  Creating SWE to Q Chart for Bowl Canyon Ck ab Asaayi Lake
-    No Snotel sites used in forecast. No chart created!
-    No Snotel sites used in forecast. No chart created!
-    No Snotel sites used in forecast. No chart created!
-    No Snotel sites used in forecast. No chart created!
-    in 3.13 seconds
-    in 3.13 seconds
-    in 3.13 seconds
-    in 3.13 seconds
-  Creating SWE to Q Chart for Rio Nutria nr Ramah
-  Creating SWE to Q Chart for Rio Nutria nr Ramah
-  Creating SWE to Q Chart for Rio Nutria nr Ramah
-  Creating SWE to Q Chart for Rio Nutria nr Ramah
-    in 12.21 seconds
-    in 12.21 seconds
-    in 12.21 seconds
-    in 12.21 seconds
-  Creating SWE to Q Chart for Zuni R ab Black Rock Reservoir
-  Creating SWE to Q Chart for Zuni R ab Black Rock Reservoir
-  Creating SWE to Q Chart for Zuni R ab Black Rock Reservoir
-  Creating SWE to Q Chart for Zuni R ab Black Rock Reservoir
-    in 15.52 seconds
-    in 15.52 seconds
-    in 15.52 seconds
-    in 15.52 seconds
-Working on forecasts in Lower Colorado - HUC 1503
-Working on forecasts in Lower Colorado - HUC 1503
-Working on forecasts in Lower Colorado - HUC 1503
-Working on forecasts in Lower Colorado - HUC 1503
-Working on forecasts in Upper Gila - HUC 1504
-Working on forecasts in Upper Gila - HUC 1504
-Working on forecasts in Upper Gila - HUC 1504
-Working on forecasts in Upper Gila - HUC 1504
-  Creating SWE to Q Chart for Gila R nr Solomon
-  Creating SWE to Q Chart for Gila R nr Solomon
-  Creating SWE to Q Chart for Gila R nr Solomon
-  Creating SWE to Q Chart for Gila R nr Solomon
-    in 29.79 seconds
-    in 29.79 seconds
-    in 29.79 seconds
-    in 29.79 seconds
-  Creating SWE to Q Chart for San Francisco R at Clifton
-  Creating SWE to Q Chart for San Francisco R at Clifton
-  Creating SWE to Q Chart for San Francisco R at Clifton
-  Creating SWE to Q Chart for San Francisco R at Clifton
-    in 20.0 seconds
-    in 20.0 seconds
-    in 20.0 seconds
-    in 20.0 seconds
-  Creating SWE to Q Chart for Gila R at Gila
-  Creating SWE to Q Chart for Gila R at Gila
-  Creating SWE to Q Chart for Gila R at Gila
-  Creating SWE to Q Chart for Gila R at Gila
-    in 15.42 seconds
-    in 15.42 seconds
-    in 15.42 seconds
-    in 15.42 seconds
-  Creating SWE to Q Chart for Gila R bl Blue Ck nr Virden
-  Creating SWE to Q Chart for Gila R bl Blue Ck nr Virden
-  Creating SWE to Q Chart for Gila R bl Blue Ck nr Virden
-  Creating SWE to Q Chart for Gila R bl Blue Ck nr Virden
-    in 17.39 seconds
-    in 17.39 seconds
-    in 17.39 seconds
-    in 17.39 seconds
-  Creating SWE to Q Chart for San Francisco R at Glenwood
-  Creating SWE to Q Chart for San Francisco R at Glenwood
-  Creating SWE to Q Chart for San Francisco R at Glenwood
-  Creating SWE to Q Chart for San Francisco R at Glenwood
-    in 15.24 seconds
-    in 15.24 seconds
-    in 15.24 seconds
-    in 15.24 seconds
-Working on forecasts in Middle Gila - HUC 1505
-Working on forecasts in Middle Gila - HUC 1505
-Working on forecasts in Middle Gila - HUC 1505
-Working on forecasts in Middle Gila - HUC 1505
-  Creating SWE to Q Chart for San Carlos Reservoir Inflow
-  Creating SWE to Q Chart for San Carlos Reservoir Inflow
-  Creating SWE to Q Chart for San Carlos Reservoir Inflow
-  Creating SWE to Q Chart for San Carlos Reservoir Inflow
-    No Snotel sites used in forecast. No chart created!
-    No Snotel sites used in forecast. No chart created!
-    No Snotel sites used in forecast. No chart created!
-    No Snotel sites used in forecast. No chart created!
-    in 14.98 seconds
-    in 14.98 seconds
-    in 14.98 seconds
-    in 14.98 seconds
-Working on forecasts in Salt - HUC 1506
-Working on forecasts in Salt - HUC 1506
-Working on forecasts in Salt - HUC 1506
-Working on forecasts in Salt - HUC 1506
-  Creating SWE to Q Chart for Salt R nr Roosevelt
-  Creating SWE to Q Chart for Salt R nr Roosevelt
-  Creating SWE to Q Chart for Salt R nr Roosevelt
-  Creating SWE to Q Chart for Salt R nr Roosevelt
-    in 25.89 seconds
-    in 25.89 seconds
-    in 25.89 seconds
-    in 25.89 seconds
-  Creating SWE to Q Chart for Tonto Ck ab Gun Ck nr Roosevelt
-  Creating SWE to Q Chart for Tonto Ck ab Gun Ck nr Roosevelt
-  Creating SWE to Q Chart for Tonto Ck ab Gun Ck nr Roosevelt
-  Creating SWE to Q Chart for Tonto Ck ab Gun Ck nr Roosevelt
-    in 18.29 seconds
-    in 18.29 seconds
-    in 18.29 seconds
-    in 18.29 seconds
-  Creating SWE to Q Chart for Verde R bl Tangle Ck ab Horseshoe Dam
-  Creating SWE to Q Chart for Verde R bl Tangle Ck ab Horseshoe Dam
-  Creating SWE to Q Chart for Verde R bl Tangle Ck ab Horseshoe Dam
-  Creating SWE to Q Chart for Verde R bl Tangle Ck ab Horseshoe Dam
-    in 20.96 seconds
-    in 20.96 seconds
-    in 20.96 seconds
-    in 20.96 seconds
-Working on forecasts in Lower Gila - HUC 1507
-Working on forecasts in Lower Gila - HUC 1507
-Working on forecasts in Lower Gila - HUC 1507
-Working on forecasts in Lower Gila - HUC 1507
-Working on forecasts in Sonora - HUC 1508
-Working on forecasts in Sonora - HUC 1508
-Working on forecasts in Sonora - HUC 1508
-Working on forecasts in Sonora - HUC 1508
-
-Finished Snow to Flow Chart generation at 11:40:46 04/30/20 - total time: 0:05
-
-Finished Snow to Flow Chart generation at 11:40:46 04/30/20 - total time: 0:05
-
-Finished Snow to Flow Chart generation at 11:40:46 04/30/20 - total time: 0:05
-
-Finished Snow to Flow Chart generation at 11:40:46 04/30/20 - total time: 0:05
-Starting Snow to Flow Chart generation at 04/30/20 11:43:31 using configuration located: C:\Users\buriona\Documents\pyHDB\snow_to_flow\config\huc_15.json
-
-Starting Snow to Flow Chart generation at 04/30/20 11:43:31 using configuration located: C:\Users\buriona\Documents\pyHDB\snow_to_flow\config\huc_15.json
-
-Starting Snow to Flow Chart generation at 04/30/20 11:43:31 using configuration located: C:\Users\buriona\Documents\pyHDB\snow_to_flow\config\huc_15.json
-
-Starting Snow to Flow Chart generation at 04/30/20 11:43:31 using configuration located: C:\Users\buriona\Documents\pyHDB\snow_to_flow\config\huc_15.json
-
-Starting Snow to Flow Chart generation at 04/30/20 11:43:31 using configuration located: C:\Users\buriona\Documents\pyHDB\snow_to_flow\config\huc_15.json
-
-Working on forecasts in Lower Colorado-Lake Mead - HUC 1501
-Working on forecasts in Lower Colorado-Lake Mead - HUC 1501
-Working on forecasts in Lower Colorado-Lake Mead - HUC 1501
-Working on forecasts in Lower Colorado-Lake Mead - HUC 1501
-Working on forecasts in Lower Colorado-Lake Mead - HUC 1501
-  Creating SWE to Q Chart for Virgin R at Littlefield
-  Creating SWE to Q Chart for Virgin R at Littlefield
-  Creating SWE to Q Chart for Virgin R at Littlefield
-  Creating SWE to Q Chart for Virgin R at Littlefield
-  Creating SWE to Q Chart for Virgin R at Littlefield
-    in 16.19 seconds
-    in 16.19 seconds
-    in 16.19 seconds
-    in 16.19 seconds
-    in 16.19 seconds
-  Creating SWE to Q Chart for Santa Clara R nr Pine Valley
-  Creating SWE to Q Chart for Santa Clara R nr Pine Valley
-  Creating SWE to Q Chart for Santa Clara R nr Pine Valley
-  Creating SWE to Q Chart for Santa Clara R nr Pine Valley
-  Creating SWE to Q Chart for Santa Clara R nr Pine Valley
-    in 14.29 seconds
-    in 14.29 seconds
-    in 14.29 seconds
-    in 14.29 seconds
-    in 14.29 seconds
-  Creating SWE to Q Chart for Virgin R at Virgin
-  Creating SWE to Q Chart for Virgin R at Virgin
-  Creating SWE to Q Chart for Virgin R at Virgin
-  Creating SWE to Q Chart for Virgin R at Virgin
-  Creating SWE to Q Chart for Virgin R at Virgin
-    in 14.99 seconds
-    in 14.99 seconds
-    in 14.99 seconds
-    in 14.99 seconds
-    in 14.99 seconds
-  Creating SWE to Q Chart for Virgin R nr Hurricane
-  Creating SWE to Q Chart for Virgin R nr Hurricane
-  Creating SWE to Q Chart for Virgin R nr Hurricane
-  Creating SWE to Q Chart for Virgin R nr Hurricane
-  Creating SWE to Q Chart for Virgin R nr Hurricane
-    in 23.26 seconds
-    in 23.26 seconds
-    in 23.26 seconds
-    in 23.26 seconds
-    in 23.26 seconds
-Working on forecasts in Little Colorado - HUC 1502
-Working on forecasts in Little Colorado - HUC 1502
-Working on forecasts in Little Colorado - HUC 1502
-Working on forecasts in Little Colorado - HUC 1502
-Working on forecasts in Little Colorado - HUC 1502
-  Creating SWE to Q Chart for Blue Ridge Reservoir Inflow
-  Creating SWE to Q Chart for Blue Ridge Reservoir Inflow
-  Creating SWE to Q Chart for Blue Ridge Reservoir Inflow
-  Creating SWE to Q Chart for Blue Ridge Reservoir Inflow
-  Creating SWE to Q Chart for Blue Ridge Reservoir Inflow
-    in 13.69 seconds
-    in 13.69 seconds
-    in 13.69 seconds
-    in 13.69 seconds
-    in 13.69 seconds
-  Creating SWE to Q Chart for Lake Mary Reservoir Inflow
-  Creating SWE to Q Chart for Lake Mary Reservoir Inflow
-  Creating SWE to Q Chart for Lake Mary Reservoir Inflow
-  Creating SWE to Q Chart for Lake Mary Reservoir Inflow
-  Creating SWE to Q Chart for Lake Mary Reservoir Inflow
-    Something went wrong, no chart created - strptime() argument 1 must be str, not None
-    Something went wrong, no chart created - strptime() argument 1 must be str, not None
-    Something went wrong, no chart created - strptime() argument 1 must be str, not None
-    Something went wrong, no chart created - strptime() argument 1 must be str, not None
-    Something went wrong, no chart created - strptime() argument 1 must be str, not None
-    in 7.03 seconds
-    in 7.03 seconds
-    in 7.03 seconds
-    in 7.03 seconds
-    in 7.03 seconds
-  Creating SWE to Q Chart for Little Colorado R ab Lyman Lake
-  Creating SWE to Q Chart for Little Colorado R ab Lyman Lake
-  Creating SWE to Q Chart for Little Colorado R ab Lyman Lake
-  Creating SWE to Q Chart for Little Colorado R ab Lyman Lake
-  Creating SWE to Q Chart for Little Colorado R ab Lyman Lake
-    in 17.96 seconds
-    in 17.96 seconds
-    in 17.96 seconds
-    in 17.96 seconds
-    in 17.96 seconds
-  Creating SWE to Q Chart for Bowl Canyon Ck ab Asaayi Lake
-  Creating SWE to Q Chart for Bowl Canyon Ck ab Asaayi Lake
-  Creating SWE to Q Chart for Bowl Canyon Ck ab Asaayi Lake
-  Creating SWE to Q Chart for Bowl Canyon Ck ab Asaayi Lake
-  Creating SWE to Q Chart for Bowl Canyon Ck ab Asaayi Lake
-    No Snotel sites used in forecast. No chart created!
-    No Snotel sites used in forecast. No chart created!
-    No Snotel sites used in forecast. No chart created!
-    No Snotel sites used in forecast. No chart created!
-    No Snotel sites used in forecast. No chart created!
-    in 3.49 seconds
-    in 3.49 seconds
-    in 3.49 seconds
-    in 3.49 seconds
-    in 3.49 seconds
-  Creating SWE to Q Chart for Rio Nutria nr Ramah
-  Creating SWE to Q Chart for Rio Nutria nr Ramah
-  Creating SWE to Q Chart for Rio Nutria nr Ramah
-  Creating SWE to Q Chart for Rio Nutria nr Ramah
-  Creating SWE to Q Chart for Rio Nutria nr Ramah
-    in 14.72 seconds
-    in 14.72 seconds
-    in 14.72 seconds
-    in 14.72 seconds
-    in 14.72 seconds
-  Creating SWE to Q Chart for Zuni R ab Black Rock Reservoir
-  Creating SWE to Q Chart for Zuni R ab Black Rock Reservoir
-  Creating SWE to Q Chart for Zuni R ab Black Rock Reservoir
-  Creating SWE to Q Chart for Zuni R ab Black Rock Reservoir
-  Creating SWE to Q Chart for Zuni R ab Black Rock Reservoir
-    in 14.14 seconds
-    in 14.14 seconds
-    in 14.14 seconds
-    in 14.14 seconds
-    in 14.14 seconds
-Working on forecasts in Lower Colorado - HUC 1503
-Working on forecasts in Lower Colorado - HUC 1503
-Working on forecasts in Lower Colorado - HUC 1503
-Working on forecasts in Lower Colorado - HUC 1503
-Working on forecasts in Lower Colorado - HUC 1503
-Working on forecasts in Upper Gila - HUC 1504
-Working on forecasts in Upper Gila - HUC 1504
-Working on forecasts in Upper Gila - HUC 1504
-Working on forecasts in Upper Gila - HUC 1504
-Working on forecasts in Upper Gila - HUC 1504
-  Creating SWE to Q Chart for Gila R nr Solomon
-  Creating SWE to Q Chart for Gila R nr Solomon
-  Creating SWE to Q Chart for Gila R nr Solomon
-  Creating SWE to Q Chart for Gila R nr Solomon
-  Creating SWE to Q Chart for Gila R nr Solomon
-    in 31.68 seconds
-    in 31.68 seconds
-    in 31.68 seconds
-    in 31.68 seconds
-    in 31.68 seconds
-  Creating SWE to Q Chart for San Francisco R at Clifton
-  Creating SWE to Q Chart for San Francisco R at Clifton
-  Creating SWE to Q Chart for San Francisco R at Clifton
-  Creating SWE to Q Chart for San Francisco R at Clifton
-  Creating SWE to Q Chart for San Francisco R at Clifton
-    in 21.64 seconds
-    in 21.64 seconds
-    in 21.64 seconds
-    in 21.64 seconds
-    in 21.64 seconds
-  Creating SWE to Q Chart for Gila R at Gila
-  Creating SWE to Q Chart for Gila R at Gila
-  Creating SWE to Q Chart for Gila R at Gila
-  Creating SWE to Q Chart for Gila R at Gila
-  Creating SWE to Q Chart for Gila R at Gila
-    in 17.42 seconds
-    in 17.42 seconds
-    in 17.42 seconds
-    in 17.42 seconds
-    in 17.42 seconds
-  Creating SWE to Q Chart for Gila R bl Blue Ck nr Virden
-  Creating SWE to Q Chart for Gila R bl Blue Ck nr Virden
-  Creating SWE to Q Chart for Gila R bl Blue Ck nr Virden
-  Creating SWE to Q Chart for Gila R bl Blue Ck nr Virden
-  Creating SWE to Q Chart for Gila R bl Blue Ck nr Virden
-    in 17.57 seconds
-    in 17.57 seconds
-    in 17.57 seconds
-    in 17.57 seconds
-    in 17.57 seconds
-  Creating SWE to Q Chart for San Francisco R at Glenwood
-  Creating SWE to Q Chart for San Francisco R at Glenwood
-  Creating SWE to Q Chart for San Francisco R at Glenwood
-  Creating SWE to Q Chart for San Francisco R at Glenwood
-  Creating SWE to Q Chart for San Francisco R at Glenwood
-    in 18.98 seconds
-    in 18.98 seconds
-    in 18.98 seconds
-    in 18.98 seconds
-    in 18.98 seconds
-Working on forecasts in Middle Gila - HUC 1505
-Working on forecasts in Middle Gila - HUC 1505
-Working on forecasts in Middle Gila - HUC 1505
-Working on forecasts in Middle Gila - HUC 1505
-Working on forecasts in Middle Gila - HUC 1505
-  Creating SWE to Q Chart for San Carlos Reservoir Inflow
-  Creating SWE to Q Chart for San Carlos Reservoir Inflow
-  Creating SWE to Q Chart for San Carlos Reservoir Inflow
-  Creating SWE to Q Chart for San Carlos Reservoir Inflow
-  Creating SWE to Q Chart for San Carlos Reservoir Inflow
-    No Snotel sites used in forecast. No chart created!
-    No Snotel sites used in forecast. No chart created!
-    No Snotel sites used in forecast. No chart created!
-    No Snotel sites used in forecast. No chart created!
-    No Snotel sites used in forecast. No chart created!
-    in 15.65 seconds
-    in 15.65 seconds
-    in 15.65 seconds
-    in 15.65 seconds
-    in 15.65 seconds
-Working on forecasts in Salt - HUC 1506
-Working on forecasts in Salt - HUC 1506
-Working on forecasts in Salt - HUC 1506
-Working on forecasts in Salt - HUC 1506
-Working on forecasts in Salt - HUC 1506
-  Creating SWE to Q Chart for Salt R nr Roosevelt
-  Creating SWE to Q Chart for Salt R nr Roosevelt
-  Creating SWE to Q Chart for Salt R nr Roosevelt
-  Creating SWE to Q Chart for Salt R nr Roosevelt
-  Creating SWE to Q Chart for Salt R nr Roosevelt
-    in 24.69 seconds
-    in 24.69 seconds
-    in 24.69 seconds
-    in 24.69 seconds
-    in 24.69 seconds
-  Creating SWE to Q Chart for Tonto Ck ab Gun Ck nr Roosevelt
-  Creating SWE to Q Chart for Tonto Ck ab Gun Ck nr Roosevelt
-  Creating SWE to Q Chart for Tonto Ck ab Gun Ck nr Roosevelt
-  Creating SWE to Q Chart for Tonto Ck ab Gun Ck nr Roosevelt
-  Creating SWE to Q Chart for Tonto Ck ab Gun Ck nr Roosevelt
-    in 21.88 seconds
-    in 21.88 seconds
-    in 21.88 seconds
-    in 21.88 seconds
-    in 21.88 seconds
-  Creating SWE to Q Chart for Verde R bl Tangle Ck ab Horseshoe Dam
-  Creating SWE to Q Chart for Verde R bl Tangle Ck ab Horseshoe Dam
-  Creating SWE to Q Chart for Verde R bl Tangle Ck ab Horseshoe Dam
-  Creating SWE to Q Chart for Verde R bl Tangle Ck ab Horseshoe Dam
-  Creating SWE to Q Chart for Verde R bl Tangle Ck ab Horseshoe Dam
-    in 23.24 seconds
-    in 23.24 seconds
-    in 23.24 seconds
-    in 23.24 seconds
-    in 23.24 seconds
-Working on forecasts in Lower Gila - HUC 1507
-Working on forecasts in Lower Gila - HUC 1507
-Working on forecasts in Lower Gila - HUC 1507
-Working on forecasts in Lower Gila - HUC 1507
-Working on forecasts in Lower Gila - HUC 1507
-Working on forecasts in Sonora - HUC 1508
-Working on forecasts in Sonora - HUC 1508
-Working on forecasts in Sonora - HUC 1508
-Working on forecasts in Sonora - HUC 1508
-Working on forecasts in Sonora - HUC 1508
-Starting Snow to Flow Chart generation at 04/30/20 12:10:10
-   Using configuration located: C:\Users\buriona\Documents\pyHDB\snow_to_flow\config\huc_15.json
-  Exporting charts to: C:/Users/buriona/Documents/pyHDB/mtom_plots/mtom_viz/stf_charts
-
-
-Starting Snow to Flow Chart generation at 04/30/20 12:10:10
-   Using configuration located: C:\Users\buriona\Documents\pyHDB\snow_to_flow\config\huc_15.json
-  Exporting charts to: C:/Users/buriona/Documents/pyHDB/mtom_plots/mtom_viz/stf_charts
-
-
-Starting Snow to Flow Chart generation at 04/30/20 12:10:10
-   Using configuration located: C:\Users\buriona\Documents\pyHDB\snow_to_flow\config\huc_15.json
-  Exporting charts to: C:/Users/buriona/Documents/pyHDB/mtom_plots/mtom_viz/stf_charts
-
-
-Starting Snow to Flow Chart generation at 04/30/20 12:10:10
-   Using configuration located: C:\Users\buriona\Documents\pyHDB\snow_to_flow\config\huc_15.json
-  Exporting charts to: C:/Users/buriona/Documents/pyHDB/mtom_plots/mtom_viz/stf_charts
-
-
-Starting Snow to Flow Chart generation at 04/30/20 12:10:10
-   Using configuration located: C:\Users\buriona\Documents\pyHDB\snow_to_flow\config\huc_15.json
-  Exporting charts to: C:/Users/buriona/Documents/pyHDB/mtom_plots/mtom_viz/stf_charts
-
-
-Starting Snow to Flow Chart generation at 04/30/20 12:10:10
-   Using configuration located: C:\Users\buriona\Documents\pyHDB\snow_to_flow\config\huc_15.json
-  Exporting charts to: C:/Users/buriona/Documents/pyHDB/mtom_plots/mtom_viz/stf_charts
-
-
-Working on forecasts in Lower Colorado-Lake Mead - HUC 1501
-Working on forecasts in Lower Colorado-Lake Mead - HUC 1501
-Working on forecasts in Lower Colorado-Lake Mead - HUC 1501
-Working on forecasts in Lower Colorado-Lake Mead - HUC 1501
-Working on forecasts in Lower Colorado-Lake Mead - HUC 1501
-Working on forecasts in Lower Colorado-Lake Mead - HUC 1501
-  Creating SWE to Q Chart for Virgin R at Littlefield
-  Creating SWE to Q Chart for Virgin R at Littlefield
-  Creating SWE to Q Chart for Virgin R at Littlefield
-  Creating SWE to Q Chart for Virgin R at Littlefield
-  Creating SWE to Q Chart for Virgin R at Littlefield
-  Creating SWE to Q Chart for Virgin R at Littlefield
-    in 27.73 seconds
-    in 27.73 seconds
-    in 27.73 seconds
-    in 27.73 seconds
-    in 27.73 seconds
-    in 27.73 seconds
-  Creating SWE to Q Chart for Santa Clara R nr Pine Valley
-  Creating SWE to Q Chart for Santa Clara R nr Pine Valley
-  Creating SWE to Q Chart for Santa Clara R nr Pine Valley
-  Creating SWE to Q Chart for Santa Clara R nr Pine Valley
-  Creating SWE to Q Chart for Santa Clara R nr Pine Valley
-  Creating SWE to Q Chart for Santa Clara R nr Pine Valley
-    in 26.69 seconds
-    in 26.69 seconds
-    in 26.69 seconds
-    in 26.69 seconds
-    in 26.69 seconds
-    in 26.69 seconds
-  Creating SWE to Q Chart for Virgin R at Virgin
-  Creating SWE to Q Chart for Virgin R at Virgin
-  Creating SWE to Q Chart for Virgin R at Virgin
-  Creating SWE to Q Chart for Virgin R at Virgin
-  Creating SWE to Q Chart for Virgin R at Virgin
-  Creating SWE to Q Chart for Virgin R at Virgin
-    in 29.85 seconds
-    in 29.85 seconds
-    in 29.85 seconds
-    in 29.85 seconds
-    in 29.85 seconds
-    in 29.85 seconds
-  Creating SWE to Q Chart for Virgin R nr Hurricane
-  Creating SWE to Q Chart for Virgin R nr Hurricane
-  Creating SWE to Q Chart for Virgin R nr Hurricane
-  Creating SWE to Q Chart for Virgin R nr Hurricane
-  Creating SWE to Q Chart for Virgin R nr Hurricane
-  Creating SWE to Q Chart for Virgin R nr Hurricane
-    in 20.89 seconds
-    in 20.89 seconds
-    in 20.89 seconds
-    in 20.89 seconds
-    in 20.89 seconds
-    in 20.89 seconds
-Working on forecasts in Little Colorado - HUC 1502
-Working on forecasts in Little Colorado - HUC 1502
-Working on forecasts in Little Colorado - HUC 1502
-Working on forecasts in Little Colorado - HUC 1502
-Working on forecasts in Little Colorado - HUC 1502
-Working on forecasts in Little Colorado - HUC 1502
-  Creating SWE to Q Chart for Blue Ridge Reservoir Inflow
-  Creating SWE to Q Chart for Blue Ridge Reservoir Inflow
-  Creating SWE to Q Chart for Blue Ridge Reservoir Inflow
-  Creating SWE to Q Chart for Blue Ridge Reservoir Inflow
-  Creating SWE to Q Chart for Blue Ridge Reservoir Inflow
-  Creating SWE to Q Chart for Blue Ridge Reservoir Inflow
-    in 16.66 seconds
-    in 16.66 seconds
-    in 16.66 seconds
-    in 16.66 seconds
-    in 16.66 seconds
-    in 16.66 seconds
-  Creating SWE to Q Chart for Lake Mary Reservoir Inflow
-  Creating SWE to Q Chart for Lake Mary Reservoir Inflow
-  Creating SWE to Q Chart for Lake Mary Reservoir Inflow
-  Creating SWE to Q Chart for Lake Mary Reservoir Inflow
-  Creating SWE to Q Chart for Lake Mary Reservoir Inflow
-  Creating SWE to Q Chart for Lake Mary Reservoir Inflow
-    Something went wrong, no chart created - strptime() argument 1 must be str, not None
-    Something went wrong, no chart created - strptime() argument 1 must be str, not None
-    Something went wrong, no chart created - strptime() argument 1 must be str, not None
-    Something went wrong, no chart created - strptime() argument 1 must be str, not None
-    Something went wrong, no chart created - strptime() argument 1 must be str, not None
-    Something went wrong, no chart created - strptime() argument 1 must be str, not None
-    in 8.36 seconds
-    in 8.36 seconds
-    in 8.36 seconds
-    in 8.36 seconds
-    in 8.36 seconds
-    in 8.36 seconds
-  Creating SWE to Q Chart for Little Colorado R ab Lyman Lake
-  Creating SWE to Q Chart for Little Colorado R ab Lyman Lake
-  Creating SWE to Q Chart for Little Colorado R ab Lyman Lake
-  Creating SWE to Q Chart for Little Colorado R ab Lyman Lake
-  Creating SWE to Q Chart for Little Colorado R ab Lyman Lake
-  Creating SWE to Q Chart for Little Colorado R ab Lyman Lake
-    in 28.75 seconds
-    in 28.75 seconds
-    in 28.75 seconds
-    in 28.75 seconds
-    in 28.75 seconds
-    in 28.75 seconds
-  Creating SWE to Q Chart for Bowl Canyon Ck ab Asaayi Lake
-  Creating SWE to Q Chart for Bowl Canyon Ck ab Asaayi Lake
-  Creating SWE to Q Chart for Bowl Canyon Ck ab Asaayi Lake
-  Creating SWE to Q Chart for Bowl Canyon Ck ab Asaayi Lake
-  Creating SWE to Q Chart for Bowl Canyon Ck ab Asaayi Lake
-  Creating SWE to Q Chart for Bowl Canyon Ck ab Asaayi Lake
-    No Snotel sites used in forecast. No chart created!
-    No Snotel sites used in forecast. No chart created!
-    No Snotel sites used in forecast. No chart created!
-    No Snotel sites used in forecast. No chart created!
-    No Snotel sites used in forecast. No chart created!
-    No Snotel sites used in forecast. No chart created!
-    in 3.52 seconds
-    in 3.52 seconds
-    in 3.52 seconds
-    in 3.52 seconds
-    in 3.52 seconds
-    in 3.52 seconds
-  Creating SWE to Q Chart for Rio Nutria nr Ramah
-  Creating SWE to Q Chart for Rio Nutria nr Ramah
-  Creating SWE to Q Chart for Rio Nutria nr Ramah
-  Creating SWE to Q Chart for Rio Nutria nr Ramah
-  Creating SWE to Q Chart for Rio Nutria nr Ramah
-  Creating SWE to Q Chart for Rio Nutria nr Ramah
-    in 12.63 seconds
-    in 12.63 seconds
-    in 12.63 seconds
-    in 12.63 seconds
-    in 12.63 seconds
-    in 12.63 seconds
-  Creating SWE to Q Chart for Zuni R ab Black Rock Reservoir
-  Creating SWE to Q Chart for Zuni R ab Black Rock Reservoir
-  Creating SWE to Q Chart for Zuni R ab Black Rock Reservoir
-  Creating SWE to Q Chart for Zuni R ab Black Rock Reservoir
-  Creating SWE to Q Chart for Zuni R ab Black Rock Reservoir
-  Creating SWE to Q Chart for Zuni R ab Black Rock Reservoir
-    in 22.56 seconds
-    in 22.56 seconds
-    in 22.56 seconds
-    in 22.56 seconds
-    in 22.56 seconds
-    in 22.56 seconds
-Working on forecasts in Lower Colorado - HUC 1503
-Working on forecasts in Lower Colorado - HUC 1503
-Working on forecasts in Lower Colorado - HUC 1503
-Working on forecasts in Lower Colorado - HUC 1503
-Working on forecasts in Lower Colorado - HUC 1503
-Working on forecasts in Lower Colorado - HUC 1503
-Working on forecasts in Upper Gila - HUC 1504
-Working on forecasts in Upper Gila - HUC 1504
-Working on forecasts in Upper Gila - HUC 1504
-Working on forecasts in Upper Gila - HUC 1504
-Working on forecasts in Upper Gila - HUC 1504
-Working on forecasts in Upper Gila - HUC 1504
-  Creating SWE to Q Chart for Gila R nr Solomon
-  Creating SWE to Q Chart for Gila R nr Solomon
-  Creating SWE to Q Chart for Gila R nr Solomon
-  Creating SWE to Q Chart for Gila R nr Solomon
-  Creating SWE to Q Chart for Gila R nr Solomon
-  Creating SWE to Q Chart for Gila R nr Solomon
-    in 41.09 seconds
-    in 41.09 seconds
-    in 41.09 seconds
-    in 41.09 seconds
-    in 41.09 seconds
-    in 41.09 seconds
-  Creating SWE to Q Chart for San Francisco R at Clifton
-  Creating SWE to Q Chart for San Francisco R at Clifton
-  Creating SWE to Q Chart for San Francisco R at Clifton
-  Creating SWE to Q Chart for San Francisco R at Clifton
-  Creating SWE to Q Chart for San Francisco R at Clifton
-  Creating SWE to Q Chart for San Francisco R at Clifton
-    in 30.45 seconds
-    in 30.45 seconds
-    in 30.45 seconds
-    in 30.45 seconds
-    in 30.45 seconds
-    in 30.45 seconds
-  Creating SWE to Q Chart for Gila R at Gila
-  Creating SWE to Q Chart for Gila R at Gila
-  Creating SWE to Q Chart for Gila R at Gila
-  Creating SWE to Q Chart for Gila R at Gila
-  Creating SWE to Q Chart for Gila R at Gila
-  Creating SWE to Q Chart for Gila R at Gila
-    in 18.33 seconds
-    in 18.33 seconds
-    in 18.33 seconds
-    in 18.33 seconds
-    in 18.33 seconds
-    in 18.33 seconds
-  Creating SWE to Q Chart for Gila R bl Blue Ck nr Virden
-  Creating SWE to Q Chart for Gila R bl Blue Ck nr Virden
-  Creating SWE to Q Chart for Gila R bl Blue Ck nr Virden
-  Creating SWE to Q Chart for Gila R bl Blue Ck nr Virden
-  Creating SWE to Q Chart for Gila R bl Blue Ck nr Virden
-  Creating SWE to Q Chart for Gila R bl Blue Ck nr Virden
-    in 27.26 seconds
-    in 27.26 seconds
-    in 27.26 seconds
-    in 27.26 seconds
-    in 27.26 seconds
-    in 27.26 seconds
-  Creating SWE to Q Chart for San Francisco R at Glenwood
-  Creating SWE to Q Chart for San Francisco R at Glenwood
-  Creating SWE to Q Chart for San Francisco R at Glenwood
-  Creating SWE to Q Chart for San Francisco R at Glenwood
-  Creating SWE to Q Chart for San Francisco R at Glenwood
-  Creating SWE to Q Chart for San Francisco R at Glenwood
-    in 20.13 seconds
-    in 20.13 seconds
-    in 20.13 seconds
-    in 20.13 seconds
-    in 20.13 seconds
-    in 20.13 seconds
-Working on forecasts in Middle Gila - HUC 1505
-Working on forecasts in Middle Gila - HUC 1505
-Working on forecasts in Middle Gila - HUC 1505
-Working on forecasts in Middle Gila - HUC 1505
-Working on forecasts in Middle Gila - HUC 1505
-Working on forecasts in Middle Gila - HUC 1505
-  Creating SWE to Q Chart for San Carlos Reservoir Inflow
-  Creating SWE to Q Chart for San Carlos Reservoir Inflow
-  Creating SWE to Q Chart for San Carlos Reservoir Inflow
-  Creating SWE to Q Chart for San Carlos Reservoir Inflow
-  Creating SWE to Q Chart for San Carlos Reservoir Inflow
-  Creating SWE to Q Chart for San Carlos Reservoir Inflow
-    No Snotel sites used in forecast. No chart created!
-    No Snotel sites used in forecast. No chart created!
-    No Snotel sites used in forecast. No chart created!
-    No Snotel sites used in forecast. No chart created!
-    No Snotel sites used in forecast. No chart created!
-    No Snotel sites used in forecast. No chart created!
-    in 17.69 seconds
-    in 17.69 seconds
-    in 17.69 seconds
-    in 17.69 seconds
-    in 17.69 seconds
-    in 17.69 seconds
-Working on forecasts in Salt - HUC 1506
-Working on forecasts in Salt - HUC 1506
-Working on forecasts in Salt - HUC 1506
-Working on forecasts in Salt - HUC 1506
-Working on forecasts in Salt - HUC 1506
-Working on forecasts in Salt - HUC 1506
-  Creating SWE to Q Chart for Salt R nr Roosevelt
-  Creating SWE to Q Chart for Salt R nr Roosevelt
-  Creating SWE to Q Chart for Salt R nr Roosevelt
-  Creating SWE to Q Chart for Salt R nr Roosevelt
-  Creating SWE to Q Chart for Salt R nr Roosevelt
-  Creating SWE to Q Chart for Salt R nr Roosevelt
-    in 35.35 seconds
-    in 35.35 seconds
-    in 35.35 seconds
-    in 35.35 seconds
-    in 35.35 seconds
-    in 35.35 seconds
-  Creating SWE to Q Chart for Tonto Ck ab Gun Ck nr Roosevelt
-  Creating SWE to Q Chart for Tonto Ck ab Gun Ck nr Roosevelt
-  Creating SWE to Q Chart for Tonto Ck ab Gun Ck nr Roosevelt
-  Creating SWE to Q Chart for Tonto Ck ab Gun Ck nr Roosevelt
-  Creating SWE to Q Chart for Tonto Ck ab Gun Ck nr Roosevelt
-  Creating SWE to Q Chart for Tonto Ck ab Gun Ck nr Roosevelt
-    in 22.57 seconds
-    in 22.57 seconds
-    in 22.57 seconds
-    in 22.57 seconds
-    in 22.57 seconds
-    in 22.57 seconds
-  Creating SWE to Q Chart for Verde R bl Tangle Ck ab Horseshoe Dam
-  Creating SWE to Q Chart for Verde R bl Tangle Ck ab Horseshoe Dam
-  Creating SWE to Q Chart for Verde R bl Tangle Ck ab Horseshoe Dam
-  Creating SWE to Q Chart for Verde R bl Tangle Ck ab Horseshoe Dam
-  Creating SWE to Q Chart for Verde R bl Tangle Ck ab Horseshoe Dam
-  Creating SWE to Q Chart for Verde R bl Tangle Ck ab Horseshoe Dam
-    in 29.41 seconds
-    in 29.41 seconds
-    in 29.41 seconds
-    in 29.41 seconds
-    in 29.41 seconds
-    in 29.41 seconds
-Working on forecasts in Lower Gila - HUC 1507
-Working on forecasts in Lower Gila - HUC 1507
-Working on forecasts in Lower Gila - HUC 1507
-Working on forecasts in Lower Gila - HUC 1507
-Working on forecasts in Lower Gila - HUC 1507
-Working on forecasts in Lower Gila - HUC 1507
-Working on forecasts in Sonora - HUC 1508
-Working on forecasts in Sonora - HUC 1508
-Working on forecasts in Sonora - HUC 1508
-Working on forecasts in Sonora - HUC 1508
-Working on forecasts in Sonora - HUC 1508
-Working on forecasts in Sonora - HUC 1508
-
-Navigation file(s) created for files in C:/Users/buriona/Documents/pyHDB/mtom_plots/mtom_viz/stf_charts
-
-
-Navigation file(s) created for files in C:/Users/buriona/Documents/pyHDB/mtom_plots/mtom_viz/stf_charts
-
-
-Navigation file(s) created for files in C:/Users/buriona/Documents/pyHDB/mtom_plots/mtom_viz/stf_charts
-
-
-Navigation file(s) created for files in C:/Users/buriona/Documents/pyHDB/mtom_plots/mtom_viz/stf_charts
-
-
-Navigation file(s) created for files in C:/Users/buriona/Documents/pyHDB/mtom_plots/mtom_viz/stf_charts
-
-
-Navigation file(s) created for files in C:/Users/buriona/Documents/pyHDB/mtom_plots/mtom_viz/stf_charts
-
-
-Finished Snow to Flow Chart generation at 12:17:45 04/30/20
-Elapsed time: 0:07
-
-Finished Snow to Flow Chart generation at 12:17:45 04/30/20
-Elapsed time: 0:07
-
-Finished Snow to Flow Chart generation at 12:17:45 04/30/20
-Elapsed time: 0:07
-
-Finished Snow to Flow Chart generation at 12:17:45 04/30/20
-Elapsed time: 0:07
-
-Finished Snow to Flow Chart generation at 12:17:45 04/30/20
-Elapsed time: 0:07
-
-Finished Snow to Flow Chart generation at 12:17:45 04/30/20
-Elapsed time: 0:07
-Starting Snow to Flow Chart generation at 04/30/20 12:20:59
+Finished Snow to Flow Chart generation at 12:39:15 05/04/20
+Elapsed time: 0:00
+Starting Snow to Flow Chart generation at 05/04/20 12:41:19
    Using configuration located: C:\Users\buriona\Documents\pyHDB\snow_to_flow\config\all_hucs.json
-  Exporting charts to: C:/Users/buriona/Documents/pyHDB/mtom_plots/mtom_viz/stf_charts
-
-
-Starting Snow to Flow Chart generation at 04/30/20 12:20:59
-   Using configuration located: C:\Users\buriona\Documents\pyHDB\snow_to_flow\config\all_hucs.json
-  Exporting charts to: C:/Users/buriona/Documents/pyHDB/mtom_plots/mtom_viz/stf_charts
-
-
-Starting Snow to Flow Chart generation at 04/30/20 12:20:59
-   Using configuration located: C:\Users\buriona\Documents\pyHDB\snow_to_flow\config\all_hucs.json
-  Exporting charts to: C:/Users/buriona/Documents/pyHDB/mtom_plots/mtom_viz/stf_charts
-
-
-Starting Snow to Flow Chart generation at 04/30/20 12:20:59
-   Using configuration located: C:\Users\buriona\Documents\pyHDB\snow_to_flow\config\all_hucs.json
-  Exporting charts to: C:/Users/buriona/Documents/pyHDB/mtom_plots/mtom_viz/stf_charts
-
-
-Starting Snow to Flow Chart generation at 04/30/20 12:20:59
-   Using configuration located: C:\Users\buriona\Documents\pyHDB\snow_to_flow\config\all_hucs.json
-  Exporting charts to: C:/Users/buriona/Documents/pyHDB/mtom_plots/mtom_viz/stf_charts
-
-
-Starting Snow to Flow Chart generation at 04/30/20 12:20:59
-   Using configuration located: C:\Users\buriona\Documents\pyHDB\snow_to_flow\config\all_hucs.json
-  Exporting charts to: C:/Users/buriona/Documents/pyHDB/mtom_plots/mtom_viz/stf_charts
-
-
-Starting Snow to Flow Chart generation at 04/30/20 12:20:59
-   Using configuration located: C:\Users\buriona\Documents\pyHDB\snow_to_flow\config\all_hucs.json
-  Exporting charts to: C:/Users/buriona/Documents/pyHDB/mtom_plots/mtom_viz/stf_charts
-
+  Exporting charts to: C:\Users\buriona\Documents\pyHDB\snow_to_flow\charts
 
 Working on forecasts in Missouri Headwaters - HUC 1002
+  Creating SWE to Q Chart for Beaverhead R at Barretts
+    No flow data available for Beaverhead R at Barretts - SRDOX. - No chart created!
+    chart created in 6.06 seconds
+  Creating SWE to Q Chart for Big Hole R bl Big Lake Ck at Wisdom
+    No flow data available for Big Hole R bl Big Lake Ck at Wisdom - SRDOX. - No chart created!
+    chart created in 7.54 seconds
+  Creating SWE to Q Chart for Big Hole R nr Melrose
+    No flow data available for Big Hole R nr Melrose - SRDOX. - No chart created!
+    chart created in 7.35 seconds
+  Creating SWE to Q Chart for Boulder R nr Boulder
+    No flow data available for Boulder R nr Boulder - SRDOX. - No chart created!
+    chart created in 3.38 seconds
+  Creating SWE to Q Chart for Beaverhead R nr Grant
+Starting Snow to Flow Chart generation at 05/04/20 12:47:15
+   Using configuration located: C:\Users\buriona\Documents\pyHDB\snow_to_flow\config\all_hucs.json
+  Exporting charts to: C:\Users\buriona\Documents\pyHDB\snow_to_flow\charts
+
 Working on forecasts in Missouri Headwaters - HUC 1002
+  Creating SWE to Q Chart for Beaverhead R at Barretts
+    No flow data available for Beaverhead R at Barretts - 06016000:MT:USGS. {flow_element}. - No chart created!
+    chart created in 5.41 seconds
+  Creating SWE to Q Chart for Big Hole R bl Big Lake Ck at Wisdom
+    No flow data available for Big Hole R bl Big Lake Ck at Wisdom - 06024450:MT:USGS. {flow_element}. - No chart created!
+    chart created in 5.39 seconds
+  Creating SWE to Q Chart for Big Hole R nr Melrose
+    No flow data available for Big Hole R nr Melrose - 06025500:MT:USGS. {flow_element}. - No chart created!
+    chart created in 6.68 seconds
+  Creating SWE to Q Chart for Boulder R nr Boulder
+    No flow data available for Boulder R nr Boulder - 06033000:MT:USGS. {flow_element}. - No chart created!
+    chart created in 3.19 seconds
+  Creating SWE to Q Chart for Beaverhead R nr Grant
+    chart created in 9.62 seconds
+  Creating SWE to Q Chart for Ennis Lake Inflow
+    No flow data available for Ennis Lake Inflow - 06041000:MT:USGS. {flow_element}. - No chart created!
+    chart created in 6.41 seconds
+  Creating SWE to Q Chart for Gallatin R at Logan
+    No flow data available for Gallatin R at Logan - 06052500:MT:USGS. {flow_element}. - No chart created!
+    chart created in 4.41 seconds
+  Creating SWE to Q Chart for Gallatin R nr Gateway
+    No flow data available for Gallatin R nr Gateway - 06043500:MT:USGS. {flow_element}. - No chart created!
+    chart created in 4.11 seconds
+  Creating SWE to Q Chart for Hebgen Lake Inflow
+    No flow data available for Hebgen Lake Inflow - 06038500:MT:USGS. {flow_element}. - No chart created!
+    chart created in 4.48 seconds
+  Creating SWE to Q Chart for Hyalite Reservoir Inflow
+    No flow data available for Hyalite Reservoir Inflow - 06049450:MT:USGS. {flow_element}. - No chart created!
+    chart created in 2.88 seconds
+  Creating SWE to Q Chart for Jefferson R nr Three Forks
+    No flow data available for Jefferson R nr Three Forks - 06036650:MT:USGS. {flow_element}. - No chart created!
+    chart created in 10.12 seconds
+  Creating SWE to Q Chart for Jefferson R nr Twin Bridges
+Starting Snow to Flow Chart generation at 05/04/20 12:49:16
+   Using configuration located: C:\Users\buriona\Documents\pyHDB\snow_to_flow\config\all_hucs.json
+  Exporting charts to: C:\Users\buriona\Documents\pyHDB\snow_to_flow\charts
+
 Working on forecasts in Missouri Headwaters - HUC 1002
+  Creating SWE to Q Chart for Beaverhead R at Barretts
+    No flow data available for Beaverhead R at Barretts - 06016000:MT:USGS - SRDOX. - No chart created!
+    chart created in 4.7 seconds
+  Creating SWE to Q Chart for Big Hole R bl Big Lake Ck at Wisdom
+    No flow data available for Big Hole R bl Big Lake Ck at Wisdom - 06024450:MT:USGS - SRDOX. - No chart created!
+    chart created in 4.9 seconds
+  Creating SWE to Q Chart for Big Hole R nr Melrose
+    No flow data available for Big Hole R nr Melrose - 06025500:MT:USGS - SRDOX. - No chart created!
+    chart created in 6.37 seconds
+  Creating SWE to Q Chart for Boulder R nr Boulder
+Starting Snow to Flow Chart generation at 05/04/20 13:02:50
+   Using configuration located: C:\Users\buriona\Documents\pyHDB\snow_to_flow\config\all_hucs.json
+  Exporting charts to: C:\Users\buriona\Documents\pyHDB\snow_to_flow\charts
+
 Working on forecasts in Missouri Headwaters - HUC 1002
+  Creating SWE to Q Chart for Beaverhead R at Barretts
+    Something went wrong, no chart created - name 'eDat' is not defined
+    chart created in 3.81 seconds
+  Creating SWE to Q Chart for Big Hole R bl Big Lake Ck at Wisdom
+Starting Snow to Flow Chart generation at 05/04/20 13:03:25
+   Using configuration located: C:\Users\buriona\Documents\pyHDB\snow_to_flow\config\all_hucs.json
+  Exporting charts to: C:\Users\buriona\Documents\pyHDB\snow_to_flow\charts
+
 Working on forecasts in Missouri Headwaters - HUC 1002
+  Creating SWE to Q Chart for Beaverhead R at Barretts
+    Something went wrong, no chart created - name 'eDat' is not defined
+    chart created in 3.78 seconds
+  Creating SWE to Q Chart for Big Hole R bl Big Lake Ck at Wisdom
+Starting Snow to Flow Chart generation at 05/04/20 13:04:22
+   Using configuration located: C:\Users\buriona\Documents\pyHDB\snow_to_flow\config\all_hucs.json
+  Exporting charts to: C:\Users\buriona\Documents\pyHDB\snow_to_flow\charts
+
 Working on forecasts in Missouri Headwaters - HUC 1002
+  Creating SWE to Q Chart for Beaverhead R at Barretts
+    Something went wrong, no chart created - name 'frcstTriplet' is not defined
+    chart created in 4.22 seconds
+  Creating SWE to Q Chart for Big Hole R bl Big Lake Ck at Wisdom
+Starting Snow to Flow Chart generation at 05/04/20 13:04:59
+   Using configuration located: C:\Users\buriona\Documents\pyHDB\snow_to_flow\config\all_hucs.json
+  Exporting charts to: C:\Users\buriona\Documents\pyHDB\snow_to_flow\charts
+
 Working on forecasts in Missouri Headwaters - HUC 1002
   Creating SWE to Q Chart for Beaverhead R at Barretts
+    Something went wrong, no chart created - local variable 'flowData' referenced before assignment
+    chart created in 4.66 seconds
+  Creating SWE to Q Chart for Big Hole R bl Big Lake Ck at Wisdom
+    Something went wrong, no chart created - HTTPSConnectionPool(host='www.nrcs.usda.gov', port=443): Max retries exceeded with url: /Internet/WCIS/sitedata/DAILY/WTEQ/638_ID_SNTL.json (Caused by SSLError(SSLError("bad handshake: Error([('SSL routines', 'tls_process_server_certificate', 'certificate verify failed')])")))
+    chart created in 3.18 seconds
+  Creating SWE to Q Chart for Big Hole R nr Melrose
+Starting Snow to Flow Chart generation at 05/04/20 13:08:39
+   Using configuration located: C:\Users\buriona\Documents\pyHDB\snow_to_flow\config\all_hucs.json
+  Exporting charts to: C:\Users\buriona\Documents\pyHDB\snow_to_flow\charts
+
+Working on forecasts in Missouri Headwaters - HUC 1002
   Creating SWE to Q Chart for Beaverhead R at Barretts
+    chart created in 18.2 seconds
+  Creating SWE to Q Chart for Big Hole R bl Big Lake Ck at Wisdom
+    chart created in 17.77 seconds
+  Creating SWE to Q Chart for Big Hole R nr Melrose
+    chart created in 16.01 seconds
+  Creating SWE to Q Chart for Boulder R nr Boulder
+    chart created in 11.23 seconds
+  Creating SWE to Q Chart for Beaverhead R nr Grant
+    chart created in 10.69 seconds
+  Creating SWE to Q Chart for Ennis Lake Inflow
+    chart created in 13.14 seconds
+  Creating SWE to Q Chart for Gallatin R at Logan
+    chart created in 14.3 seconds
+  Creating SWE to Q Chart for Gallatin R nr Gateway
+    chart created in 11.82 seconds
+  Creating SWE to Q Chart for Hebgen Lake Inflow
+    chart created in 13.95 seconds
+  Creating SWE to Q Chart for Hyalite Reservoir Inflow
+    No flow data available for Hyalite Reservoir Inflow - 06049450:MT:USGS - SRDOX. - No chart created!
+    chart created in 4.13 seconds
+  Creating SWE to Q Chart for Jefferson R nr Three Forks
+    chart created in 17.97 seconds
+  Creating SWE to Q Chart for Jefferson R nr Twin Bridges
+    chart created in 20.27 seconds
+  Creating SWE to Q Chart for Lima Reservoir Inflow
+    chart created in 11.89 seconds
+  Creating SWE to Q Chart for Ruby R Reservoir Inflow
+    chart created in 12.26 seconds
+  Creating SWE to Q Chart for Willow Ck Reservoir Inflow
+    chart created in 11.96 seconds
+Working on forecasts in Missouri-Marias - HUC 1003
+  Creating SWE to Q Chart for Badger Ck nr Browning
+    chart created in 17.52 seconds
+  Creating SWE to Q Chart for Cut Bank Ck nr Browning
+    chart created in 14.73 seconds
+  Creating SWE to Q Chart for Dupuyer Ck nr Valier
+    No flow data available for Dupuyer Ck nr Valier - 06095400:MT:USGS - SRDOX. - No chart created!
+    chart created in 4.57 seconds
+  Creating SWE to Q Chart for Gibson Reservoir Inflow
+    No flow data available for Gibson Reservoir Inflow - 06078600:MT:USGS - SRDOX. - No chart created!
+    chart created in 4.86 seconds
+  Creating SWE to Q Chart for Marias R nr Shelby
+    chart created in 14.26 seconds
+  Creating SWE to Q Chart for Missouri R at Fort Benton
+    chart created in 17.19 seconds
+  Creating SWE to Q Chart for Missouri R at Toston
+    chart created in 18.82 seconds
+  Creating SWE to Q Chart for Sheep Ck nr White Sulphur Springs
+    chart created in 9.73 seconds
+  Creating SWE to Q Chart for Smith R bl Eagle Ck
+    chart created in 11.41 seconds
+  Creating SWE to Q Chart for Swift Reservoir Inflow
+    No flow data available for Swift Reservoir Inflow - 06094100:MT:USGS - SRDOX. - No chart created!
+    chart created in 4.84 seconds
+  Creating SWE to Q Chart for Teton R nr Dutton
+    chart created in 14.23 seconds
+  Creating SWE to Q Chart for Two Medicine R bl South Fork nr Browning
+    chart created in 9.11 seconds
+Working on forecasts in Missouri-Musselshell - HUC 1004
+  Creating SWE to Q Chart for Missouri R nr Landusky
+    chart created in 13.03 seconds
+  Creating SWE to Q Chart for Missouri R nr Virgelle
+    chart created in 15.78 seconds
+  Creating SWE to Q Chart for Musselshell R at Harlowton
+    chart created in 11.85 seconds
+  Creating SWE to Q Chart for Musselshell R nr Roundup
+    chart created in 9.77 seconds
+  Creating SWE to Q Chart for SF Musselshell R ab Martinsdale
+    chart created in 8.55 seconds
+Working on forecasts in Milk - HUC 1005
+Working on forecasts in Missouri-Poplar - HUC 1006
+  Creating SWE to Q Chart for Missouri R bl Fort Peck Dam
+    chart created in 11.49 seconds
+Working on forecasts in Upper Yellowstone - HUC 1007
+  Creating SWE to Q Chart for Boulder R at Big Timber
+    chart created in 11.4 seconds
+  Creating SWE to Q Chart for Clarks Fk Yellowstone R nr Belfry
+    chart created in 17.57 seconds
+  Creating SWE to Q Chart for Red Lodge + Willow Ck nr Boyd
+    No valid flow element exists for Red Lodge + Willow Ck nr Boyd - 06211900:MT:USGS. - No chart created!
+    chart created in 0.85 seconds
+  Creating SWE to Q Chart for West Rosebud Ck nr Roscoe
+    chart created in 11.75 seconds
+  Creating SWE to Q Chart for Shields R nr Livingston
+    chart created in 8.73 seconds
+  Creating SWE to Q Chart for Stillwater R nr Absarokee
+    chart created in 12.32 seconds
+  Creating SWE to Q Chart for Yellowstone R at Billings
+    chart created in 15.79 seconds
+  Creating SWE to Q Chart for Yellowstone R at Corwin Springs
+    chart created in 14.24 seconds
+  Creating SWE to Q Chart for Yellowstone R at Livingston
+    chart created in 13.78 seconds
+  Creating SWE to Q Chart for Yellowstone R at Yellowstone Lake Outlet
+    chart created in 13.9 seconds
+Working on forecasts in Big Horn - HUC 1008
+  Creating SWE to Q Chart for Bighorn R nr St. Xavier
+    chart created in 15.99 seconds
+  Creating SWE to Q Chart for Little Bighorn R nr Hardin
+    chart created in 11.94 seconds
+  Creating SWE to Q Chart for Bighorn R at Kane
+    chart created in 14.15 seconds
+  Creating SWE to Q Chart for Wind R bl Boysen Reservoir
+    chart created in 12.56 seconds
+  Creating SWE to Q Chart for Buffalo Bill Reservoir Inflow
+    chart created in 13.72 seconds
+  Creating SWE to Q Chart for Bull Lake Ck nr Lenore
+    chart created in 13.04 seconds
+  Creating SWE to Q Chart for Dinwoody Ck nr Burris
+    chart created in 10.81 seconds
+  Creating SWE to Q Chart for Greybull R at Meeteetse
+    chart created in 10.85 seconds
+  Creating SWE to Q Chart for Little Popo Agie R nr Lander
+    chart created in 10.78 seconds
+  Creating SWE to Q Chart for Little Wind R nr Riverton
+    chart created in 13.68 seconds
+  Creating SWE to Q Chart for NF Shoshone R at Wapiti
+    chart created in 10.78 seconds
+  Creating SWE to Q Chart for SF Shoshone R ab Buffalo Bill Reservoir
+    chart created in 15.53 seconds
+  Creating SWE to Q Chart for SF Shoshone R nr Valley
+    chart created in 11.13 seconds
+  Creating SWE to Q Chart for Shell Ck nr Shell
+    chart created in 12.2 seconds
+  Creating SWE to Q Chart for Wind R ab Bull Lake Ck
+    No valid flow element exists for Wind R ab Bull Lake Ck - 06223900:WY:USGS. - No chart created!
+    chart created in 0.76 seconds
+  Creating SWE to Q Chart for Wind R at Riverton
+    chart created in 20.06 seconds
+Working on forecasts in Powder-Tongue - HUC 1009
+  Creating SWE to Q Chart for Powder R at Moorehead
+    chart created in 14.27 seconds
+  Creating SWE to Q Chart for Powder R nr Locate
+    chart created in 12.37 seconds
+  Creating SWE to Q Chart for Tongue R at State Line nr Decker
+    chart created in 12.4 seconds
+  Creating SWE to Q Chart for Big Goose Ck nr Sheridan
+    chart created in 7.75 seconds
+  Creating SWE to Q Chart for Little Goose Ck nr Big Horn
+    chart created in 11.31 seconds
+  Creating SWE to Q Chart for Mf Powder R nr Barnum
+    chart created in 11.21 seconds
+  Creating SWE to Q Chart for NF Powder R nr Hazelton
+    chart created in 10.17 seconds
+  Creating SWE to Q Chart for Piney Ck at Kearny
+    chart created in 14.13 seconds
+  Creating SWE to Q Chart for Rock Ck nr Buffalo
+    chart created in 11.94 seconds
+  Creating SWE to Q Chart for Tongue R nr Dayton
+    chart created in 11.81 seconds
+Working on forecasts in Lower Yellowstone - HUC 1010
+  Creating SWE to Q Chart for Yellowstone R at Miles City
+    chart created in 23.4 seconds
+  Creating SWE to Q Chart for Yellowstone R nr Sidney
+    chart created in 18.25 seconds
+Working on forecasts in Missouri-Little Missouri - HUC 1011
+  Creating SWE to Q Chart for Lake Sakakawea Inflow
+    chart created in 10.01 seconds
+Working on forecasts in Cheyenne - HUC 1012
+  Creating SWE to Q Chart for Deerfield Reservoir Inflow
+    chart created in 9.44 seconds
+  Creating SWE to Q Chart for Pactola Reservoir Inflow
+    chart created in 9.42 seconds
+Working on forecasts in Missouri-Oahe - HUC 1013
+Working on forecasts in Missouri-White - HUC 1014
+Working on forecasts in Niobrara - HUC 1015
+Working on forecasts in James - HUC 1016
+Working on forecasts in Missouri-Big Sioux - HUC 1017
+Working on forecasts in North Platte - HUC 1018
+  Creating SWE to Q Chart for North Platte R nr Northgate
+    chart created in 14.8 seconds
+  Creating SWE to Q Chart for Encampment R nr Encampment
+    chart created in 11.85 seconds
+  Creating SWE to Q Chart for La Prele Ck nr Douglas
+    chart created in 12.81 seconds
+  Creating SWE to Q Chart for Laramie R and Pioneer Cnl nr Woods Lndg
+    chart created in 14.18 seconds
+  Creating SWE to Q Chart for Little Laramie R nr Filmore
+    chart created in 14.36 seconds
+  Creating SWE to Q Chart for North Platte R bl Glendo Reservoir
+    chart created in 13.49 seconds
+  Creating SWE to Q Chart for North Platte R bl Guernsey Reservoir
+    chart created in 10.59 seconds
+  Creating SWE to Q Chart for Rock Ck ab King Canyon Cnl nr Arlington
+    chart created in 11.75 seconds
+  Creating SWE to Q Chart for North Platte R bl Seminoe Reservoir
+    chart created in 13.42 seconds
+  Creating SWE to Q Chart for Sweetwater R nr Alcova
+    chart created in 13.87 seconds
+Working on forecasts in South Platte - HUC 1019
+  Creating SWE to Q Chart for South Platte R bl Antero Reservoir
+    chart created in 9.97 seconds
+  Creating SWE to Q Chart for Bear Ck ab Evergreen
+    chart created in 7.45 seconds
+  Creating SWE to Q Chart for Big Thompson R at Canyon Mouth
+    chart created in 12.27 seconds
+  Creating SWE to Q Chart for Boulder Ck nr Orodell
+    chart created in 11.07 seconds
+  Creating SWE to Q Chart for Cache La Poudre at Canyon Mouth
+    chart created in 11.49 seconds
+  Creating SWE to Q Chart for South Platte R bl Cheesman Lk
+    chart created in 10.26 seconds
+  Creating SWE to Q Chart for Clear Ck at Golden
+    chart created in 10.93 seconds
+  Creating SWE to Q Chart for South Platte R nr Lake George
+    chart created in 10.53 seconds
+  Creating SWE to Q Chart for South Boulder Ck nr Eldorado Springs
+    chart created in 13.14 seconds
+  Creating SWE to Q Chart for South Platte R at South Platte
+    chart created in 14.18 seconds
+  Creating SWE to Q Chart for South Platte R ab Spinney Res
+    chart created in 10.3 seconds
+  Creating SWE to Q Chart for St. Vrain Ck at Lyons
+    chart created in 11.43 seconds
+Working on forecasts in Platte - HUC 1020
+Working on forecasts in Loup - HUC 1021
+Working on forecasts in Elkhorn - HUC 1022
+Working on forecasts in Missouri-Little Sioux - HUC 1023
+Working on forecasts in Missouri-Nishnabotna - HUC 1024
+Working on forecasts in Republican - HUC 1025
+Working on forecasts in Smoky Hill - HUC 1026
+Working on forecasts in Kansas - HUC 1027
+Working on forecasts in Chariton-Grand - HUC 1028
+Working on forecasts in Gasconade-Osage - HUC 1029
+Working on forecasts in Lower Missouri - HUC 1030
+Working on forecasts in Upper White - HUC 1101
+Working on forecasts in Upper Arkansas - HUC 1102
+  Creating SWE to Q Chart for Arkansas R at Salida
+    chart created in 16.16 seconds
+  Creating SWE to Q Chart for Chalk Ck nr Nathrop
+    chart created in 8.03 seconds
+  Creating SWE to Q Chart for Cucharas R nr La Veta
+    No snotels used in the forecast equation for Cucharas R nr La Veta - 07114000:CO:USGS. - No chart created!
+    chart created in 0.72 seconds
+  Creating SWE to Q Chart for Grape Ck nr Westcliffe
+    chart created in 11.27 seconds
+  Creating SWE to Q Chart for Huerfano R nr Redwing
+    chart created in 9.2 seconds
+  Creating SWE to Q Chart for Arkansas R ab Pueblo
+    chart created in 12.66 seconds
+  Creating SWE to Q Chart for Purgatoire R at Trinidad
+    chart created in 14.02 seconds
+Working on forecasts in Middle Arkansas - HUC 1103
+Working on forecasts in Upper Cimarron - HUC 1104
+Working on forecasts in Lower Cimarron - HUC 1105
+Working on forecasts in Arkansas-Keystone - HUC 1106
+Working on forecasts in Neosho-Verdigris - HUC 1107
+Working on forecasts in Upper Canadian - HUC 1108
+  Creating SWE to Q Chart for Cimarron R nr Cimarron
+    chart created in 9.68 seconds
+  Creating SWE to Q Chart for Conchas Reservoir Inflow
+    chart created in 10.2 seconds
+  Creating SWE to Q Chart for Cimarron R bl Eagle Nest Dam
+    chart created in 9.02 seconds
+  Creating SWE to Q Chart for Ponil Ck nr Cimarron
+    chart created in 11.29 seconds
+  Creating SWE to Q Chart for Rayado Ck nr Cimarron
+    chart created in 10.83 seconds
+  Creating SWE to Q Chart for Vermejo R nr Dawson
+    chart created in 13.18 seconds
+Working on forecasts in Lower Canadian - HUC 1109
+Working on forecasts in North Canadian - HUC 1110
+Working on forecasts in Lower Arkansas - HUC 1111
+Working on forecasts in Red Headwaters - HUC 1112
+Working on forecasts in Red-Washita - HUC 1113
+Working on forecasts in Red-Sulphur - HUC 1114
+Working on forecasts in Sabine - HUC 1201
+Working on forecasts in Neches - HUC 1202
+Working on forecasts in Trinity - HUC 1203
+Working on forecasts in Galveston Bay-San Jacinto - HUC 1204
+Working on forecasts in Brazos Headwaters - HUC 1205
+Working on forecasts in Middle Brazos - HUC 1206
+Working on forecasts in Lower Brazos - HUC 1207
+Working on forecasts in Upper Colorado - HUC 1208
+Working on forecasts in Lower Colorado-San Bernard Coastal - HUC 1209
+Working on forecasts in Central Texas Coastal - HUC 1210
+Working on forecasts in Nueces-Southwestern Texas Coastal - HUC 1211
+Working on forecasts in Rio Grande Headwaters - HUC 1301
+  Creating SWE to Q Chart for Alamosa Ck ab Terrace Reservoir
+    chart created in 11.49 seconds
+  Creating SWE to Q Chart for Conejos R nr Mogote
+    chart created in 10.66 seconds
+  Creating SWE to Q Chart for Culebra Ck at San Luis
+    chart created in 10.65 seconds
+  Creating SWE to Q Chart for La Jara Ck nr Capulin
+    chart created in 10.13 seconds
+  Creating SWE to Q Chart for Platoro Reservoir Inflow
+    chart created in 9.53 seconds
+  Creating SWE to Q Chart for Rio Grande at Thirty Mile Bridge
+    chart created in 11.57 seconds
+  Creating SWE to Q Chart for Rio Grande at Wagon Wheel Gap
+    chart created in 17.17 seconds
+  Creating SWE to Q Chart for Rio Grande nr Del Norte
+    chart created in 13.57 seconds
+  Creating SWE to Q Chart for Rio Grande nr Lobatos
+    chart created in 12.29 seconds
+  Creating SWE to Q Chart for Saguache Ck nr Saguache
+    chart created in 9.29 seconds
+  Creating SWE to Q Chart for Sangre De Cristo Ck
+    chart created in 10.24 seconds
+  Creating SWE to Q Chart for SF Rio Grande at South Fork
+    chart created in 10.66 seconds
+  Creating SWE to Q Chart for Trinchera Ck ab Turners Ranch
+    chart created in 10.39 seconds
+  Creating SWE to Q Chart for Ute Ck nr Fort Garland
+    chart created in 10.07 seconds
+  Creating SWE to Q Chart for Los Pinos R nr Ortiz
+    chart created in 9.89 seconds
+  Creating SWE to Q Chart for San Antonio R at Ortiz
+    chart created in 8.72 seconds
+Working on forecasts in Rio Grande-Elephant Butte - HUC 1302
+  Creating SWE to Q Chart for Costilla Ck nr Costilla
+    chart created in 11.47 seconds
+  Creating SWE to Q Chart for Costilla Ck bl Costilla Dam
+    chart created in 10.59 seconds
+  Creating SWE to Q Chart for Rio Chama bl El Vado Dam
+    chart created in 12.93 seconds
+  Creating SWE to Q Chart for Embudo Ck at Dixon
+    chart created in 11.08 seconds
+  Creating SWE to Q Chart for Jemez R bl Jemez Canyon Dam
+    chart created in 9.72 seconds
+  Creating SWE to Q Chart for Jemez R nr Jemez
+    chart created in 8.71 seconds
+  Creating SWE to Q Chart for Rio Nambe bl Nambe Falls Dam nr Nambe
+    chart created in 9.85 seconds
+  Creating SWE to Q Chart for Red R bl Fish Hatchery nr Questa
+    chart created in 7.41 seconds
+  Creating SWE to Q Chart for Rio Grande at Otowi Bridge
+    chart created in 19.54 seconds
+  Creating SWE to Q Chart for Rio Grande at San Marcial
+    chart created in 17.77 seconds
+  Creating SWE to Q Chart for Rio Hondo nr Valdez
+    chart created in 8.47 seconds
+  Creating SWE to Q Chart for Rio Lucero nr Arroyo Seco
+    chart created in 8.37 seconds
+  Creating SWE to Q Chart for Rio Pueblo De Taos bl Los Cordovas
+    chart created in 7.97 seconds
+  Creating SWE to Q Chart for Rio Pueblo De Taos nr Taos
+    chart created in 9.61 seconds
+  Creating SWE to Q Chart for Santa Cruz R at Cundiyo
+    chart created in 10.67 seconds
+  Creating SWE to Q Chart for Santa Fe R nr Santa Fe
+    chart created in 10.46 seconds
+  Creating SWE to Q Chart for Tesuque Ck ab Diversions
+    chart created in 10.21 seconds
+Working on forecasts in Rio Grande-Mimbres - HUC 1303
+  Creating SWE to Q Chart for Mimbres R at Mimbres
+    chart created in 7.81 seconds
+Working on forecasts in Rio Grande-Amistad - HUC 1304
+Working on forecasts in Rio Grande Closed Basins - HUC 1305
+Working on forecasts in Upper Pecos - HUC 1306
+  Creating SWE to Q Chart for Gallinas Ck nr Montezuma
+    chart created in 8.45 seconds
+  Creating SWE to Q Chart for Pecos R ab Santa Rosa Lk
+    chart created in 7.96 seconds
+  Creating SWE to Q Chart for Pecos R nr Anton Chico
+    chart created in 9.46 seconds
+  Creating SWE to Q Chart for Pecos R nr Pecos
+    chart created in 9.52 seconds
+  Creating SWE to Q Chart for Rio Ruidoso at Hollywood
+    chart created in 7.28 seconds
+Working on forecasts in Lower Pecos - HUC 1307
+Working on forecasts in Rio Grande-Falcon - HUC 1308
+Working on forecasts in Lower Rio Grande - HUC 1309
+Working on forecasts in Rio Conchos - HUC 1310
+Working on forecasts in Rio Salado - HUC 1311
+Working on forecasts in Rio San Juan - HUC 1312
+Working on forecasts in Colorado Headwaters - HUC 1401
+  Creating SWE to Q Chart for Colorado R nr Cameo
+    chart created in 17.56 seconds
+  Creating SWE to Q Chart for Colorado R nr Dotsero
+    chart created in 14.19 seconds
+  Creating SWE to Q Chart for Colorado R nr Kremmling
+    No valid forecast equation exists for Colorado R nr Kremmling - 09058000:CO:USGS. - No chart created!
+    chart created in 0.64 seconds
+  Creating SWE to Q Chart for Blue R bl Dillon Reservoir
+    chart created in 9.28 seconds
+  Creating SWE to Q Chart for Eagle R bl Gypsum
+    chart created in 9.68 seconds
+  Creating SWE to Q Chart for Blue R bl Green Mountain Reservoir
+    chart created in 9.58 seconds
+  Creating SWE to Q Chart for Colorado R bl Lake Granby
+    chart created in 6.04 seconds
+  Creating SWE to Q Chart for Roaring Fk at Glenwood Springs
+    chart created in 12.62 seconds
+  Creating SWE to Q Chart for Frying Pan R at Ruedi
+    chart created in 7.59 seconds
+  Creating SWE to Q Chart for Williams Fk bl Williams Fk Reservoir
+    chart created in 9.31 seconds
+  Creating SWE to Q Chart for Willow Ck bl Willow Ck Reservoir
+    chart created in 7.24 seconds
+  Creating SWE to Q Chart for Muddy Creek bl Wolford Mtn Reservoir
+    chart created in 9.15 seconds
+Working on forecasts in Gunnison - HUC 1402
+  Creating SWE to Q Chart for Gunnison R at Blue Mesa Dam
+    chart created in 13.81 seconds
+  Creating SWE to Q Chart for Cochetopa Ck bl Rock Ck nr Parlin
+    chart created in 7.57 seconds
+  Creating SWE to Q Chart for East R at Almont
+    chart created in 11.39 seconds
+  Creating SWE to Q Chart for Gunnison R Near Gunnison
+    chart created in 11.23 seconds
+  Creating SWE to Q Chart for Gunnison R nr Grand Junction
+    chart created in 15.76 seconds
+  Creating SWE to Q Chart for Lake Fk at Gateview
+    chart created in 10.92 seconds
+  Creating SWE to Q Chart for NF Gunnison R nr Somerset
+    chart created in 9.44 seconds
+  Creating SWE to Q Chart for Muddy Ck bl Paonia Reservoir
+    chart created in 8.13 seconds
+  Creating SWE to Q Chart for Uncompahgre R bl Ridgway Reservoir
+    chart created in 7.2 seconds
+  Creating SWE to Q Chart for Slate R nr Crested Butte
+    chart created in 11.76 seconds
+  Creating SWE to Q Chart for Surface Ck at Cedaredge
+    chart created in 10.87 seconds
+  Creating SWE to Q Chart for Taylor R bl Taylor Park Reservoir
+    chart created in 8.3 seconds
+  Creating SWE to Q Chart for Tomichi Ck at Gunnison
+    chart created in 8.46 seconds
+  Creating SWE to Q Chart for Tomichi Ck at Sargents
+    chart created in 8.78 seconds
+  Creating SWE to Q Chart for Uncompahgre R at Colona
+    chart created in 10.84 seconds
+Working on forecasts in Upper Colorado-Dolores - HUC 1403
+  Creating SWE to Q Chart for Cone Reservoir Inlet
+    chart created in 8.56 seconds
+  Creating SWE to Q Chart for Dolores R at Dolores
+    chart created in 12.58 seconds
+  Creating SWE to Q Chart for Gurley Reservoir Inlet
+    chart created in 10.71 seconds
+  Creating SWE to Q Chart for Lilylands Reservoir Inlet
+    No flow data available for Lilylands Reservoir Inlet - 09174800:CO:USGS - SRDOX. - No chart created!
+    chart created in 4.88 seconds
+  Creating SWE to Q Chart for Dolores R bl Mcphee Reservoir
+    chart created in 10.76 seconds
+  Creating SWE to Q Chart for San Miguel R nr Placerville
+    chart created in 14.01 seconds
+  Creating SWE to Q Chart for Colorado R nr Cisco
+    chart created in 25.82 seconds
+  Creating SWE to Q Chart for Mill Ck at Sheley Tunnel nr Moab
+    chart created in 9.66 seconds
+Working on forecasts in Great Divide-Upper Green - HUC 1404
+  Creating SWE to Q Chart for Blacks Fk nr Robertson
+    chart created in 9.12 seconds
+  Creating SWE to Q Chart for Green R at Flaming Gorge Dam
+    chart created in 20.2 seconds
+  Creating SWE to Q Chart for Flaming Gorge Resvr Local bl Fontenelle
+    chart created in 8.56 seconds
+  Creating SWE to Q Chart for Big Sandy R nr Farson
+    chart created in 11.74 seconds
+  Creating SWE to Q Chart for EF of Smiths Fork nr Robertson
+    chart created in 10.05 seconds
+  Creating SWE to Q Chart for Green R at Fontenelle Dam
+    chart created in 11.96 seconds
+  Creating SWE to Q Chart for Green R at Warren Bridge
+    chart created in 9.54 seconds
+  Creating SWE to Q Chart for Green R nr Green River, WY
+    chart created in 16.77 seconds
+  Creating SWE to Q Chart for Hams Fk bl Pole Ck nr Frontier
+    chart created in 9.36 seconds
+  Creating SWE to Q Chart for New Fork R nr Big Piney
+    chart created in 11.47 seconds
+  Creating SWE to Q Chart for Pine Ck ab Fremont Lake
+    chart created in 9.12 seconds
+  Creating SWE to Q Chart for Hams Fk bl Viva Naughton Reservoir
+    chart created in 6.81 seconds
+Working on forecasts in White-Yampa - HUC 1405
+  Creating SWE to Q Chart for Elk R nr Milner
+    chart created in 12.98 seconds
+  Creating SWE to Q Chart for Elkhead Ck ab Long Gulch
+    chart created in 6.36 seconds
+  Creating SWE to Q Chart for Little Snake R nr Lily
+    chart created in 12.22 seconds
+  Creating SWE to Q Chart for Little Snake R nr Slater
+    chart created in 10.11 seconds
+  Creating SWE to Q Chart for White R nr Meeker
+    chart created in 11.39 seconds
+  Creating SWE to Q Chart for Yampa R ab Stagecoach Reservoir
+    chart created in 12.87 seconds
+  Creating SWE to Q Chart for Yampa R at Steamboat Springs
+    chart created in 13.08 seconds
+  Creating SWE to Q Chart for Yampa R nr Maybell
+    chart created in 13.05 seconds
+  Creating SWE to Q Chart for Little Snake R nr Dixon
+    chart created in 13.65 seconds
+Working on forecasts in Lower Green - HUC 1406
+  Creating SWE to Q Chart for Ashley Ck nr Vernal
+    chart created in 11.84 seconds
+  Creating SWE to Q Chart for Big Brush Ck ab Red Fleet Reservoir
+    chart created in 8.79 seconds
+  Creating SWE to Q Chart for Currant Ck bl Currant Ck Dam
+    chart created in 8.67 seconds
+  Creating SWE to Q Chart for Duchesne R ab Knight Diversion
+    chart created in 12.8 seconds
+  Creating SWE to Q Chart for Duchesne R at Myton
+    chart created in 17.22 seconds
+  Creating SWE to Q Chart for Duchesne R nr Randlett
+    chart created in 16.63 seconds
+  Creating SWE to Q Chart for Duchesne R nr Tabiona
+    chart created in 11.66 seconds
+  Creating SWE to Q Chart for Huntington Ck bl Electric Lake
+    chart created in 5.74 seconds
+  Creating SWE to Q Chart for Ferron Ck Upper Station nr Ferron
+    chart created in 12.46 seconds
+  Creating SWE to Q Chart for Fish Ck ab Reservoir nr Scofield
+    chart created in 9.37 seconds
+  Creating SWE to Q Chart for Green R at Green River, UT
+    chart created in 35.61 seconds
+  Creating SWE to Q Chart for Huntington Ck nr Huntington
+    chart created in 6.35 seconds
+  Creating SWE to Q Chart for Seely Ck bl Joes Valley Resv
+    chart created in 6.99 seconds
+  Creating SWE to Q Chart for Lake Fk R ab Moon Lk nr Mountain Home
+    chart created in 10.81 seconds
+  Creating SWE to Q Chart for Lake Fk R bl Moon Lk nr Mountain Home
+    chart created in 8.12 seconds
+  Creating SWE to Q Chart for Price R nr Scofield Reservoir
+    chart created in 9.51 seconds
+  Creating SWE to Q Chart for Rock Ck nr Mountain Home
+    chart created in 9.77 seconds
+  Creating SWE to Q Chart for Strawberry R nr Duchesne
+    chart created in 8.99 seconds
+  Creating SWE to Q Chart for Strawberry R nr Soldier Springs
+    chart created in 8.0 seconds
+  Creating SWE to Q Chart for Uinta R bl Powerplant Diversion nr Neola
+    chart created in 11.38 seconds
+  Creating SWE to Q Chart for Rock Ck at Upper Stillwater Dam
+    chart created in 7.48 seconds
+  Creating SWE to Q Chart for WF Duchesne R at Vat Diversion
+    chart created in 5.42 seconds
+  Creating SWE to Q Chart for White R bl Tabbyune Creek
+    chart created in 8.6 seconds
+  Creating SWE to Q Chart for Whiterocks R nr Whiterocks
+    chart created in 11.91 seconds
+  Creating SWE to Q Chart for Yellowstone R nr Altonah
+    chart created in 10.32 seconds
+Working on forecasts in Upper Colorado-Dirty Devil - HUC 1407
+  Creating SWE to Q Chart for Colorado R at Glen Canyon Dam
+    chart created in 32.99 seconds
+  Creating SWE to Q Chart for Muddy Ck nr Emery
+    chart created in 10.78 seconds
+  Creating SWE to Q Chart for Pine Ck nr Escalante
+    chart created in 7.74 seconds
+  Creating SWE to Q Chart for Seven Mile Ck nr Fish Lake
+    chart created in 10.36 seconds
+Working on forecasts in San Juan - HUC 1408
+  Creating SWE to Q Chart for Animas R at Durango
+    chart created in 8.83 seconds
+  Creating SWE to Q Chart for La Plata R at Hesperus
+    chart created in 9.21 seconds
+  Creating SWE to Q Chart for Florida R bl Lemon Reservoir nr Durango
+    chart created in 7.28 seconds
+  Creating SWE to Q Chart for Mancos R nr Mancos
+    chart created in 8.75 seconds
+  Creating SWE to Q Chart for Navajo R bl Oso Diversion Dam nr Chromo
+    chart created in 8.58 seconds
+  Creating SWE to Q Chart for Piedra R nr Arboles
+    chart created in 11.09 seconds
+  Creating SWE to Q Chart for Rio Blanco bl Blanco Diversion
+    chart created in 9.83 seconds
+  Creating SWE to Q Chart for San Juan R nr Carracas
+    chart created in 11.28 seconds
+  Creating SWE to Q Chart for Los Pinos R nr Bayfield
+    chart created in 9.01 seconds
+  Creating SWE to Q Chart for Captain Tom Wash nr Two Gray Hills
+    No valid forecast equation exists for Captain Tom Wash nr Two Gray Hills - CTOMWASH:NM:USGS. - No chart created!
+    chart created in 0.64 seconds
+  Creating SWE to Q Chart for San Juan R nr Archuleta
+    chart created in 11.06 seconds
+  Creating SWE to Q Chart for Wheatfields Ck nr Wheatfields
+    No valid forecast equation exists for Wheatfields Ck nr Wheatfields - WHEATFLD:NM:USGS. - No chart created!
+    chart created in 0.6 seconds
+  Creating SWE to Q Chart for San Juan R Near Bluff
+    chart created in 13.86 seconds
+  Creating SWE to Q Chart for South Ck ab Resv nr Monticello
+    chart created in 6.52 seconds
+Working on forecasts in Lower Colorado-Lake Mead - HUC 1501
+  Creating SWE to Q Chart for Virgin R at Littlefield
+    chart created in 12.54 seconds
+  Creating SWE to Q Chart for Santa Clara R nr Pine Valley
+    chart created in 8.81 seconds
+  Creating SWE to Q Chart for Virgin R at Virgin
+    chart created in 16.73 seconds
+  Creating SWE to Q Chart for Virgin R nr Hurricane
+    chart created in 10.31 seconds
+Working on forecasts in Little Colorado - HUC 1502
+  Creating SWE to Q Chart for East Clear Ck bl Blue Ridge Reservoir
+    chart created in 9.35 seconds
+  Creating SWE to Q Chart for Lake Mary Reservoir Inflow
+    chart created in 6.68 seconds
+  Creating SWE to Q Chart for Little Colorado R ab Lyman Lake
+    chart created in 14.73 seconds
+  Creating SWE to Q Chart for Bowl Canyon Ck ab Asaayi Lake
+    No snotels used in the forecast equation for Bowl Canyon Ck ab Asaayi Lake - BOWLLAKE:NM:USGS. - No chart created!
+    chart created in 0.6 seconds
+  Creating SWE to Q Chart for Rio Nutria nr Ramah
+    chart created in 8.64 seconds
+  Creating SWE to Q Chart for Zuni R ab Black Rock Reservoir
+    chart created in 7.39 seconds
+Working on forecasts in Lower Colorado - HUC 1503
+Working on forecasts in Upper Gila - HUC 1504
+  Creating SWE to Q Chart for Gila R nr Solomon
+    chart created in 12.67 seconds
+  Creating SWE to Q Chart for San Francisco R at Clifton
+    chart created in 11.78 seconds
+  Creating SWE to Q Chart for Gila R at Gila
+    chart created in 9.38 seconds
+  Creating SWE to Q Chart for Gila R bl Blue Ck nr Virden
+    chart created in 9.9 seconds
+  Creating SWE to Q Chart for San Francisco R at Glenwood
+    chart created in 9.57 seconds
+Working on forecasts in Middle Gila - HUC 1505
+  Creating SWE to Q Chart for Gila R bl Coolidge Dam
+    chart created in 9.29 seconds
+Working on forecasts in Salt - HUC 1506
+  Creating SWE to Q Chart for Salt R nr Roosevelt
+    chart created in 8.65 seconds
+  Creating SWE to Q Chart for Tonto Ck ab Gun Ck nr Roosevelt
+    chart created in 8.09 seconds
+  Creating SWE to Q Chart for Verde R bl Tangle Ck ab Horseshoe Dam
+    chart created in 8.93 seconds
+Working on forecasts in Lower Gila - HUC 1507
+Working on forecasts in Sonora - HUC 1508
+Working on forecasts in Bear - HUC 1601
+  Creating SWE to Q Chart for Bear R bl Stewart Dam
+    chart created in 11.22 seconds
+  Creating SWE to Q Chart for Bear R nr Ut-Wy State Line
+    chart created in 15.29 seconds
+  Creating SWE to Q Chart for Big Ck nr Randolph
+    chart created in 12.94 seconds
+  Creating SWE to Q Chart for Blacksmith Fk nr Hyrum
+    chart created in 10.0 seconds
+  Creating SWE to Q Chart for Little Bear R at Paradise
+    chart created in 11.96 seconds
+  Creating SWE to Q Chart for Logan R nr Logan
+    chart created in 10.6 seconds
+  Creating SWE to Q Chart for Bear R ab Resv nr Woodruff
+    chart created in 13.18 seconds
+  Creating SWE to Q Chart for Smiths Fk nr Border
+    chart created in 12.75 seconds
+Working on forecasts in Great Salt Lake - HUC 1602
+  Creating SWE to Q Chart for Lehman Ck nr Baker
+    chart created in 11.38 seconds
+  Creating SWE to Q Chart for American Fk ab Upper Powerplant
+    chart created in 14.08 seconds
+  Creating SWE to Q Chart for Big Cottonwood Ck nr SLC
+    chart created in 6.72 seconds
+  Creating SWE to Q Chart for Centerville Ck nr Centerville
+    chart created in 10.81 seconds
+  Creating SWE to Q Chart for Chalk Ck at Coalville
+    chart created in 10.11 seconds
+  Creating SWE to Q Chart for City Ck nr SLC
+    chart created in 6.74 seconds
+  Creating SWE to Q Chart for Dell Fk nr SLC
+    chart created in 11.86 seconds
+  Creating SWE to Q Chart for Dunn Ck nr Park Valley
+    chart created in 9.24 seconds
+  Creating SWE to Q Chart for East Canyon Ck nr Jeremy Ranch
+    chart created in 6.81 seconds
+  Creating SWE to Q Chart for East Canyon Ck nr Morgan
+    chart created in 9.03 seconds
+  Creating SWE to Q Chart for Echo Reservoir Inflow
+    chart created in 10.08 seconds
+  Creating SWE to Q Chart for Emigration Ck nr SLC
+    chart created in 10.15 seconds
+  Creating SWE to Q Chart for Little Cottonwood Ck nr SLC
+    chart created in 5.11 seconds
+  Creating SWE to Q Chart for Lost Ck Reservoir Inflow
+    chart created in 7.69 seconds
+  Creating SWE to Q Chart for Mill Ck nr SLC
+    chart created in 10.38 seconds
+  Creating SWE to Q Chart for Parleys Ck nr SLC
+    chart created in 6.3 seconds
+  Creating SWE to Q Chart for Pineview Reservoir Inflow
+    chart created in 9.59 seconds
+  Creating SWE to Q Chart for Provo R at Hailstone
+    chart created in 14.05 seconds
+  Creating SWE to Q Chart for Provo R at Woodland
+    chart created in 9.02 seconds
+  Creating SWE to Q Chart for Provo R bl Deer Ck Dam
+    chart created in 9.74 seconds
+  Creating SWE to Q Chart for Rockport Reservoir Inflow
+    chart created in 12.47 seconds
+  Creating SWE to Q Chart for S Willow Ck nr Grantsville
+    chart created in 12.54 seconds
+  Creating SWE to Q Chart for Salt Ck at Nephi
+    chart created in 14.3 seconds
+  Creating SWE to Q Chart for SF Ogden R nr Huntsville
+    chart created in 10.43 seconds
+  Creating SWE to Q Chart for Smith and Morehouse Ck nr Oakley
+    chart created in 10.91 seconds
+  Creating SWE to Q Chart for Spanish Fk at Castilla
+    chart created in 13.57 seconds
+  Creating SWE to Q Chart for Utah Lake Inflow
+    chart created in 10.01 seconds
+  Creating SWE to Q Chart for Vernon Ck nr Vernon
+    chart created in 8.67 seconds
+  Creating SWE to Q Chart for W Canyon Ck nr Cedar Fort
+    chart created in 10.25 seconds
+  Creating SWE to Q Chart for Weber R at Gateway
+    chart created in 15.09 seconds
+  Creating SWE to Q Chart for Weber R nr Coalville
+    chart created in 12.4 seconds
+  Creating SWE to Q Chart for Weber R nr Oakley
+    chart created in 11.85 seconds
+Working on forecasts in Escalante Desert-Sevier Lake - HUC 1603
+  Creating SWE to Q Chart for Beaver R nr Beaver
+    chart created in 11.42 seconds
+  Creating SWE to Q Chart for Clear Ck ab Diversions nr Sevier
+    chart created in 9.9 seconds
+  Creating SWE to Q Chart for Coal Ck nr Cedar City
+    chart created in 11.01 seconds
+  Creating SWE to Q Chart for EF Sevier R nr Kingston
+    chart created in 11.28 seconds
+  Creating SWE to Q Chart for Mammoth Ck nr Hatch
+    chart created in 9.74 seconds
+  Creating SWE to Q Chart for Manti Ck bl Dugway Ck nr Manti
+    chart created in 11.39 seconds
+  Creating SWE to Q Chart for Salina Ck nr Emery
+    chart created in 8.48 seconds
+  Creating SWE to Q Chart for Sevier R at Hatch
+    chart created in 11.48 seconds
+  Creating SWE to Q Chart for Sevier R bl Piute Dam
+    chart created in 12.55 seconds
+  Creating SWE to Q Chart for Sevier R nr Gunnison
+    chart created in 15.13 seconds
+  Creating SWE to Q Chart for Sevier R nr Kingston
+    chart created in 10.07 seconds
+Working on forecasts in Black Rock Desert-Humboldt - HUC 1604
+  Creating SWE to Q Chart for Humboldt R at Comus
+    chart created in 10.9 seconds
+  Creating SWE to Q Chart for Humboldt R at Palisade
+    chart created in 12.25 seconds
+  Creating SWE to Q Chart for Humboldt R nr Carlin
+    chart created in 11.08 seconds
+  Creating SWE to Q Chart for Humboldt R nr Elko
+    chart created in 11.13 seconds
+  Creating SWE to Q Chart for Humboldt R nr Imlay
+    chart created in 8.42 seconds
+  Creating SWE to Q Chart for L Humboldt R nr Paradise Valley
+    chart created in 10.7 seconds
+  Creating SWE to Q Chart for Lamoille Ck nr Lamoille
+    chart created in 10.44 seconds
+  Creating SWE to Q Chart for Martin Ck nr Paradise Valley
+    chart created in 9.85 seconds
+  Creating SWE to Q Chart for Marys R nr Deeth
+    chart created in 12.1 seconds
+  Creating SWE to Q Chart for Mcdermitt Ck nr Mcdermitt
+    No snotels used in the forecast equation for Mcdermitt Ck nr Mcdermitt - 10352500:NV:USGS. - No chart created!
+    chart created in 0.61 seconds
+  Creating SWE to Q Chart for NF Humboldt R at Devils Gate
+    chart created in 11.61 seconds
+  Creating SWE to Q Chart for Rock Ck nr Battle Mountain
+    chart created in 11.48 seconds
+  Creating SWE to Q Chart for SF Humboldt R ab Dixie Ck
+    chart created in 9.38 seconds
+Working on forecasts in Central Lahontan - HUC 1605
+  Creating SWE to Q Chart for Lake Tahoe
+    No valid flow element exists for Lake Tahoe - 10337000:CA:BOR. - No chart created!
+    chart created in 0.62 seconds
+  Creating SWE to Q Chart for Boca Res Local Inflow
+    chart created in 17.48 seconds
+  Creating SWE to Q Chart for Donner Lk Inflow
+    chart created in 7.48 seconds
+  Creating SWE to Q Chart for E Walker R nr Bridgeport
+    chart created in 12.12 seconds
+  Creating SWE to Q Chart for Independence Lk Inflow
+    chart created in 8.03 seconds
+  Creating SWE to Q Chart for L Truckee R ab Boca Reservoir
+    chart created in 10.8 seconds
+  Creating SWE to Q Chart for Lake Tahoe Net Inflow
+    chart created in 14.8 seconds
+  Creating SWE to Q Chart for Martis Ck Res Inflow
+    chart created in 9.34 seconds
+  Creating SWE to Q Chart for Prosser Ck Res Inflow
+    chart created in 6.99 seconds
+  Creating SWE to Q Chart for Sagehen Ck nr Truckee
+    chart created in 14.51 seconds
+  Creating SWE to Q Chart for Stampede Res Local Inflow
+    chart created in 8.84 seconds
+  Creating SWE to Q Chart for Truckee R ab Farad Sidewater
+    chart created in 8.96 seconds
+  Creating SWE to Q Chart for Truckee R at Farad
+    chart created in 12.64 seconds
+  Creating SWE to Q Chart for W Walker R bl L Walker R nr Coleville
+    chart created in 15.35 seconds
+  Creating SWE to Q Chart for W Walker R nr Coleville
+    chart created in 12.69 seconds
+  Creating SWE to Q Chart for WF Carson R nr Woodfords
+    chart created in 13.86 seconds
+  Creating SWE to Q Chart for Ash Canyon Ck nr Carson City
+    chart created in 10.32 seconds
+  Creating SWE to Q Chart for Carson R at Ft Churchill
+    chart created in 11.73 seconds
+  Creating SWE to Q Chart for Carson R nr Carson City
+    chart created in 11.48 seconds
+  Creating SWE to Q Chart for EF Carson R nr Gardnerville
+    chart created in 12.29 seconds
+  Creating SWE to Q Chart for Galena Ck at Galena Ck State Pk
+    chart created in 6.49 seconds
+  Creating SWE to Q Chart for Kings Canyon Ck nr Carson City
+    chart created in 9.29 seconds
+  Creating SWE to Q Chart for Marlette Lake Inflow
+    Something went wrong, no chart created - HTTPSConnectionPool(host='wcc.sc.egov.usda.gov', port=443): Max retries exceeded with url: /awdbWebService/services (Caused by SSLError(SSLError("bad handshake: SysCallError(10054, 'WSAECONNRESET')")))
+    chart created in 7.19 seconds
+  Creating SWE to Q Chart for Pyramid Lake Elevation Change
+    No flow data available for Pyramid Lake Elevation Change - 10336500:NV:USGS - SRDOX. - No chart created!
+    chart created in 6.99 seconds
+  Creating SWE to Q Chart for Steamboat Ck at Steamboat
+    chart created in 8.57 seconds
+  Creating SWE to Q Chart for Walker Lake Elevation Change
+    No flow data available for Walker Lake Elevation Change - 10288500:NV:USGS - SRDOX. - No chart created!
+    chart created in 4.78 seconds
+Working on forecasts in Central Nevada Desert Basins - HUC 1606
+  Creating SWE to Q Chart for Cleve Ck nr Ely
+    chart created in 12.42 seconds
+  Creating SWE to Q Chart for Kingston Ck nr Austin
+    chart created in 10.35 seconds
+  Creating SWE to Q Chart for Steptoe Ck nr Ely
+    chart created in 7.8 seconds
+Working on forecasts in Kootenai-Pend Oreille-Spokane - HUC 1701
+  Creating SWE to Q Chart for Boundary Ck nr Porthill
+    chart created in 11.96 seconds
+  Creating SWE to Q Chart for Clark Fork R bl Cabinet Gorge Dam
+    No valid forecast equation exists for Clark Fork R bl Cabinet Gorge Dam - 12391950:ID:USGS. - No chart created!
+    chart created in 0.67 seconds
+  Creating SWE to Q Chart for Moyie R at Eastport
+    chart created in 8.79 seconds
+  Creating SWE to Q Chart for NF Coeur dAlene R at Enaville
+    chart created in 12.33 seconds
+  Creating SWE to Q Chart for Pend Oreille Lake Inflow
+    chart created in 9.47 seconds
+  Creating SWE to Q Chart for Priest R nr Priest River
+    chart created in 8.87 seconds
+  Creating SWE to Q Chart for Spokane R nr Post Falls
+    chart created in 16.43 seconds
+  Creating SWE to Q Chart for St. Joe R at Calder
+    chart created in 11.2 seconds
+  Creating SWE to Q Chart for Bitterroot R nr Darby
+    chart created in 17.73 seconds
+  Creating SWE to Q Chart for Bitterroot R nr Missoula
+    No valid flow element exists for Bitterroot R nr Missoula - 12352800:MT:USGS. - No chart created!
+    chart created in 0.61 seconds
+  Creating SWE to Q Chart for Blackfoot R nr Bonner
+    chart created in 23.43 seconds
+  Creating SWE to Q Chart for Clark Fk at Goldcreek
+    No valid forecast equation exists for Clark Fk at Goldcreek - 12324680:MT:USGS. - No chart created!
+    chart created in 0.62 seconds
+  Creating SWE to Q Chart for Clark Fork R ab Milltown
+    No valid flow element exists for Clark Fork R ab Milltown - 12340400:MT:USGS. - No chart created!
+    chart created in 0.66 seconds
+  Creating SWE to Q Chart for Clark Fork R ab MissouLa
+    chart created in 30.05 seconds
+  Creating SWE to Q Chart for Clark Fork R at St. Regis
+    chart created in 13.3 seconds
+  Creating SWE to Q Chart for Clark Fork R bl MissouLa
+    chart created in 16.78 seconds
+  Creating SWE to Q Chart for Clark Fork R nr Plains
+    chart created in 13.33 seconds
+  Creating SWE to Q Chart for Como Reservoir Inflow
+    chart created in 7.75 seconds
+  Creating SWE to Q Chart for Flathead R nr Polson
+    chart created in 14.7 seconds
+  Creating SWE to Q Chart for Flathead R at Columbia Falls
+    chart created in 12.23 seconds
+  Creating SWE to Q Chart for Flint Ck bl Boulder Ck
+    No valid flow element exists for Flint Ck bl Boulder Ck - 12330100:MT:USGS. - No chart created!
+    chart created in 0.58 seconds
+  Creating SWE to Q Chart for Flint Ck nr Southern Cross
+    chart created in 12.74 seconds
+  Creating SWE to Q Chart for Hungry Horse Reservoir Inflow
+    chart created in 14.49 seconds
+  Creating SWE to Q Chart for Kootenai R at Leonia
+    chart created in 10.61 seconds
+  Creating SWE to Q Chart for Libby Reservoir Inflow
+    No snotels used in the forecast equation for Libby Reservoir Inflow - 12301933:MT:USGS. - No chart created!
+    chart created in 0.59 seconds
+  Creating SWE to Q Chart for Lower Willow Ck Reservoir Inflow
+    No flow data available for Lower Willow Ck Reservoir Inflow - 12330900:MT:USGS - SRDOO. - No chart created!
+    chart created in 6.42 seconds
+  Creating SWE to Q Chart for Mf Flathead R nr West Glacier
+    chart created in 11.71 seconds
+  Creating SWE to Q Chart for Mf Rock Ck nr Philipsburg
+    chart created in 10.68 seconds
+  Creating SWE to Q Chart for Mill Ck ab Bassoo Ck nr Niarada
+    chart created in 8.67 seconds
+  Creating SWE to Q Chart for Mission Ck nr St. Ignatius
+    chart created in 9.36 seconds
+  Creating SWE to Q Chart for Nevada Ck nr Helmville
+    chart created in 10.59 seconds
+  Creating SWE to Q Chart for NF Flathead R nr Columbia Falls
+    chart created in 9.64 seconds
+  Creating SWE to Q Chart for Prospect Ck at Thompson Falls
+    chart created in 9.74 seconds
+  Creating SWE to Q Chart for Rock Ck nr Clinton
+    chart created in 11.26 seconds
+  Creating SWE to Q Chart for SF Flathead R nr Hungry Horse
+    chart created in 11.82 seconds
+  Creating SWE to Q Chart for SF Jocko R nr Arlee
+    chart created in 8.9 seconds
+  Creating SWE to Q Chart for South Crow Ck nr Ronan
+    chart created in 9.1 seconds
+  Creating SWE to Q Chart for Swan R nr Bigfork
+    chart created in 11.45 seconds
+  Creating SWE to Q Chart for Tobacco R nr Eureka
+    chart created in 10.91 seconds
+  Creating SWE to Q Chart for WF Bitterroot R nr Conner
+    chart created in 11.78 seconds
+  Creating SWE to Q Chart for Yaak R nr Troy
+    chart created in 8.87 seconds
+  Creating SWE to Q Chart for Chamokane Ck nr Long Lake
+    chart created in 8.21 seconds
+  Creating SWE to Q Chart for Pend Oreille R bl Box Canyon
+    chart created in 7.79 seconds
+  Creating SWE to Q Chart for Spokane R at Long Lake
+    chart created in 13.84 seconds
+Working on forecasts in Upper Columbia - HUC 1702
+  Creating SWE to Q Chart for Chelan R at Chelan
+    chart created in 12.93 seconds
+  Creating SWE to Q Chart for Columbia R at Grand Coulee-NWS
+    No snotels used in the forecast equation for Columbia R at Grand Coulee-NWS - 12436500:WA:USGS. - No chart created!
+    chart created in 0.61 seconds
+  Creating SWE to Q Chart for Columbia R bl Rock Island Dam-NWS
+    No snotels used in the forecast equation for Columbia R bl Rock Island Dam-NWS - 12462600:WA:USGS. - No chart created!
+    chart created in 0.64 seconds
+  Creating SWE to Q Chart for Colville R at Kettle Falls
+    chart created in 10.39 seconds
+  Creating SWE to Q Chart for Entiat R nr Ardenvoir
+    chart created in 7.68 seconds
+  Creating SWE to Q Chart for Icicle Ck nr Leavenworth
+    chart created in 11.59 seconds
+  Creating SWE to Q Chart for Kettle R nr Laurier
+    No snotels used in the forecast equation for Kettle R nr Laurier - 12404500:WA:USGS. - No chart created!
+    chart created in 0.64 seconds
+  Creating SWE to Q Chart for Methow R nr Pateros
+    chart created in 14.11 seconds
+  Creating SWE to Q Chart for Okanogan R at Malott
+    chart created in 8.34 seconds
+  Creating SWE to Q Chart for Okanogan R nr Tonasket
+    chart created in 7.68 seconds
+  Creating SWE to Q Chart for Similkameen R nr Nighthawk
+    chart created in 6.87 seconds
+  Creating SWE to Q Chart for Stehekin R at Stehekin
+    chart created in 10.93 seconds
+  Creating SWE to Q Chart for Wenatchee R at Peshastin
+    chart created in 11.0 seconds
+  Creating SWE to Q Chart for Wenatchee R at Plain
+    chart created in 11.31 seconds
+Working on forecasts in Yakima - HUC 1703
+  Creating SWE to Q Chart for Ahtanum Ck at Union Gap
+    chart created in 9.47 seconds
+  Creating SWE to Q Chart for American R nr Nile
+    chart created in 13.37 seconds
+  Creating SWE to Q Chart for Bumping Lake Inflow
+    chart created in 10.24 seconds
+  Creating SWE to Q Chart for Cle Elum Lake Inflow
+    chart created in 9.22 seconds
+  Creating SWE to Q Chart for Kachess Reservoir Inflow
+    chart created in 8.35 seconds
+  Creating SWE to Q Chart for Keechelus Reservoir Inflow
+    chart created in 7.4 seconds
+  Creating SWE to Q Chart for Naches R nr Naches
+    chart created in 9.72 seconds
+  Creating SWE to Q Chart for Rimrock Lake Inflow
+    chart created in 8.54 seconds
+  Creating SWE to Q Chart for Teanaway R bl Forks nr Cle Elum
+    chart created in 8.45 seconds
+  Creating SWE to Q Chart for Yakima R nr Parker
+    chart created in 9.26 seconds
+Working on forecasts in Upper Snake - HUC 1704
+  Creating SWE to Q Chart for Big Lost R at Howell Ranch
+    chart created in 12.57 seconds
+  Creating SWE to Q Chart for Big Lost R bl Mackay Reservoir
+    chart created in 10.68 seconds
+  Creating SWE to Q Chart for Big Wood R ab Magic Reservoir
+    chart created in 13.02 seconds
+  Creating SWE to Q Chart for Big Wood R at Hailey
+    Something went wrong, no chart created - HTTPSConnectionPool(host='wcc.sc.egov.usda.gov', port=443): Max retries exceeded with url: /awdbWebService/services (Caused by SSLError(SSLError("bad handshake: Error([('SSL routines', 'tls_process_server_certificate', 'certificate verify failed')])")))
+    chart created in 0.33 seconds
+  Creating SWE to Q Chart for Big Wood R bl Magic Dam
+Starting Snow to Flow Chart generation at 05/04/20 14:28:34
+  Using configuration located: C:\Users\buriona\Documents\pyHDB\snow_to_flow\config\all_hucs.json
+  Exporting charts to: C:\Users\buriona\Documents\pyHDB\snow_to_flow\charts
+
+Working on forecasts in Missouri Headwaters - HUC 1002
   Creating SWE to Q Chart for Beaverhead R at Barretts
-  Creating SWE to Q Chart for Beaverhead R at Barretts
-  Creating SWE to Q Chart for Beaverhead R at Barretts
-  Creating SWE to Q Chart for Beaverhead R at Barretts
-  Creating SWE to Q Chart for Beaverhead R at Barretts
+    chart created in 12.76 seconds
+  Creating SWE to Q Chart for Big Hole R bl Big Lake Ck at Wisdom
+    chart created in 10.15 seconds
+  Creating SWE to Q Chart for Big Hole R nr Melrose
+    chart created in 13.23 seconds
+  Creating SWE to Q Chart for Boulder R nr Boulder
+    chart created in 10.4 seconds
+  Creating SWE to Q Chart for Beaverhead R nr Grant
+    chart created in 10.33 seconds
+  Creating SWE to Q Chart for Ennis Lake Inflow

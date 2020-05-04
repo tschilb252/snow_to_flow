@@ -117,7 +117,7 @@ def get_menu_entry(label, href):
 def create_nav(data_dir, nav_filename='nav.html'):
     nl = '\n'
     try:
-        basepath = os.path.basename(os.path.normpath(data_dir))
+        # basepath = os.path.basename(os.path.normpath(data_dir))
         walk_dict = get_folders(data_dir)
         to_remove = ['.git', 'assets']
         walk_dict = remove_items(to_remove, walk_dict)
