@@ -19,6 +19,10 @@ BOOTSTRAP_CSS = bootstrap['css']
 BOOTSTRAP_JS = bootstrap['js']
 JQUERY_JS = bootstrap['jquery']
 POPPER_JS = bootstrap['popper']
+
+def get_updt_str():
+    return f'<i>Last updated: {dt.now().strftime("%x %X")}</i>'
+
 HEADER_STR = f'''
 <!DOCTYPE html>
 <html>
@@ -45,7 +49,11 @@ HEADER_STR = f'''
 <div class="container">
 ''' + f'''
 <img src="{BOR_SEAL}" style="width: 25%" class="img-responsive mx-auto d-block" alt="BOR Logo">
-    <h2>Snow to Flow Navigator</h2>
+    <h2>Snow to Flow Navigator</h2><h6>{get_updt_str()}<h6>
+    <button class="btn btn-outline-info btn-md">
+    <a target="_blank" href="./site_map.html">
+    <i class="fa fa-external-link" aria-hidden="true"></i>
+    Map Based Navigation</a></button><br>
 '''
 
 log_btn = '<a href="./ff_gen.log" class="btn btn-success mt-3" role="button">LOG FILE</a>'
@@ -65,9 +73,6 @@ $(document).ready(function(){
 </body>
 </html>
 '''
-
-def get_updt_str():
-    return f'<i>Last updated: {dt.now().strftime("%x %X")}</i>'
 
 def remove_items(key_list, items_dict):
     for key in key_list:
@@ -114,9 +119,13 @@ def get_menu_entry(label, href):
         f'<b><i>{label}</b></i></a></li>{nl}'
     )
 
+def chunks(lst, n):
+    for i in range(0, len(lst), n):
+        yield lst[i:i + n]
+        
 def create_nav(data_dir, nav_filename='nav.html'):
     nl = '\n'
-    try:
+    if True:#try:
         # basepath = os.path.basename(os.path.normpath(data_dir))
         walk_dict = get_folders(data_dir)
         to_remove = ['.git', 'assets']
@@ -139,12 +148,12 @@ def create_nav(data_dir, nav_filename='nav.html'):
                     sites_dd_str
                 )
                 button_str_list.append(folder_button)
-    
+
         buttons_str = '\n'.join([i for i in button_str_list if i])
-    
+
         nl = '\n'
         nav_html_str = (
-            f'{HEADER_STR}{nl}{get_updt_str()}{nl}{buttons_str}{nl}{FOOTER_STR}'
+            f'{HEADER_STR}{nl}{buttons_str}{nl}{FOOTER_STR}'
         )
         write_nav_dict = {
             Path(data_dir, nav_filename): nav_html_str,
@@ -154,9 +163,9 @@ def create_nav(data_dir, nav_filename='nav.html'):
     
         return f'\nNavigation file(s) created for files in {data_dir}\n'
     
-    except Exception as err:
+    # except Exception as err:
         
-        return f'\nFailed to created navigation file(s) in {data_dir} - {err}'
+    #     return f'\nFailed to created navigation file(s) in {data_dir} - {err}'
 
 if __name__ == '__main__':
 

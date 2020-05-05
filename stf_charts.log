@@ -2128,3 +2128,657 @@ Navigation file(s) created for files in C:\Users\buriona\Documents\pyHDB\snow_to
 
 Finished Snow to Flow Chart generation at 11:57:59 05/05/20
 Elapsed time: 0:02
+Updating equations for all HUCs.
+  Updating equations for 10 HUC.
+    Updating South Platte R bl Antero Reservoir equation.
+    Updating Bear Ck ab Evergreen equation.
+    Updating Big Thompson R at Canyon Mouth equation.
+    Updating Boulder Ck nr Orodell equation.
+    Updating Cache La Poudre at Canyon Mouth equation.
+    Updating South Platte R bl Cheesman Lk equation.
+    Updating Clear Ck at Golden equation.
+    Updating South Platte R nr Lake George equation.
+    Updating North Platte R nr Northgate equation.
+    Updating South Boulder Ck nr Eldorado Springs equation.
+    Updating South Platte R at South Platte equation.
+    Updating South Platte R ab Spinney Res equation.
+    Updating St. Vrain Ck at Lyons equation.
+    Updating Badger Ck nr Browning equation.
+    Updating Beaverhead R at Barretts equation.
+    Updating Big Hole R bl Big Lake Ck at Wisdom equation.
+    Updating Big Hole R nr Melrose equation.
+    Updating Bighorn R nr St. Xavier equation.
+    Updating Boulder R at Big Timber equation.
+    Updating Boulder R nr Boulder equation.
+    Updating Beaverhead R nr Grant equation.
+    Updating Clarks Fk Yellowstone R nr Belfry equation.
+    Updating Red Lodge + Willow Ck nr Boyd equation.
+    Updating Cut Bank Ck nr Browning equation.
+    Updating Dupuyer Ck nr Valier equation.
+    Updating Ennis Lake Inflow equation.
+    Updating Gallatin R at Logan equation.
+    Updating Gallatin R nr Gateway equation.
+    Updating Gibson Reservoir Inflow equation.
+    Updating Hebgen Lake Inflow equation.
+    Updating Hyalite Reservoir Inflow equation.
+    Updating Jefferson R nr Three Forks equation.
+    Updating Jefferson R nr Twin Bridges equation.
+    Updating Lake Sakakawea Inflow equation.
+    Updating Lima Reservoir Inflow equation.
+    Updating Little Bighorn R nr Hardin equation.
+    Updating Marias R nr Shelby equation.
+    Updating Missouri R at Fort Benton equation.
+    Updating Missouri R at Toston equation.
+    Updating Missouri R bl Fort Peck Dam equation.
+    Updating Missouri R nr Landusky equation.
+    Updating Missouri R nr Virgelle equation.
+    Updating Musselshell R at Harlowton equation.
+    Updating Musselshell R nr Roundup equation.
+    Updating West Rosebud Ck nr Roscoe equation.
+    Updating Powder R at Moorehead equation.
+    Updating Powder R nr Locate equation.
+    Updating Ruby R Reservoir Inflow equation.
+    Updating SF Musselshell R ab Martinsdale equation.
+    Updating Sheep Ck nr White Sulphur Springs equation.
+    Updating Shields R nr Livingston equation.
+    Updating Smith R bl Eagle Ck equation.
+    Updating Stillwater R nr Absarokee equation.
+    Updating Swift Reservoir Inflow equation.
+    Updating Teton R nr Dutton equation.
+    Updating Tongue R at State Line nr Decker equation.
+    Updating Two Medicine R bl South Fork nr Browning equation.
+    Updating Willow Ck Reservoir Inflow equation.
+    Updating Yellowstone R at Billings equation.
+    Updating Yellowstone R at Corwin Springs equation.
+    Updating Yellowstone R at Livingston equation.
+    Updating Yellowstone R at Miles City equation.
+    Updating Yellowstone R nr Sidney equation.
+    Updating Deerfield Reservoir Inflow equation.
+    Updating Pactola Reservoir Inflow equation.
+    Updating Big Goose Ck nr Sheridan equation.
+    Updating Bighorn R at Kane equation.
+    Updating Wind R bl Boysen Reservoir equation.
+    Updating Buffalo Bill Reservoir Inflow equation.
+    Updating Bull Lake Ck nr Lenore equation.
+    Updating Dinwoody Ck nr Burris equation.
+    Updating Encampment R nr Encampment equation.
+    Updating Greybull R at Meeteetse equation.
+    Updating La Prele Ck nr Douglas equation.
+    Updating Laramie R and Pioneer Cnl nr Woods Lndg equation.
+    Updating Little Goose Ck nr Big Horn equation.
+    Updating Little Laramie R nr Filmore equation.
+    Updating Little Popo Agie R nr Lander equation.
+    Updating Little Wind R nr Riverton equation.
+    Updating Mf Powder R nr Barnum equation.
+    Updating NF Powder R nr Hazelton equation.
+    Updating NF Shoshone R at Wapiti equation.
+    Updating North Platte R bl Glendo Reservoir equation.
+    Updating North Platte R bl Guernsey Reservoir equation.
+    Updating Piney Ck at Kearny equation.
+    Updating Rock Ck ab King Canyon Cnl nr Arlington equation.
+    Updating Rock Ck nr Buffalo equation.
+    Updating North Platte R bl Seminoe Reservoir equation.
+    Updating SF Shoshone R ab Buffalo Bill Reservoir equation.
+    Updating SF Shoshone R nr Valley equation.
+    Updating Shell Ck nr Shell equation.
+    Updating Sweetwater R nr Alcova equation.
+    Updating Tongue R nr Dayton equation.
+    Updating Wind R ab Bull Lake Ck equation.
+    Updating Wind R at Riverton equation.
+    Updating Yellowstone R at Yellowstone Lake Outlet equation.
+  Updating equations for 11 HUC.
+    Updating Arkansas R at Salida equation.
+    Updating Chalk Ck nr Nathrop equation.
+    Updating Cucharas R nr La Veta equation.
+    Updating Grape Ck nr Westcliffe equation.
+    Updating Huerfano R nr Redwing equation.
+    Updating Arkansas R ab Pueblo equation.
+    Updating Purgatoire R at Trinidad equation.
+    Updating Cimarron R nr Cimarron equation.
+    Updating Conchas Reservoir Inflow equation.
+    Updating Cimarron R bl Eagle Nest Dam equation.
+    Updating Ponil Ck nr Cimarron equation.
+    Updating Rayado Ck nr Cimarron equation.
+    Updating Vermejo R nr Dawson equation.
+  Updating equations for 12 HUC.
+  Updating equations for 13 HUC.
+    Updating Alamosa Ck ab Terrace Reservoir equation.
+    Updating Conejos R nr Mogote equation.
+    Updating Culebra Ck at San Luis equation.
+    Updating La Jara Ck nr Capulin equation.
+    Updating Platoro Reservoir Inflow equation.
+    Updating Rio Grande at Thirty Mile Bridge equation.
+    Updating Rio Grande at Wagon Wheel Gap equation.
+    Updating Rio Grande nr Del Norte equation.
+    Updating Rio Grande nr Lobatos equation.
+    Updating Saguache Ck nr Saguache equation.
+    Updating Sangre De Cristo Ck equation.
+    Updating SF Rio Grande at South Fork equation.
+    Updating Trinchera Ck ab Turners Ranch equation.
+    Updating Ute Ck nr Fort Garland equation.
+    Updating Costilla Ck nr Costilla equation.
+    Updating Costilla Ck bl Costilla Dam equation.
+    Updating Rio Chama bl El Vado Dam equation.
+    Updating Embudo Ck at Dixon equation.
+    Updating Gallinas Ck nr Montezuma equation.
+    Updating Jemez R bl Jemez Canyon Dam equation.
+    Updating Jemez R nr Jemez equation.
+    Updating Los Pinos R nr Ortiz equation.
+    Updating Mimbres R at Mimbres equation.
+    Updating Rio Nambe bl Nambe Falls Dam nr Nambe equation.
+    Updating Pecos R ab Santa Rosa Lk equation.
+    Updating Pecos R nr Anton Chico equation.
+    Updating Pecos R nr Pecos equation.
+    Updating Red R bl Fish Hatchery nr Questa equation.
+    Updating Rio Grande at Otowi Bridge equation.
+    Updating Rio Grande at San Marcial equation.
+    Updating Rio Hondo nr Valdez equation.
+    Updating Rio Lucero nr Arroyo Seco equation.
+    Updating Rio Pueblo De Taos bl Los Cordovas equation.
+    Updating Rio Pueblo De Taos nr Taos equation.
+    Updating Rio Ruidoso at Hollywood equation.
+    Updating San Antonio R at Ortiz equation.
+    Updating Santa Cruz R at Cundiyo equation.
+    Updating Santa Fe R nr Santa Fe equation.
+    Updating Tesuque Ck ab Diversions equation.
+  Updating equations for 14 HUC.
+    Updating Colorado R at Glen Canyon Dam equation.
+    Updating Animas R at Durango equation.
+    Updating Gunnison R at Blue Mesa Dam equation.
+    Updating Cochetopa Ck bl Rock Ck nr Parlin equation.
+    Updating Colorado R nr Cameo equation.
+    Updating Colorado R nr Dotsero equation.
+    Updating Colorado R nr Kremmling equation.
+    Updating Cone Reservoir Inlet equation.
+    Updating Blue R bl Dillon Reservoir equation.
+    Updating Dolores R at Dolores equation.
+    Updating Eagle R bl Gypsum equation.
+    Updating East R at Almont equation.
+    Updating Elk R nr Milner equation.
+    Updating Elkhead Ck ab Long Gulch equation.
+    Updating Blue R bl Green Mountain Reservoir equation.
+    Updating Gunnison R Near Gunnison equation.
+    Updating Gunnison R nr Grand Junction equation.
+    Updating Gurley Reservoir Inlet equation.
+    Updating La Plata R at Hesperus equation.
+    Updating Lake Fk at Gateview equation.
+    Updating Colorado R bl Lake Granby equation.
+    Updating Florida R bl Lemon Reservoir nr Durango equation.
+    Updating Lilylands Reservoir Inlet equation.
+    Updating Little Snake R nr Lily equation.
+    Updating Little Snake R nr Slater equation.
+    Updating Mancos R nr Mancos equation.
+    Updating Dolores R bl Mcphee Reservoir equation.
+    Updating Navajo R bl Oso Diversion Dam nr Chromo equation.
+    Updating NF Gunnison R nr Somerset equation.
+    Updating Muddy Ck bl Paonia Reservoir equation.
+    Updating Piedra R nr Arboles equation.
+    Updating Uncompahgre R bl Ridgway Reservoir equation.
+    Updating Rio Blanco bl Blanco Diversion equation.
+    Updating Roaring Fk at Glenwood Springs equation.
+    Updating Frying Pan R at Ruedi equation.
+    Updating San Juan R nr Carracas equation.
+    Updating San Miguel R nr Placerville equation.
+    Updating Slate R nr Crested Butte equation.
+    Updating Surface Ck at Cedaredge equation.
+    Updating Taylor R bl Taylor Park Reservoir equation.
+    Updating Tomichi Ck at Gunnison equation.
+    Updating Tomichi Ck at Sargents equation.
+    Updating Uncompahgre R at Colona equation.
+    Updating Los Pinos R nr Bayfield equation.
+    Updating White R nr Meeker equation.
+    Updating Williams Fk bl Williams Fk Reservoir equation.
+    Updating Willow Ck bl Willow Ck Reservoir equation.
+    Updating Muddy Creek bl Wolford Mtn Reservoir equation.
+    Updating Yampa R ab Stagecoach Reservoir equation.
+    Updating Yampa R at Steamboat Springs equation.
+    Updating Yampa R nr Maybell equation.
+    Updating Captain Tom Wash nr Two Gray Hills equation.
+    Updating San Juan R nr Archuleta equation.
+    Updating Wheatfields Ck nr Wheatfields equation.
+    Updating Ashley Ck nr Vernal equation.
+    Updating Big Brush Ck ab Red Fleet Reservoir equation.
+    Updating Blacks Fk nr Robertson equation.
+    Updating Colorado R nr Cisco equation.
+    Updating Currant Ck bl Currant Ck Dam equation.
+    Updating Duchesne R ab Knight Diversion equation.
+    Updating Duchesne R at Myton equation.
+    Updating Duchesne R nr Randlett equation.
+    Updating Duchesne R nr Tabiona equation.
+    Updating Huntington Ck bl Electric Lake equation.
+    Updating Ferron Ck Upper Station nr Ferron equation.
+    Updating Fish Ck ab Reservoir nr Scofield equation.
+    Updating Green R at Flaming Gorge Dam equation.
+    Updating Flaming Gorge Resvr Local bl Fontenelle equation.
+    Updating Green R at Green River, UT equation.
+    Updating Huntington Ck nr Huntington equation.
+    Updating Seely Ck bl Joes Valley Resv equation.
+    Updating Lake Fk R ab Moon Lk nr Mountain Home equation.
+    Updating Lake Fk R bl Moon Lk nr Mountain Home equation.
+    Updating Mill Ck at Sheley Tunnel nr Moab equation.
+    Updating Muddy Ck nr Emery equation.
+    Updating Pine Ck nr Escalante equation.
+    Updating Price R nr Scofield Reservoir equation.
+    Updating Rock Ck nr Mountain Home equation.
+    Updating San Juan R Near Bluff equation.
+    Updating Seven Mile Ck nr Fish Lake equation.
+    Updating South Ck ab Resv nr Monticello equation.
+    Updating Strawberry R nr Duchesne equation.
+    Updating Strawberry R nr Soldier Springs equation.
+    Updating Uinta R bl Powerplant Diversion nr Neola equation.
+    Updating Rock Ck at Upper Stillwater Dam equation.
+    Updating WF Duchesne R at Vat Diversion equation.
+    Updating White R bl Tabbyune Creek equation.
+    Updating Whiterocks R nr Whiterocks equation.
+    Updating Yellowstone R nr Altonah equation.
+    Updating Big Sandy R nr Farson equation.
+    Updating EF of Smiths Fork nr Robertson equation.
+    Updating Green R at Fontenelle Dam equation.
+    Updating Green R at Warren Bridge equation.
+    Updating Green R nr Green River, WY equation.
+    Updating Hams Fk bl Pole Ck nr Frontier equation.
+    Updating Little Snake R nr Dixon equation.
+    Updating New Fork R nr Big Piney equation.
+    Updating Pine Ck ab Fremont Lake equation.
+    Updating Hams Fk bl Viva Naughton Reservoir equation.
+  Updating equations for 15 HUC.
+    Updating East Clear Ck bl Blue Ridge Reservoir equation.
+    Updating Gila R nr Solomon equation.
+    Updating Lake Mary Reservoir Inflow equation.
+    Updating Little Colorado R ab Lyman Lake equation.
+    Updating Salt R nr Roosevelt equation.
+    Updating Gila R bl Coolidge Dam equation.
+    Updating San Francisco R at Clifton equation.
+    Updating Tonto Ck ab Gun Ck nr Roosevelt equation.
+    Updating Verde R bl Tangle Ck ab Horseshoe Dam equation.
+    Updating Virgin R at Littlefield equation.
+    Updating Bowl Canyon Ck ab Asaayi Lake equation.
+    Updating Gila R at Gila equation.
+    Updating Gila R bl Blue Ck nr Virden equation.
+    Updating Rio Nutria nr Ramah equation.
+    Updating San Francisco R at Glenwood equation.
+    Updating Zuni R ab Black Rock Reservoir equation.
+    Updating Santa Clara R nr Pine Valley equation.
+    Updating Virgin R at Virgin equation.
+    Updating Virgin R nr Hurricane equation.
+  Updating equations for 16 HUC.
+    Updating Lake Tahoe equation.
+    Updating Boca Res Local Inflow equation.
+    Updating Donner Lk Inflow equation.
+    Updating E Walker R nr Bridgeport equation.
+    Updating Independence Lk Inflow equation.
+    Updating L Truckee R ab Boca Reservoir equation.
+    Updating Lake Tahoe Net Inflow equation.
+    Updating Martis Ck Res Inflow equation.
+    Updating Prosser Ck Res Inflow equation.
+    Updating Sagehen Ck nr Truckee equation.
+    Updating Stampede Res Local Inflow equation.
+    Updating Truckee R ab Farad Sidewater equation.
+    Updating Truckee R at Farad equation.
+    Updating W Walker R bl L Walker R nr Coleville equation.
+    Updating W Walker R nr Coleville equation.
+    Updating WF Carson R nr Woodfords equation.
+    Updating Bear R bl Stewart Dam equation.
+    Updating Ash Canyon Ck nr Carson City equation.
+    Updating Carson R at Ft Churchill equation.
+    Updating Carson R nr Carson City equation.
+    Updating Cleve Ck nr Ely equation.
+    Updating EF Carson R nr Gardnerville equation.
+    Updating Galena Ck at Galena Ck State Pk equation.
+    Updating Humboldt R at Comus equation.
+    Updating Humboldt R at Palisade equation.
+    Updating Humboldt R nr Carlin equation.
+    Updating Humboldt R nr Elko equation.
+    Updating Humboldt R nr Imlay equation.
+    Updating Kings Canyon Ck nr Carson City equation.
+    Updating Kingston Ck nr Austin equation.
+    Updating L Humboldt R nr Paradise Valley equation.
+    Updating Lamoille Ck nr Lamoille equation.
+    Updating Lehman Ck nr Baker equation.
+    Updating Marlette Lake Inflow equation.
+    Updating Martin Ck nr Paradise Valley equation.
+    Updating Marys R nr Deeth equation.
+    Updating Mcdermitt Ck nr Mcdermitt equation.
+    Updating NF Humboldt R at Devils Gate equation.
+    Updating Pyramid Lake Elevation Change equation.
+    Updating Rock Ck nr Battle Mountain equation.
+    Updating SF Humboldt R ab Dixie Ck equation.
+    Updating Steamboat Ck at Steamboat equation.
+    Updating Steptoe Ck nr Ely equation.
+    Updating Walker Lake Elevation Change equation.
+    Updating American Fk ab Upper Powerplant equation.
+    Updating Bear R nr Ut-Wy State Line equation.
+    Updating Beaver R nr Beaver equation.
+    Updating Big Ck nr Randolph equation.
+    Updating Big Cottonwood Ck nr SLC equation.
+    Updating Blacksmith Fk nr Hyrum equation.
+    Updating Centerville Ck nr Centerville equation.
+    Updating Chalk Ck at Coalville equation.
+    Updating City Ck nr SLC equation.
+    Updating Clear Ck ab Diversions nr Sevier equation.
+    Updating Coal Ck nr Cedar City equation.
+    Updating Dell Fk nr SLC equation.
+    Updating Dunn Ck nr Park Valley equation.
+    Updating East Canyon Ck nr Jeremy Ranch equation.
+    Updating East Canyon Ck nr Morgan equation.
+    Updating Echo Reservoir Inflow equation.
+    Updating EF Sevier R nr Kingston equation.
+    Updating Emigration Ck nr SLC equation.
+    Updating Little Bear R at Paradise equation.
+    Updating Little Cottonwood Ck nr SLC equation.
+    Updating Logan R nr Logan equation.
+    Updating Lost Ck Reservoir Inflow equation.
+    Updating Mammoth Ck nr Hatch equation.
+    Updating Manti Ck bl Dugway Ck nr Manti equation.
+    Updating Mill Ck nr SLC equation.
+    Updating Parleys Ck nr SLC equation.
+    Updating Pineview Reservoir Inflow equation.
+    Updating Provo R at Hailstone equation.
+    Updating Provo R at Woodland equation.
+    Updating Provo R bl Deer Ck Dam equation.
+    Updating Rockport Reservoir Inflow equation.
+    Updating S Willow Ck nr Grantsville equation.
+    Updating Salina Ck nr Emery equation.
+    Updating Salt Ck at Nephi equation.
+    Updating Sevier R at Hatch equation.
+    Updating Sevier R bl Piute Dam equation.
+    Updating Sevier R nr Gunnison equation.
+    Updating Sevier R nr Kingston equation.
+    Updating SF Ogden R nr Huntsville equation.
+    Updating Smith and Morehouse Ck nr Oakley equation.
+    Updating Spanish Fk at Castilla equation.
+    Updating Utah Lake Inflow equation.
+    Updating Vernon Ck nr Vernon equation.
+    Updating W Canyon Ck nr Cedar Fort equation.
+    Updating Weber R at Gateway equation.
+    Updating Weber R nr Coalville equation.
+    Updating Weber R nr Oakley equation.
+    Updating Bear R ab Resv nr Woodruff equation.
+    Updating Smiths Fk nr Border equation.
+  Updating equations for 17 HUC.
+    Updating Big Lost R at Howell Ranch equation.
+    Updating Big Lost R bl Mackay Reservoir equation.
+    Updating Big Wood R ab Magic Reservoir equation.
+    Updating Big Wood R at Hailey equation.
+    Updating Big Wood R bl Magic Dam equation.
+    Updating Boise R nr Boise equation.
+    Updating Boise R nr Twin Springs equation.
+    Updating Boundary Ck nr Porthill equation.
+    Updating Bruneau R nr Hot Spring equation.
+    Updating Camas Ck at Camas equation.
+    Updating Camas Ck nr Blaine equation.
+    Updating Clark Fork R bl Cabinet Gorge Dam equation.
+    Updating Clearwater R at Orofino equation.
+    Updating Clearwater R at Spalding equation.
+    Updating Deadwood R bl Deadwood Res nr Lowman equation.
+    Updating Dworshak Reservoir Inflow equation.
+    Updating Falls R nr Ashton equation.
+    Updating Goose Ck abv Trapper Ck nr Oakley equation.
+    Updating Henrys Fk nr Ashton equation.
+    Updating Henrys Fk nr Rexburg equation.
+    Updating Johnson Ck at Yellow Pine equation.
+    Updating Lake Fork Payette R nr Mccall equation.
+    Updating Lemhi R nr Lemhi equation.
+    Updating Little Lost R bl Wet Ck nr Howe equation.
+    Updating Little Wood R ab High Five Ck equation.
+    Updating Little Wood R nr Carey equation.
+    Updating Lochsa R nr Lowell equation.
+    Updating Mf Salmon R at Mf Lodge equation.
+    Updating Mores Ck nr Arrowrock Dam equation.
+    Updating Moyie R at Eastport equation.
+    Updating NF Coeur dAlene R at Enaville equation.
+    Updating NF Payette R at Cascade equation.
+    Updating NF Payette R nr Banks equation.
+    Updating Oakley Reservoir Inflow equation.
+    Updating Payette R nr Horseshoe Bend equation.
+    Updating Pend Oreille Lake Inflow equation.
+    Updating Portneuf R at Topaz equation.
+    Updating Priest R nr Priest River equation.
+    Updating Reynolds Ck at Tollgate equation.
+    Updating Salmon R at Salmon equation.
+    Updating Salmon R at White Bird equation.
+    Updating Selway R nr Lowell equation.
+    Updating SF Boise R at Anderson Ranch Dam equation.
+    Updating SF Payette R at Lowman equation.
+    Updating SF Salmon R nr Krassel Ranger Station equation.
+    Updating Snake R at Neeley equation.
+    Updating Snake R nr Heise equation.
+    Updating Snake R nr Irwin equation.
+    Updating Spokane R nr Post Falls equation.
+    Updating St. Joe R at Calder equation.
+    Updating Teton R nr Driggs equation.
+    Updating Teton R nr St Anthony equation.
+    Updating Trapper Ck nr Oakley equation.
+    Updating Weiser R nr Weiser equation.
+    Updating Willow Ck nr Ririe equation.
+    Updating Bitterroot R nr Darby equation.
+    Updating Bitterroot R nr Missoula equation.
+    Updating Blackfoot R nr Bonner equation.
+    Updating Clark Fk at Goldcreek equation.
+    Updating Clark Fork R ab Milltown equation.
+    Updating Clark Fork R ab MissouLa equation.
+    Updating Clark Fork R at St. Regis equation.
+    Updating Clark Fork R bl MissouLa equation.
+    Updating Clark Fork R nr Plains equation.
+    Updating Como Reservoir Inflow equation.
+    Updating Flathead R nr Polson equation.
+    Updating Flathead R at Columbia Falls equation.
+    Updating Flint Ck bl Boulder Ck equation.
+    Updating Flint Ck nr Southern Cross equation.
+    Updating Hungry Horse Reservoir Inflow equation.
+    Updating Kootenai R at Leonia equation.
+    Updating Libby Reservoir Inflow equation.
+    Updating Lower Willow Ck Reservoir Inflow equation.
+    Updating Mf Flathead R nr West Glacier equation.
+    Updating Mf Rock Ck nr Philipsburg equation.
+    Updating Mill Ck ab Bassoo Ck nr Niarada equation.
+    Updating Mission Ck nr St. Ignatius equation.
+    Updating Nevada Ck nr Helmville equation.
+    Updating NF Flathead R nr Columbia Falls equation.
+    Updating Prospect Ck at Thompson Falls equation.
+    Updating Rock Ck nr Clinton equation.
+    Updating SF Flathead R nr Hungry Horse equation.
+    Updating SF Jocko R nr Arlee equation.
+    Updating South Crow Ck nr Ronan equation.
+    Updating Swan R nr Bigfork equation.
+    Updating Tobacco R nr Eureka equation.
+    Updating WF Bitterroot R nr Conner equation.
+    Updating Yaak R nr Troy equation.
+    Updating Owyhee R nr Gold Ck equation.
+    Updating Salmon Falls Ck nr San Jacinto equation.
+    Updating Applegate Lake Inflow equation.
+    Updating Bear Ck nr Wallowa equation.
+    Updating Blue Lake Inflow equation.
+    Updating Burnt R nr Hereford equation.
+    Updating Butter Ck nr Pine City equation.
+    Updating Camas Ck nr Ukiah equation.
+    Updating Catherine Ck nr Union equation.
+    Updating Chewaucan R nr Paisley equation.
+    Updating Clackamas R ab Three Lynx equation.
+    Updating Clackamas R at Estacada equation.
+    Updating Columbia R at The Dalles-NWS equation.
+    Updating Cougar Lake Inflow equation.
+    Updating Cow Creek Above Galesville Reservoir, OR equation.
+    Updating Crane Prairie Reservoir Inflow equation.
+    Updating Crescent Lake Inflow equation.
+    Updating Deep Ck ab Adel equation.
+    Updating Deschutes R at Benham Falls equation.
+    Updating Deschutes R bl Snow Ck equation.
+    Updating Detroit Lake Inflow equation.
+    Updating Donner Und Blitzen R nr Frenchglen equation.
+    Updating Foster Lake Inflow equation.
+    Updating Grande Ronde R at Troy equation.
+    Updating Green Peter Lake Inflow equation.
+    Updating Hills Creek Reservoir Inflow equation.
+    Updating Honey Ck nr Plush equation.
+    Updating Hood R at Tucker Bridge equation.
+    Updating Illinois R nr Kerby equation.
+    Updating Imnaha R at Imnaha equation.
+    Updating Little Deschutes R nr La Pine equation.
+    Updating Lookout Point Reservoir Inflow equation.
+    Updating Lost Creek Lk Inflow equation.
+    Updating Lostine R nr Lostine equation.
+    Updating Malheur R nr Drewsey equation.
+    Updating Mckay Ck nr Pilot Rock equation.
+    Updating Mckenzie R bl Trail Bridge equation.
+    Updating Mckenzie R nr Vida equation.
+    Updating Mf John Day R at Ritter equation.
+    Updating Mountain Ck nr Mitchell equation.
+    Updating NF John Day R at Monument equation.
+    Updating NF Malheur R at Beulah equation.
+    Updating North Santiam R at Mehama equation.
+    Updating North Umpqua R at Winchester equation.
+    Updating Oak Grove Fk ab Powerplant equation.
+    Updating Ochoco Reservoir Inflow equation.
+    Updating Owyhee R bl Owyhee Dam equation.
+    Updating Owyhee R nr Rome equation.
+    Updating Pine Ck nr Oxbow equation.
+    Updating Powder R nr Sumpter equation.
+    Updating Prineville Reservoir Inflow equation.
+    Updating Rhea Ck nr Heppner equation.
+    Updating Rogue R at Grants Pass equation.
+    Updating Rogue R at Raygold equation.
+    Updating Sandy R nr Marmot equation.
+    Updating SF Walla Walla R nr Milton-Freewater equation.
+    Updating Silvies R nr Burns equation.
+    Updating South Santiam R at Waterloo equation.
+    Updating South Umpqua R at Tiller equation.
+    Updating South Umpqua R nr Brockway equation.
+    Updating Strawberry Ck nr Prairie City equation.
+    Updating Sucker Ck nr Holland equation.
+    Updating Trout Ck nr Denio equation.
+    Updating Twentymile Ck nr Adel equation.
+    Updating Umatilla R ab Meacham Ck nr Gibbon equation.
+    Updating Umatilla R at Pendleton equation.
+    Updating WF Hood R nr Dee equation.
+    Updating Whychus Ck nr Sisters equation.
+    Updating Willamette R at Salem equation.
+    Updating Willow Ck ab Willow Ck Lake nr Heppner equation.
+    Updating Ahtanum Ck at Union Gap equation.
+    Updating American R nr Nile equation.
+    Updating Asotin Ck at Asotin equation.
+    Updating Baker R at Concrete equation.
+    Updating Bumping Lake Inflow equation.
+    Updating Cedar R nr Cedar Falls equation.
+    Updating Chamokane Ck nr Long Lake equation.
+    Updating Chelan R at Chelan equation.
+    Updating Cle Elum Lake Inflow equation.
+    Updating Columbia R at Grand Coulee-NWS equation.
+    Updating Columbia R bl Rock Island Dam-NWS equation.
+    Updating Colville R at Kettle Falls equation.
+    Updating Cowlitz R at Castle Rock equation.
+    Updating Cowlitz R bl Mayfield equation.
+    Updating Dungeness R nr Sequim equation.
+    Updating Elwha at Mcdonald Bridge equation.
+    Updating Entiat R nr Ardenvoir equation.
+    Updating Green R bl Howard A Hanson Dam equation.
+    Updating Icicle Ck nr Leavenworth equation.
+    Updating Kachess Reservoir Inflow equation.
+    Updating Keechelus Reservoir Inflow equation.
+    Updating Kettle R nr Laurier equation.
+    Updating Klickitat R nr Glenwood equation.
+    Updating Klickitat R nr Pitt equation.
+    Updating Lewis R at Ariel equation.
+    Updating Methow R nr Pateros equation.
+    Updating Mill Ck nr Walla Walla equation.
+    Updating Naches R nr Naches equation.
+    Updating Okanogan R at Malott equation.
+    Updating Okanogan R nr Tonasket equation.
+    Updating Pend Oreille R bl Box Canyon equation.
+    Updating Rex R nr Cedar Falls equation.
+    Updating Rimrock Lake Inflow equation.
+    Updating SF Tolt R nr Index equation.
+    Updating Similkameen R nr Nighthawk equation.
+    Updating Skagit R at Newhalem equation.
+    Updating Snake R bl Lower Granite Dam-NWS equation.
+    Updating Spokane R at Long Lake equation.
+    Updating Stehekin R at Stehekin equation.
+    Updating Taylor Ck nr Selleck equation.
+    Updating Teanaway R bl Forks nr Cle Elum equation.
+    Updating Thunder Ck nr Newhalem equation.
+    Updating Wenatchee R at Peshastin equation.
+    Updating Wenatchee R at Plain equation.
+    Updating White R bl Clearwater R nr Buckley equation.
+    Updating White R nr Buckley equation.
+    Updating Yakima R nr Parker equation.
+    Updating Buffalo Fk ab Lava Ck nr Moran equation.
+    Updating Greys R ab Reservoir nr Alpine equation.
+    Updating Pacific Ck at Moran equation.
+    Updating Salt R ab Reservoir nr Etna equation.
+    Updating Snake R ab Reservoir nr Alpine equation.
+    Updating Snake R at Flagg Ranch equation.
+    Updating Snake R nr Moran equation.
+  Updating equations for 18 HUC.
+    Updating Big C bl Huntington Lk CA equation.
+    Updating Cherry C bl Valley Dam nr Hetch Hetchy C equation.
+    Updating Cosumnes R A Michigan Bar CA equation.
+    Updating Cosumnes R A Michigan Bar Ca (NWS) equation.
+    Updating Lake Almanor at Prattville, CA equation.
+    Updating Bowman Lake Near Graniteville, CA equation.
+    Updating Clair Engle Lake Near Lewiston, Ca NWS equation.
+    Updating American R A Fair Oaks CA equation.
+    Updating American R A Fair Oaks Ca NWS equation.
+    Updating Isabella Reservoir Near Isabella, CA equation.
+    Updating Isabella Reservoir Near Isabella, Ca Nw equation.
+    Updating Merced R A Exchequer CA equation.
+    Updating Lake Mcclure at Exchequer, Ca (NWS) equation.
+    Updating Millerton Lake at Friant, CA equation.
+    Updating Millerton Lake at Friant, Ca (NWS) equation.
+    Updating Don Pedro Reservoir Near La Grange, CA equation.
+    Updating Don Pedro Reservoir Near La Grange, Ca ( equation.
+    Updating Melones Reservoir at Melones Dam, CA equation.
+    Updating Melones Reservoir at Melones Dam, Ca (Nw equation.
+    Updating Oroville Reservoir Inflow equation.
+    Updating Oroville Reservoir Inflow (NWS) equation.
+    Updating Pardee Reservoir Near Valley Springs, CA equation.
+    Updating Pardee Reservoir Near Valley Springs, CA equation.
+    Updating Kings R bl Pine Flat Dam CA equation.
+    Updating Kings R bl Pine Flat Dam Ca (NWS) equation.
+    Updating Shasta Lake Inflow, CA equation.
+    Updating Shasta Lake Inflow, Ca NWS equation.
+    Updating Silver C A Union Valley Ca (NWS) equation.
+    Updating Kaweah R bl Terminus Dam CA equation.
+    Updating Kaweah R bl Terminus Dam Ca (NWS) equation.
+    Updating Kern R A Kernville CA equation.
+    Updating Mccloud R ab Shasta Lk CA equation.
+    Updating Mccloud R ab Shasta Lk Ca (NWS) equation.
+    Updating Merced R A Pohono Bridge nr Yosemite CA equation.
+    Updating Merced R A Pohono Bridge nr Yosemite CA equation.
+    Updating Mf American R nr Auburn CA equation.
+    Updating Mf American R nr Auburn Ca (NWS) equation.
+    Updating Mf Feather R nr Clio, CA equation.
+    Updating Mf Stanislaus R bl Beardsley Dam CA equation.
+    Updating N Yuba R bl Goodyears Bar CA equation.
+    Updating N Yuba R bl Goodyears Bar Ca (NWS) equation.
+    Updating NF American R A North Fork Dam CA equation.
+    Updating NF Feather R A Pulga CA equation.
+    Updating NF Feather R nr Prattville Ca NWS equation.
+    Updating NF Kings R nr Cliff Camp CA equation.
+    Updating NF Mokelumne R bl Tiger C Res nr West Pt equation.
+    Updating Owens R bl Tinemaha Re nr Big Pine CA equation.
+    Updating Pit R nr Montgomery Creek CA equation.
+    Updating Pit R nr Montgomery Creek Ca (NWS) equation.
+    Updating S Yuba R A Langs Crossing nr Emigrant GA equation.
+    Updating Sacramento R A Delta CA equation.
+    Updating Sacramento R A Delta Ca (NWS) equation.
+    Updating Sacramento R ab Bend Bridge nr Red Bluff equation.
+    Updating Sacramento R ab Bend Bridge nr Red Bluff equation.
+    Updating Scott R nr Fort Jones CA equation.
+    Updating SF Feather R A Ponderosa Dam CA equation.
+    Updating SF San Joaquin R L Hooper C nr Florence equation.
+    Updating Silver C bl Camino Div Dam CA equation.
+    Updating Silver C bl Camino Div Dam Ca (NWS) equation.
+    Updating Trinity R at Lewiston CA equation.
+    Updating Tule R bl Success Dam CA equation.
+    Updating Tule R bl Success Dam Ca (NWS) equation.
+    Updating Tuolumne R nr Hetch Hetchy CA equation.
+    Updating Tuolumne R nr Hetch Hetchy Ca (NWS) equation.
+    Updating Yuba R bl Englebright Dam nr Smartville equation.
+    Updating Yuba R bl Englebright Dam nr Smartville equation.
+    Updating Gerber Reservoir Inflow equation.
+    Updating Sprague R nr Chiloquin equation.
+    Updating Upper Williamson R equation.
+    Updating Upper Klamath Lake Inflow equation.
+    Updating Williamson R bl Sprague R nr Chiloquin equation.
+
+Successfully updated equations for all HUCs.
