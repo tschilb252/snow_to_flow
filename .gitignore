@@ -112,3 +112,6 @@ dmypy.json
 
 # frcst files
 *.frcst
+
+# log files
+*.log

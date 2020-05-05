@@ -29,6 +29,7 @@ from stf_utils import padMissingData, get_plot_config, get_bor_seal
 from stf_utils import get_favicon, get_plotly_js, getSWEsites
 from stf_utils import isActive, create_awdb, getUpstreamUSGS, get_log_scale_dd
 from stf_nav import create_nav
+from stf_site_map import create_map
 
 NRCS_DATA_URL = r'https://www.nrcs.usda.gov/Internet/WCIS/sitedata'
 
@@ -301,15 +302,15 @@ def updtChart(frcstTriplet, siteName, swe_meta, all_frcst_trips,
     today = dt.utcnow() - datetime.timedelta(hours=8)
     sDate = date(1900, 10, 1).strftime("%Y-%m-%d")
     eDate = today.date().strftime("%Y-%m-%d 00:00:00")
-    flow_element = get_frcst_element(frcstTriplet, awdb=awdb, logger=logger)
-    if not flow_element:
-        return f'No valid flow element exists for {siteName} - {frcstTriplet}.'
     equation = get_frcst_eq(frcstTriplet, awdb=awdb, logger=logger)
     if not equation:
         return (
             f'No valid forecast equation exists for {siteName} '
             f'- {frcstTriplet}.'
         )
+    flow_element = get_frcst_element(frcstTriplet, awdb=awdb, logger=logger)
+    if not flow_element:
+        return f'No valid flow element exists for {siteName} - {frcstTriplet}.'
     terms = [j['equationTerms'] for j in equation]
     swe_trips = getSWEsites(terms)
     swe_trips = get_upstream_snotels(terms, swe_trips, all_frcst_trips)
@@ -322,7 +323,7 @@ def updtChart(frcstTriplet, siteName, swe_meta, all_frcst_trips,
     meta = [x for x in swe_meta if x['stationTriplet'] in swe_trips] 
     
     sites_link = get_site_list_link(meta)
-    site_anno = get_site_anno(meta)
+    # site_anno = get_site_anno(meta)
     sweData = get_swe_data(swe_trips, sDate, eDate, awdb)
     sweData[:] = [x for x in sweData if x]
     if not sweData:
@@ -658,7 +659,7 @@ def updtChart(frcstTriplet, siteName, swe_meta, all_frcst_trips,
     )
  
     annoSites = (
-        f"<sup>*</sup> # of sites does not meet threshold. "
+        f"<sup>*</sup> # of sites does not meet basin threshold. "
         f"Data from this year will not for use in calculation of statistics<br>"
         # f'Sites used in SWE average:{", ".join(site_anno)}'
     )
@@ -695,7 +696,14 @@ def updtChart(frcstTriplet, siteName, swe_meta, all_frcst_trips,
             borderwidth=2, x=1.1
         ),
         showlegend = True, title=f'SWE-Q Relationship for {siteName}',
-        height=622, width=1200, autosize=False,
+        autosize=True,
+        margin=go.layout.Margin(
+            l=50,
+            r=50,
+            b=50,
+            t=50,
+            pad=5
+        ),
         yaxis=dict(
             title=r'Snow Water Equivalent (in.)', hoverformat='.1f',
             tickformat="0f", range=[0, np.max(dfSWE['max']*2)],
@@ -710,6 +718,7 @@ def updtChart(frcstTriplet, siteName, swe_meta, all_frcst_trips,
             range=sliderDates,
             tickformat="%b %e",
             rangeselector=dict(
+                x=0, xanchor='left', y=1, yanchor='top',
                 buttons=list(
                     [
                         dict(count=9, label='Jan', step='month', stepmode='todate'),
@@ -742,6 +751,7 @@ if __name__ == '__main__':
     parser.add_argument("-U", "--update", help="Update forecast equations from NRCS webservice.", action="store_true")
     parser.add_argument("-w", "--workers", help="Set how many i/o threads to use when updating forecast equations (max of 8)")
     parser.add_argument("-n", "--nav", help="Create nav.html after creating charts", action="store_true")
+    parser.add_argument("-m", "--map", help="Create site_map.html after creating charts", action="store_true")
     parser.add_argument("-e", "--export", help="Export path for charts")
     parser.add_argument("-c", "--config", help="Provide path or name of config file in config folder. Defaults to all_hucs.json")
     
@@ -865,6 +875,10 @@ if __name__ == '__main__':
     if args.nav:
         nav_out = create_nav(export_path, nav_filename='nav.html')
         print_and_log(nav_out, logger)
+    
+    if args.map:
+        df_meta = pd.DataFrame(all_frcsts)
+        print_and_log(create_map(df_meta, export_path, huc_dict))
         
     e_time = dt.now()
     e_time_str = e_time.strftime('%X %x')
