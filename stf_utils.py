@@ -287,34 +287,6 @@ def get_plot_config(img_filename):
         }
     }
 
-def get_icon_color(row, source='awdb'):
-    
-    if source.lower() == 'hdb':
-        obj_owner = 'BOR'
-        if not row.empty:
-            if row['site_metadata.scs_id']:
-                obj_owner = 'NRCS'
-            if row['site_metadata.usgs_id']:
-                obj_owner = 'USGS'
-    if source.lower() == 'awdb':
-        obj_owner = row
-    color_dict = {
-        'BOR': 'blue',
-        'NRCS': 'red',
-        'USGS': 'green',
-        'COOP': 'gray',
-        'SNOW': 'darkred',
-        'PRCP': 'lightred',
-        'SNTL': 'red',
-        'SNTLT': 'lightred',
-        'SCAN': 'lightred',
-        'MSNT': 'orange',
-        'MPRC': 'beige',
-        
-    }
-    icon_color = color_dict.get(obj_owner, 'black')
-    return icon_color
-
 def add_optional_tilesets(folium_map):
     
     tilesets = {
@@ -534,6 +506,34 @@ def get_obj_type_name(obj_type='default'):
             'MPRC': 'climate site (rain)'
         }
     return obj_type_dict.get(obj_type, 'N/A')
+
+def get_icon_color(row, source='awdb'):
+    
+    if source.lower() == 'hdb':
+        obj_owner = 'BOR'
+        if not row.empty:
+            if row['site_metadata.scs_id']:
+                obj_owner = 'NRCS'
+            if row['site_metadata.usgs_id']:
+                obj_owner = 'USGS'
+    if source.lower() == 'awdb':
+        obj_owner = row
+    color_dict = {
+        'BOR': 'blue',
+        'NRCS': 'red',
+        'USGS': 'green',
+        'COOP': 'gray',
+        'SNOW': 'darkred',
+        'PRCP': 'lightred',
+        'SNTL': 'red',
+        'SNTLT': 'lightred',
+        'SCAN': 'lightred',
+        'MSNT': 'orange',
+        'MPRC': 'beige',
+        
+    }
+    icon_color = color_dict.get(obj_owner, 'black')
+    return icon_color
 
 def get_fa_icon(obj_type='default', source='hdb'):
     

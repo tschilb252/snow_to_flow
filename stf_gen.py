@@ -662,6 +662,7 @@ def updtChart(frcstTriplet, siteName, swe_meta, all_frcst_trips,
         f"<sup>*</sup> # of sites does not meet basin threshold. "
         f"Data from this year will not for use in calculation of statistics<br>"
         # f'Sites used in SWE average:{", ".join(site_anno)}'
+        f'Updated: {dt.now():"%A, %b %d, %Y @ %H %p PST"}'
     )
 
     layout = go.Layout(
@@ -718,7 +719,7 @@ def updtChart(frcstTriplet, siteName, swe_meta, all_frcst_trips,
             range=sliderDates,
             tickformat="%b %e",
             rangeselector=dict(
-                x=0, xanchor='left', y=1, yanchor='top',
+                x=1, xanchor='right', y=1, yanchor='top',
                 buttons=list(
                     [
                         dict(count=9, label='Jan', step='month', stepmode='todate'),
