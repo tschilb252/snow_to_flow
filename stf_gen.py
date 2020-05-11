@@ -292,13 +292,13 @@ def get_flow_data(triplet, sDate, eDate, element):
     flowData = serialize(awdb.getData(
         triplet, element, 1, None, 'DAILY', False, sDate, eDate, 
         True)
-    )[0]
-    return flowData
+    )
+    return flowData[0]
             
         
 def updtChart(frcstTriplet, siteName, swe_meta, all_frcst_trips,
               awdb=create_awdb(), logger=None):
-    print_and_log(f'  Creating SWE to Q Chart for {siteName}', logger)
+    print_and_log(f'  Creating Snow to Flow Chart for {siteName}', logger)
     today = dt.utcnow() - datetime.timedelta(hours=8)
     sDate = date(1900, 10, 1).strftime("%Y-%m-%d")
     eDate = today.date().strftime("%Y-%m-%d 00:00:00")
@@ -695,7 +695,7 @@ def updtChart(frcstTriplet, siteName, swe_meta, all_frcst_trips,
             traceorder='reversed', tracegroupgap=1, bordercolor='#E2E2E2',
             borderwidth=2, x=1.1
         ),
-        showlegend = True, title=f'SWE-Q Relationship for {siteName}',
+        showlegend = True, title=f'Snow to Flow Relationship for {siteName}',
         autosize=True,
         margin=go.layout.Margin(
             l=50,
