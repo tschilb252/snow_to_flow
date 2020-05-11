@@ -89,7 +89,7 @@ def add_markers(sitetype_map, meta, huc_dict, data_dir):
                 </div>'''
             embed = get_embed(href)
             icon = get_fa_icon(obj_type, source='awdb')
-            print(site_name, icon, obj_type)
+
             color = get_icon_color(obj_type, source='awdb')
             popup_html = (
                 f'<div class="container">'
