@@ -88,8 +88,8 @@ def add_markers(sitetype_map, meta, huc_dict, data_dir):
                   <embed class="embed-responsive-item" src="{href}"></embed>
                 </div>'''
             embed = get_embed(href)
-            icon = get_fa_icon(obj_type)
-            color = get_icon_color(obj_type)
+            icon = get_fa_icon(obj_type, source='hdb')
+            color = get_icon_color(obj_type, source='awdb')
             popup_html = (
                 f'<div class="container">'
                 f'<div class="row justify-content-center">'
@@ -99,14 +99,14 @@ def add_markers(sitetype_map, meta, huc_dict, data_dir):
                 f'<button class="btn btn-outline-info btn-sm">'
                 f'<a target="_blank" href="{href}">'
                 f'<i class="fa fa-external-link" aria-hidden="true"></i>'
-                f'Expand to new window.</a></button></div>'
+                f'&nbsp;Expand to new window.</a></button></div>'
                 f'<div class="col-5">'
                 f'<button class="btn btn-outline-secondary btn-sm">'
                 f'<a target="_blank" href="{nrcs_href}"><span>'
+                f'<i class="fa fa-external-link" aria-hidden="true"></i>&nbsp;'
                 f'Latitude: {round(lat, 3)}, '
                 f'Longitude: {round(lon, 3)}, '
                 f"Elevation: {elev}'"
-                f'<i class="fa fa-external-link" aria-hidden="true"></i>'
                 f'</span></a></button></div></div></div>'
             )
             popup = folium.map.Popup(

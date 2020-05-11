@@ -125,8 +125,7 @@ def chunks(lst, n):
         
 def create_nav(data_dir, nav_filename='nav.html'):
     nl = '\n'
-    if True:#try:
-        # basepath = os.path.basename(os.path.normpath(data_dir))
+    try:
         walk_dict = get_folders(data_dir)
         to_remove = ['.git', 'assets']
         walk_dict = remove_items(to_remove, walk_dict)
@@ -163,9 +162,8 @@ def create_nav(data_dir, nav_filename='nav.html'):
     
         return f'\nNavigation file(s) created for files in {data_dir}\n'
     
-    # except Exception as err:
-        
-    #     return f'\nFailed to created navigation file(s) in {data_dir} - {err}'
+    except Exception as err:
+        return f'\nFailed to created navigation file(s) in {data_dir} - {err}'
 
 if __name__ == '__main__':
 
@@ -177,6 +175,8 @@ if __name__ == '__main__':
     parser = argparse.ArgumentParser(description=cli_desc)
     parser.add_argument("-V", "--version", help="show program version", action="store_true")
     parser.add_argument("-p", "--path", help="path to create nav.html for")
+    
+    
     args = parser.parse_args()
     
     this_dir = os.path.dirname(os.path.realpath(__file__))
