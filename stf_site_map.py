@@ -71,7 +71,7 @@ def add_markers(sitetype_map, meta, huc_dict, data_dir):
             network = triplet_arr[2]
             site_name = row['name']
             obj_type = network
-            if 'inflow' in site_name.lower() or 'res' in site_name.lower():
+            if 'inflow' in site_name.lower() or ' res' in site_name.lower() or ' dam' in site_name.lower():
                 obj_type = 'BOR'
             lat = float(row['latitude'])
             lon = float(row['longitude'])

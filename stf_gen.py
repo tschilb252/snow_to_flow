@@ -647,12 +647,12 @@ def updtChart(frcstTriplet, siteName, swe_meta, all_frcst_trips,
         [
             go.Scatter(
                 x=date_series, y=dfSWE['50th'], name=r'SWE Norm', 
-                visible=True, hoverinfo='none', connectgaps=True,
+                visible=True, hovertext='cfs', connectgaps=True,
                 line=dict(color='rgba(0,237,0,0.4)')
             ),
             go.Scatter(
                 x=date_series, y=dfQ['50th'], name=r'Q Norm', yaxis='y2',
-                visible=True, hoverinfo='none',connectgaps=True,
+                visible=True, hovertext='cfs',connectgaps=True,
                 line=dict(color='rgba(0,237,0,0.4)', dash='dash')
             )
         ]
