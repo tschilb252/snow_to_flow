@@ -130,7 +130,7 @@ def create_nav(data_dir, nav_filename='nav.html'):
         to_remove = ['.git', 'assets']
         walk_dict = remove_items(to_remove, walk_dict)
         button_str_list = []
-        for button_label, dd_items in walk_dict.items():
+        for button_label, dd_items in sorted(walk_dict.items()):
             if dd_items:
                 button_path = Path('.', button_label)
                 site_menu_list = []
