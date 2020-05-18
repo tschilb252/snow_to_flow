@@ -9,7 +9,6 @@ import os
 from functools import reduce
 from datetime import datetime as dt
 from pathlib import Path
-import pandas as pd
 from stf_utils import get_favicon, get_bor_seal, get_bootstrap
 
 BOR_FLAVICON = get_favicon()
