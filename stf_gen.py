@@ -283,8 +283,8 @@ def get_swe_data(swe_trips, sDate, eDate, awdb=create_awdb()):
     return swe_data
 
 def get_flow_data(triplet, sDate, eDate, element):
-    if element == 'SRDOO':
-        flow_url = f'{NRCS_DATA_URL}/SRDOO/{triplet.replace(":", "_")}.json'
+    if element in ['SRDOO', 'SRDOX']:
+        flow_url = f'{NRCS_DATA_URL}/{element}/{triplet.replace(":", "_")}.json'
         flow_results = r_get(flow_url)
         if flow_results.status_code == 200:
             flowData = flow_results.json()
@@ -334,12 +334,14 @@ def updtChart(frcstTriplet, siteName, swe_meta, all_frcst_trips,
     
     flowData = get_flow_data(frcstTriplet, sDate, eDate, flow_element)
     if not flowData['values']:
-        flowData = get_flow_data(frcstTriplet, sDate, eDate, 'SRDOO')
+        flowData = get_flow_data(frcstTriplet, sDate, eDate, 'SRDOX')
         if not flowData['values']:
-            return (
-                f'No flow data available for '
-                f'{siteName} - {frcstTriplet} - {flow_element}.'
-            )
+            flowData = get_flow_data(frcstTriplet, sDate, eDate, 'SRDOO')
+            if not flowData['values']:
+                return (
+                    f'No flow data available for '
+                    f'{siteName} - {frcstTriplet} - {flow_element}.'
+                )
     
     date_series = [date(2015,10,1) + datetime.timedelta(days=x)
                     for x in range(0, 366)]
