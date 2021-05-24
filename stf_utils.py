@@ -9,11 +9,9 @@ import os
 import csv
 import json
 import math
-import datetime
 import calendar as cal
 from os import path
 from datetime import datetime as dt
-from datetime import date as date
 import pandas as pd
 import numpy as np
 import folium
@@ -22,7 +20,7 @@ from zeep import Client
 from zeep.transports import Transport
 from zeep.cache import InMemoryCache
 
-STATIC_URL = f'https://www.usbr.gov/uc/water/hydrodata/assets'
+STATIC_URL = 'https://www.usbr.gov/uc/water/hydrodata/assets'
 
 this_dir = os.path.dirname(os.path.abspath(__file__))
 static_dir = os.path.join(os.path.dirname(this_dir), r'static')
@@ -177,35 +175,36 @@ def getUpstreamUSGS(terms):
 #             i['upstreamForecast']]))
     return upstream_trips
 
-def get_bor_js():
+def get_plotly_js():
     
-    return [
-        ('leaflet',
-          f'{STATIC_URL}/js/leaflet/leaflet.js'),
-        ('jquery',
-          f'{STATIC_URL}/js/jquery/3.4.0/jquery.min.js'),
-        ('bootstrap',
-          f'{STATIC_URL}/js/bootstrap/3.2.0/js/bootstrap.min.js'),
-        ('awesome_markers',
-          f'{STATIC_URL}/js/leaflet/leaflet.awesome-markers.js'),  # noqa
-        ]
+    return f'{STATIC_URL}/plotly.js'
 
-def get_bor_css():
+def get_favicon():
     
-    return [
-        ('leaflet_css',
-          f'{STATIC_URL}/css/leaflet/leaflet.css'),
-        ('bootstrap_css',
-          f'{STATIC_URL}/css/bootstrap/3.2.0/css/bootstrap.min.css'),
-        ('bootstrap_theme_css',
-          f'{STATIC_URL}/css/bootstrap/3.2.0/css/bootstrap-theme.min.css'),  # noqa
-        ('awesome_markers_font_css',
-          f'{STATIC_URL}/css/font-awesome.min.css'),  # noqa
-        ('awesome_markers_css',
-          f'{STATIC_URL}/css/leaflet/leaflet.awesome-markers.css'),  # noqa
-        ('awesome_rotate_css',
-          f'{STATIC_URL}/css/leaflet/leaflet.awesome.rotate.css'),  # noqa
-        ]
+    return f'{STATIC_URL}/img/favicon.ico'
+
+def get_bootstrap():
+    
+    return {
+        'css': f'{STATIC_URL}/bootstrap/css/bootstrap.min.css',
+        'js': f'{STATIC_URL}/bootstrap/js/bootstrap.bundle.js',
+        'jquery': f'{STATIC_URL}/jquery.js',
+        'popper': f'{STATIC_URL}/popper.js',
+        'fa': f'{STATIC_URL}/font-awesome/css/font-awesome.min.css',
+    }
+
+def get_bor_seal(orient='default', grey=False):
+    
+    color = 'cmyk'
+    if grey:
+        color = 'grey'
+    seal_dict = {
+        'default': f'BofR-horiz-{color}.png',
+        'shield': 'BofR-shield-cmyk.png',
+        'vert': f'BofR-vert-{color}.png',
+        'horz': f'BofR-horiz-{color}.png'
+        }
+    return f'{STATIC_URL}/img/{seal_dict[orient]}'
 
 def get_default_js():
     
@@ -215,12 +214,12 @@ def get_default_js():
          f'{STATIC_URL}/leaflet/js/leaflet.js'),
         ('jquery', 
          bootstrap_dict['jquery']),
+        ('popper', 
+         bootstrap_dict['popper']),
         ('bootstrap', 
          bootstrap_dict['js']),
         ('awesome_markers', 
          f'{STATIC_URL}/leaflet-awesome-markers/leaflet.awesome-markers.min.js'),
-        ('popper', 
-         bootstrap_dict['popper']),
     ]
 
 def get_default_css():
@@ -239,36 +238,6 @@ def get_default_css():
          f'{STATIC_URL}/leaflet-awesome-markers/leaflet.awesome.rotate.css'),
     ]
 
-def get_bootstrap():
-    
-    return {
-        'css': f'{STATIC_URL}/bootstrap/css/bootstrap.min.css',
-        'js': f'{STATIC_URL}/bootstrap/js/bootstrap.bundle.js',
-        'jquery': f'{STATIC_URL}/jquery.js',
-        'popper': f'{STATIC_URL}/popper.js',
-        'fa': f'{STATIC_URL}/font-awesome/css/font-awesome.min.css',
-    }
-
-def get_plotly_js():
-    
-    return f'{STATIC_URL}/plotly.js'
-
-def get_favicon():
-    
-    return f'{STATIC_URL}/img/favicon.ico'
-
-def get_bor_seal(orient='default', grey=False):
-    
-    color = 'cmyk'
-    if grey:
-        color = 'grey'
-    seal_dict = {
-        'default': f'BofR-horiz-{color}.png',
-        'shield': f'BofR-shield-cmyk.png',
-        'vert': f'BofR-vert-{color}.png',
-        'horz': f'BofR-horiz-{color}.png'
-        }
-    return f'{STATIC_URL}/img/{seal_dict[orient]}'
 
 def get_plot_config(img_filename):
     return {

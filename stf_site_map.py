@@ -14,21 +14,14 @@ from stf_utils import get_fa_icon, get_obj_type_name, create_awdb
 from stf_utils import add_optional_tilesets, add_huc_layer
 from stf_utils import clean_coords, add_huc_chropleth, get_colormap
 from stf_utils import get_bor_seal, get_favicon, get_icon_color
-from stf_utils import get_bor_js, get_bor_css
 from stf_utils import get_default_js, get_default_css
 
 pd.options.mode.chained_assignment = None
 
-bor_js = get_bor_js()
-bor_css = get_bor_css()
-
 default_js = get_default_js()
 default_css = get_default_css()
-
-folium.folium._default_js = default_js
-folium.folium._default_css = default_css
-#folium.folium._default_js = bor_js
-#folium.folium._default_css = bor_css
+folium.folium.Map.default_js = default_js
+folium.folium.Map.default_css = default_css
 
 def get_bounds(meta):
     meta.drop_duplicates(subset='stationTriplet', inplace=True)
