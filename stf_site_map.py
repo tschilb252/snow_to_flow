@@ -230,7 +230,7 @@ def create_map(meta, data_dir, huc_dict):
             bottom=1,
             left=1
         ).add_to(sitetype_map)
-        get_colormap().add_to(sitetype_map)
+        # get_colormap().add_to(sitetype_map)
         # MousePosition(prefix="Location: ").add_to(sitetype_map)
         legend = folium.Element(get_legend())
         sitetype_map.get_root().html.add_child(legend)
