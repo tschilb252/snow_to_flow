@@ -375,7 +375,7 @@ def updtChart(frcstTriplet, siteName, swe_meta, all_frcst_trips,
             dataSite = padMissingData(dataSite, sDate, eDate)
     
             
-    plotData = [np.array(x['values'], dtype=np.float) for x in sweData if x]
+    plotData = [np.array(x['values'], dtype=float) for x in sweData if x]
     
     with warnings.catch_warnings():
         warnings.simplefilter("ignore", category=RuntimeWarning)
@@ -432,9 +432,13 @@ def updtChart(frcstTriplet, siteName, swe_meta, all_frcst_trips,
     
     for i, eachYear in enumerate(allButCurrWY):
         dfSWE[str(sYear + i + 1)] = eachYear
-    
+
     PORplotData[-1].extend([np.nan]*(366-len(PORplotData[-1])))
-    dfSWE[str(eDate[:4])] = PORplotData[-1]
+    if int(eDate.split('-')[1]) >= 10:
+      dfSWE[str(int(eDate[:4]) + 1)] = PORplotData[-1]
+    else:
+      dfSWE[str(eDate[:4])] = PORplotData[-1]
+    
     dfSWE = pd.DataFrame(dfSWE)
     if dfSWE.empty:
         return (
@@ -452,7 +456,7 @@ def updtChart(frcstTriplet, siteName, swe_meta, all_frcst_trips,
     
     flowData = padMissingData(flowData, sDate, eDate)
     
-    plotData = np.array(flowData['values'], dtype=np.float)
+    plotData = np.array(flowData['values'], dtype=float)
     
     PORplotData = list([plotData[i:i+366] 
                     for i in range(0,len(plotData),366)])
@@ -489,7 +493,10 @@ def updtChart(frcstTriplet, siteName, swe_meta, all_frcst_trips,
             dfQ[str(sYear + i + 1)] = eachYear
     
     PORplotData[-1].extend([np.nan]*(366-len(PORplotData[-1])))
-    dfQ[str(eDate[:4])] = PORplotData[-1]
+    if int(eDate.split('-')[1]) >= 10:
+      dfQ[str(int(eDate[:4]) + 1)] = PORplotData[-1]
+    else:
+      dfQ[str(eDate[:4])] = PORplotData[-1]
     dfQ = pd.DataFrame(dfQ)
     
     
